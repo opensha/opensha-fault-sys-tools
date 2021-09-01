@@ -9,6 +9,18 @@ if [[ ! -e $DIR ]];then
 fi
 cd $DIR
 
+DATE_FILE=$DIR/last_check_time
+
+if [[ -e $DATE_FILE ]];then
+	# see if we should force an update
+	CUR_TIME=`date +%s`
+	PREV_TIME=`cat $DATE_FILE`
+	CALC_TIME=num=$(($PREV_TIME + 86400)) # check daily
+	if [[ $CUR_TIME -lt $CALC_TIME ]];then
+		exit
+	fi
+fi
+
 JAR="opensha-all.jar"
 JAR_URL="http://opensha.usc.edu/apps/opensha/fault-sys-tools/$JAR"
 HASH_URL="http://opensha.usc.edu/apps/opensha/fault-sys-tools/build-version.githash"
@@ -27,6 +39,8 @@ UPDAYS="${OPENSHA_JAR_UPDATE_DAYS:-7}"
 if [[ $UPDAYS -lt 1 ]];then
 	UPDAYS=1
 fi
+
+date +%s > $DATE_FILE
 
 if [[ ! -e ./git && ! -e $DIR/$JAR ]];then
 	echo "We need to download and/or build OpenSHA. The preferred method is to checkout the OpenSHA project from GitHub and build it. Checking if we have java compilers available (must have version 11 or greater):"
