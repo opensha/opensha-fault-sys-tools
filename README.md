@@ -29,6 +29,14 @@ export OPENSHA_MEM_GB=12
 
 If not specified, up to 80% of total system memory will be allocated.
 
+### Building and Updating OpenSHA
+
+The first time you attempt to run a script, it will attempt to download/build OpenSHA. The preferred method is to fully check out and build the [OpenSHA source code from GitHub](https://github.com/opensha/opensha). If the tools required to build OpenSHA are not avaiable, then a pre-built version of OpenSHA will be downloaded.
+
+If you check out the OpenSHA project, updates will be checked when you run Fault System Tools scrips (at most once an hour). If you download a pre-built jar file, updates will be checked weekly. Automatic updates can be fully disabled by setting the environmental variable `OPENSHA_JAR_DISABLE_UPDATE=1`.
+
+You can force an update at any time by running `fst_force_opensha_update.sh`, which you might want to do now to ensure that you can successfully download/build OpenSHA.
+
 ## Calculation Pipeline and Example
 
 ### Defining Your Fault Model
