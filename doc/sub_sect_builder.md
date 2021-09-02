@@ -2,7 +2,7 @@
 
 USAGE: `fst_sub_sect_builder.sh --input-file </path/to/faults.geojson> --output-file </path/to/subsections.geojson>`
 
-This command line tool allows a user to convert a fault model to a set of subsections, to be used when building a rupture set.
+This command line tool allows a user to convert a [fault model](glossary.md#fault-model) to a set of [subsections](glossary.md#fault-subsection), to be used when building a [rupture set](glossary.md#rupture-set).
 
 ## Command Line Arguments
 
@@ -17,7 +17,7 @@ This command line tool allows a user to convert a fault model to a set of subsec
 
 ## Example Inputs and Outputs
 
-This example takes the 10 UCERF3 Southern San Andreas Fault sections (located in [data/u3_ssaf_sects.geojson](../data/u3_ssaf_sects.geojson)) and divides them 88 sub-sections:
+This example takes the 10 UCERF3 Southern San Andreas fault sections (located in [data/u3_ssaf_sects.geojson](../data/u3_ssaf_sects.geojson)) and divides them 88 sub-sections:
 
 Here is the (abridged) [input file](../data/u3_ssaf_sects.geojson):
 
