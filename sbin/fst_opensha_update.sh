@@ -15,7 +15,7 @@ if [[ -e $DATE_FILE ]];then
 	# see if we should force an update
 	CUR_TIME=`date +%s`
 	PREV_TIME=`cat $DATE_FILE`
-	CALC_TIME=num=$(($PREV_TIME + 86400)) # check daily
+	CALC_TIME=num=$(($PREV_TIME + 3600)) # check hourly
 	if [[ $CUR_TIME -lt $CALC_TIME ]];then
 		exit
 	fi

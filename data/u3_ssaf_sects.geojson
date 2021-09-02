@@ -1,0 +1,408 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 295,
+      "properties": {
+        "FaultID": 295,
+        "FaultName": "San Andreas (Coachella) rev",
+        "DipDeg": 90.0,
+        "Rake": 180.0,
+        "LowDepth": 11.100000381469727,
+        "UpDepth": 0.0,
+        "AseismicSlipFactor": 0.10000000149011612,
+        "CouplingCoeff": 1.0,
+        "SlipRate": 20.0,
+        "SlipRateStdDev": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.24629,
+            33.78825
+          ],
+          [
+            -115.71192,
+            33.35009000000001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 284,
+      "properties": {
+        "FaultID": 284,
+        "FaultName": "San Andreas (San Gorgonio Pass-Garnet HIll)",
+        "DipDeg": 58.0,
+        "Rake": 180.0,
+        "LowDepth": 12.800000190734863,
+        "UpDepth": 0.0,
+        "DipDir": 19.841125,
+        "AseismicSlipFactor": 0.0,
+        "CouplingCoeff": 1.0,
+        "SlipRate": 10.0,
+        "SlipRateStdDev": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.24629,
+            33.78825
+          ],
+          [
+            -116.38300700000002,
+            33.848518
+          ],
+          [
+            -116.426527,
+            33.848123
+          ],
+          [
+            -116.51688900000002,
+            33.884664
+          ],
+          [
+            -116.58485600000002,
+            33.907018
+          ],
+          [
+            -116.62387099999998,
+            33.917569
+          ],
+          [
+            -116.685809,
+            33.944163
+          ],
+          [
+            -116.77859800000002,
+            33.937411
+          ],
+          [
+            -116.801391,
+            33.953154
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 283,
+      "properties": {
+        "FaultID": 283,
+        "FaultName": "San Andreas (San Bernardino S)",
+        "DipDeg": 90.0,
+        "Rake": 180.0,
+        "LowDepth": 12.800000190734863,
+        "UpDepth": 0.0,
+        "DipDir": 209.69507,
+        "AseismicSlipFactor": 0.0,
+        "CouplingCoeff": 1.0,
+        "SlipRate": 13.0,
+        "SlipRateStdDev": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.222023,
+            34.150027
+          ],
+          [
+            -117.06767400000001,
+            34.092795
+          ],
+          [
+            -117.0139,
+            34.073768
+          ],
+          [
+            -116.90235000000001,
+            34.033837
+          ],
+          [
+            -116.87354100000002,
+            34.011347
+          ],
+          [
+            -116.81979499999998,
+            33.959114
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 282,
+      "properties": {
+        "FaultID": 282,
+        "FaultName": "San Andreas (San Bernardino N)",
+        "DipDeg": 90.0,
+        "Rake": 180.0,
+        "LowDepth": 12.800000190734863,
+        "UpDepth": 0.0,
+        "DipDir": 211.50256,
+        "AseismicSlipFactor": 0.0,
+        "CouplingCoeff": 1.0,
+        "SlipRate": 17.420242309570312,
+        "SlipRateStdDev": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.549,
+            34.3163
+          ],
+          [
+            -117.45100000000001,
+            34.2709
+          ],
+          [
+            -117.38869200000002,
+            34.232843
+          ],
+          [
+            -117.27416099999999,
+            34.173137
+          ],
+          [
+            -117.222023,
+            34.150027
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 301,
+      "properties": {
+        "FaultID": 301,
+        "FaultName": "San Andreas (Mojave S)",
+        "DipDeg": 90.0,
+        "Rake": 180.0,
+        "LowDepth": 13.100000381469727,
+        "UpDepth": 0.0,
+        "DipDir": 205.51503,
+        "AseismicSlipFactor": 0.0,
+        "CouplingCoeff": 1.0,
+        "SlipRate": 32.5,
+        "SlipRateStdDev": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.50894799999999,
+            34.698495
+          ],
+          [
+            -118.103936,
+            34.547849
+          ],
+          [
+            -117.753579,
+            34.402927
+          ],
+          [
+            -117.549,
+            34.3163
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 286,
+      "properties": {
+        "FaultID": 286,
+        "FaultName": "San Andreas (Mojave N)",
+        "DipDeg": 90.0,
+        "Rake": 180.0,
+        "LowDepth": 15.100000381469727,
+        "UpDepth": 0.0,
+        "DipDir": 199.0984,
+        "AseismicSlipFactor": 0.0,
+        "CouplingCoeff": 1.0,
+        "SlipRate": 32.5,
+        "SlipRateStdDev": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.890122,
+            34.807599
+          ],
+          [
+            -118.887642,
+            34.807221
+          ],
+          [
+            -118.76731400000001,
+            34.773248
+          ],
+          [
+            -118.50894799999999,
+            34.698495
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 287,
+      "properties": {
+        "FaultID": 287,
+        "FaultName": "San Andreas (Big Bend)",
+        "DipDeg": 90.0,
+        "Rake": 180.0,
+        "LowDepth": 15.100000381469727,
+        "UpDepth": 0.0,
+        "DipDir": 197.82658,
+        "AseismicSlipFactor": 0.0,
+        "CouplingCoeff": 1.0,
+        "SlipRate": 34.0,
+        "SlipRateStdDev": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.402865,
+            34.94406
+          ],
+          [
+            -119.362861,
+            34.915714
+          ],
+          [
+            -119.21,
+            34.8639
+          ],
+          [
+            -119.030091,
+            34.828957
+          ],
+          [
+            -118.890122,
+            34.807599
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 300,
+      "properties": {
+        "FaultID": 300,
+        "FaultName": "San Andreas (Carrizo) rev",
+        "DipDeg": 90.0,
+        "Rake": 180.0,
+        "LowDepth": 15.100000381469727,
+        "UpDepth": 0.0,
+        "DipDir": 224.211,
+        "AseismicSlipFactor": 0.0,
+        "CouplingCoeff": 1.0,
+        "SlipRate": 34.0,
+        "SlipRateStdDev": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.8659,
+            35.3142
+          ],
+          [
+            -119.7068,
+            35.1607
+          ],
+          [
+            -119.55830000000002,
+            35.0475
+          ],
+          [
+            -119.47109999999999,
+            34.9878
+          ],
+          [
+            -119.40289999999999,
+            34.9441
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 285,
+      "properties": {
+        "FaultID": 285,
+        "FaultName": "San Andreas (Cholame) rev",
+        "DipDeg": 90.0,
+        "Rake": 180.0,
+        "LowDepth": 12.0,
+        "UpDepth": 0.0,
+        "DipDir": 51.227264,
+        "AseismicSlipFactor": 0.0,
+        "CouplingCoeff": 1.0,
+        "SlipRate": 34.0,
+        "SlipRateStdDev": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.865953,
+            35.314166
+          ],
+          [
+            -119.97029900000001,
+            35.413909
+          ],
+          [
+            -120.086757,
+            35.533307
+          ],
+          [
+            -120.300046,
+            35.751982
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "properties": {
+        "FaultID": 32,
+        "FaultName": "San Andreas (Parkfield)",
+        "DipDeg": 90.0,
+        "Rake": 180.0,
+        "LowDepth": 10.199999809265137,
+        "UpDepth": 0.0,
+        "DipDir": 49.939537,
+        "AseismicSlipFactor": 0.7900000214576721,
+        "CouplingCoeff": 1.0,
+        "SlipRate": 35.0,
+        "SlipRateStdDev": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.300046,
+            35.751982
+          ],
+          [
+            -120.56089000000001,
+            36.002647
+          ]
+        ]
+      }
+    }
+  ]
+}
