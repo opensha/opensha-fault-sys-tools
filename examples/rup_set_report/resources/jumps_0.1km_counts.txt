@@ -1,0 +1,20 @@
+
+X-Axis: Num Jumps ≥0.1 km
+Y-Axis: Count
+Number of Data Sets: 1
+
+
+DATASET #1
+
+     Name: u3_ssaf_simple_rup_set
+   Points: 5
+     Info: 
+
+Data[x,y]:
+0.0	  0.6361571
+1.0	  0.3638429
+2.0	  0.0
+3.0	  0.0
+4.0	  0.0
+
+

@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rupture Set Report: u3_ssaf_simple_rup_set</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="markdown.css">
+<style>
+	.markdown-body {
+		box-sizing: border-box;
+		min-width: 200px;
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 45px;
+	}
+
+	@media (max-width: 767px) {
+		.markdown-body {
+			padding: 15px;
+		}
+	}
+</style>
+</head>
+<article class="markdown-body">
+<h1 id="rupture-set-report-u3_ssaf_simple_rup_set">Rupture Set Report: u3_ssaf_simple_rup_set</h1>
+<table>
+<thead>
+<tr><th><strong>Num Ruptures</strong></th><th>3,081</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Num Single-Stranded Ruptures</strong></td><td>3,081 (100.00%)</td></tr>
+<tr><td><strong>Magnitude Range</strong></td><td>[5.36,8.06]</td></tr>
+<tr><td><strong>Length Range</strong></td><td>[9.11,546.57] km</td></tr>
+<tr><td><strong>Rupture Section Count Range</strong></td><td>[2,88]</td></tr>
+</tbody>
+</table>
+<h2 id="table-of-contents">Table Of Contents</h2>
+<ul>
+<li><a href="#plausibility-configuration">Plausibility Configuration</a>
+<ul>
+<li><a href="#connection-strategy">Connection Strategy</a></li>
+<li><a href="#splays">Splays</a></li>
+<li><a href="#plausibility-filters">Plausibility Filters</a></li>
+</ul>
+</li>
+<li><a href="#rupture-scalar-histograms">Rupture Scalar Histograms</a>
+<ul>
+<li><a href="#rupture-length">Rupture Length</a></li>
+<li><a href="#rupture-magnitude">Rupture Magnitude</a></li>
+<li><a href="#subsection-count">Subsection Count</a></li>
+<li><a href="#cluster-count">Cluster Count</a></li>
+<li><a href="#area">Area</a></li>
+<li><a href="#maximum-jump-dist">Maximum Jump Dist</a></li>
+<li><a href="#cumulative-jump-dist">Cumulative Jump Dist</a></li>
+<li><a href="#ideal-length-ratio">Ideal Length Ratio</a></li>
+<li><a href="#ideal-length-difference">Ideal Length Difference</a></li>
+<li><a href="#rake">Rake</a></li>
+<li><a href="#cumulative-rake-change">Cumulative Rake Change</a></li>
+<li><a href="#mechanism-change">Mechanism Change</a></li>
+<li><a href="#cumulative-azimuth-change">Cumulative Azimuth Change</a></li>
+<li><a href="#biasi--wesnousky-20162017-prob">Biasi &amp; Wesnousky (2016,2017) Prob</a></li>
+<li><a href="#max-slip-rate-difference">Max Slip Rate Difference</a></li>
+</ul>
+</li>
+<li><a href="#fault-section-connections">Fault Section Connections</a></li>
+<li><a href="#jump-counts-over-distance">Jump Counts Over Distance</a></li>
+<li><a href="#subsection-maximum-values">Subsection Maximum Values</a>
+<ul>
+<li><a href="#subsection-maximum-rupture-length">Subsection Maximum Rupture Length</a></li>
+<li><a href="#subsection-maximum-rupture-magnitude">Subsection Maximum Rupture Magnitude</a></li>
+<li><a href="#subsection-maximum-cumulative-jump-dist">Subsection Maximum Cumulative Jump Dist</a></li>
+<li><a href="#subsection-maximum-cumulative-rake-change">Subsection Maximum Cumulative Rake Change</a></li>
+<li><a href="#subsection-maximum-cumulative-azimuth-change">Subsection Maximum Cumulative Azimuth Change</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="plausibility-configuration">Plausibility Configuration</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h3 id="connection-strategy">Connection Strategy</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>u3_ssaf_simple_rup_set</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Name</strong></td><td>ClosestSectPair: maxDist=5 km</td></tr>
+<tr><td><strong>Max Jump Dist</strong></td><td>5 km</td></tr>
+<tr><td><strong>Possible parent-section connections</strong></td><td>Total: 18, Avg: 1.80, Range: [1,2]</td></tr>
+<tr><td><strong>Actual connections (after applying filters)</strong></td><td>Total: 9, Avg: 1.80, Range: [1,2]</td></tr>
+</tbody>
+</table>
+<h3 id="splays">Splays</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th></th><th>u3_ssaf_simple_rup_set</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>Max Allowed Splays</strong></td><td>0</td></tr>
+</tbody>
+</table>
+<h3 id="plausibility-filters">Plausibility Filters</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th>u3_ssaf_simple_rup_set</th></tr>
+</thead>
+<tbody>
+<tr><td>Cumulative Azimuth ≤560</td></tr>
+<tr><td>Cumulative Rake Change ≤180</td></tr>
+<tr><td>Jump Azimuth Change Filter</td></tr>
+<tr><td>Min Sections Per Parent</td></tr>
+<tr><td>Total Azimuth Change Filter</td></tr>
+</tbody>
+</table>
+<h2 id="rupture-scalar-histograms">Rupture Scalar Histograms</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h3 id="rupture-length">Rupture Length</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Total length (km) of the rupture, not including jumps or gaps.</p>
+<table>
+<thead>
+<tr><th><a href="resources/hist_LENGTH.png" target="_blank"><img src="resources/hist_LENGTH.png" alt="hist" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/hist_LENGTH_cumulative.png" target="_blank"><img src="resources/hist_LENGTH_cumulative.png" alt="hist" /></a></td></tr>
+</tbody>
+</table>
+<h4 id="rupture-length-extremes--examples">Rupture Length Extremes &amp; Examples</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Example ruptures at various percentiles of Rupture Length</p>
+<table>
+<thead>
+<tr><th><strong>Minimum: 9.11</strong></th><th><strong>p50: 179.59</strong></th><th><strong>p90: 405.83</strong></th><th><strong>p95: 455.64</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_3066.html"><img src="resources/hist_rup_3066.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_2354.html"><img src="resources/hist_rup_2354.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_62.html"><img src="resources/hist_rup_62.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_369.html"><img src="resources/hist_rup_369.png" /></a></td></tr>
+<tr><td><strong>p97.5: 487.36</strong></td><td><strong>p99: 512.31</strong></td><td><strong>p99.9: 537.45</strong></td><td><strong>Maximum: 546.57</strong></td></tr>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_858.html"><img src="resources/hist_rup_858.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_661.html"><img src="resources/hist_rup_661.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_867.html"><img src="resources/hist_rup_867.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_869.html"><img src="resources/hist_rup_869.png" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="rupture-magnitude">Rupture Magnitude</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Magnitude of the rupture.</p>
+<table>
+<thead>
+<tr><th><a href="resources/hist_MAG.png" target="_blank"><img src="resources/hist_MAG.png" alt="hist" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/hist_MAG_cumulative.png" target="_blank"><img src="resources/hist_MAG_cumulative.png" alt="hist" /></a></td></tr>
+</tbody>
+</table>
+<h4 id="rupture-magnitude-extremes--examples">Rupture Magnitude Extremes &amp; Examples</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Example ruptures at various percentiles of Rupture Magnitude</p>
+<table>
+<thead>
+<tr><th><strong>Minimum: 5.36</strong></th><th><strong>p50: 7.61</strong></th><th><strong>p90: 7.97</strong></th><th><strong>p95: 8.01</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_3066.html"><img src="resources/hist_rup_3066.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_333.html"><img src="resources/hist_rup_333.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1310.html"><img src="resources/hist_rup_1310.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_368.html"><img src="resources/hist_rup_368.png" /></a></td></tr>
+<tr><td><strong>p97.5: 8.03</strong></td><td><strong>p99: 8.05</strong></td><td><strong>p99.9: 8.06</strong></td><td><strong>Maximum: 8.06</strong></td></tr>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_374.html"><img src="resources/hist_rup_374.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_661.html"><img src="resources/hist_rup_661.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_866.html"><img src="resources/hist_rup_866.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_869.html"><img src="resources/hist_rup_869.png" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="subsection-count">Subsection Count</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Total number of subsections involved in a rupture.</p>
+<table>
+<thead>
+<tr><th><a href="resources/hist_SECT_COUNT.png" target="_blank"><img src="resources/hist_SECT_COUNT.png" alt="hist" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/hist_SECT_COUNT_cumulative.png" target="_blank"><img src="resources/hist_SECT_COUNT_cumulative.png" alt="hist" /></a></td></tr>
+</tbody>
+</table>
+<h4 id="subsection-count-extremes--examples">Subsection Count Extremes &amp; Examples</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Example ruptures at various percentiles of Subsection Count</p>
+<table>
+<thead>
+<tr><th><strong>Minimum: 2</strong></th><th><strong>p50: 28</strong></th><th><strong>p90: 62</strong></th><th><strong>p95: 70</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_0.html"><img src="resources/hist_rup_0.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_184.html"><img src="resources/hist_rup_184.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1482.html"><img src="resources/hist_rup_1482.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1250.html"><img src="resources/hist_rup_1250.png" /></a></td></tr>
+<tr><td><strong>p97.5: 76</strong></td><td><strong>p99: 81</strong></td><td><strong>p99.9: 86</strong></td><td><strong>Maximum: 88</strong></td></tr>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_588.html"><img src="resources/hist_rup_588.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_661.html"><img src="resources/hist_rup_661.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_867.html"><img src="resources/hist_rup_867.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_869.html"><img src="resources/hist_rup_869.png" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="cluster-count">Cluster Count</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Total number of clusters (of contiguous subsections on the same parent fault section) a rupture.</p>
+<table>
+<thead>
+<tr><th><a href="resources/hist_CLUSTER_COUNT.png" target="_blank"><img src="resources/hist_CLUSTER_COUNT.png" alt="hist" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/hist_CLUSTER_COUNT_cumulative.png" target="_blank"><img src="resources/hist_CLUSTER_COUNT_cumulative.png" alt="hist" /></a></td></tr>
+</tbody>
+</table>
+<h4 id="cluster-count-extremes--examples">Cluster Count Extremes &amp; Examples</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Example ruptures at various percentiles of Cluster Count</p>
+<table>
+<thead>
+<tr><th><strong>Minimum: 1</strong></th><th><strong>p50: 4</strong></th><th><strong>p90: 8</strong></th><th><strong>p95: 9</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_0.html"><img src="resources/hist_rup_0.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_2027.html"><img src="resources/hist_rup_2027.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1240.html"><img src="resources/hist_rup_1240.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_726.html"><img src="resources/hist_rup_726.png" /></a></td></tr>
+<tr><td><strong>p97.5: 10</strong></td><td><strong>p99: 10</strong></td><td><strong>p99.9: 10</strong></td><td><strong>Maximum: 10</strong></td></tr>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_77.html"><img src="resources/hist_rup_77.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_593.html"><img src="resources/hist_rup_593.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_866.html"><img src="resources/hist_rup_866.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_869.html"><img src="resources/hist_rup_869.png" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="area">Area</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Total area of the rupture (km^2).</p>
+<table>
+<thead>
+<tr><th><a href="resources/hist_AREA.png" target="_blank"><img src="resources/hist_AREA.png" alt="hist" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/hist_AREA_cumulative.png" target="_blank"><img src="resources/hist_AREA_cumulative.png" alt="hist" /></a></td></tr>
+</tbody>
+</table>
+<h4 id="area-extremes--examples">Area Extremes &amp; Examples</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Example ruptures at various percentiles of Area</p>
+<table>
+<thead>
+<tr><th><strong>Minimum: 19.52</strong></th><th><strong>p50: 2417.76</strong></th><th><strong>p90: 5508.74</strong></th><th><strong>p95: 6131.71</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_3066.html"><img src="resources/hist_rup_3066.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_2390.html"><img src="resources/hist_rup_2390.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1308.html"><img src="resources/hist_rup_1308.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_932.html"><img src="resources/hist_rup_932.png" /></a></td></tr>
+<tr><td><strong>p97.5: 6432.46</strong></td><td><strong>p99: 6655.19</strong></td><td><strong>p99.9: 6825.63</strong></td><td><strong>Maximum: 6854.91</strong></td></tr>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_374.html"><img src="resources/hist_rup_374.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_794.html"><img src="resources/hist_rup_794.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_866.html"><img src="resources/hist_rup_866.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_869.html"><img src="resources/hist_rup_869.png" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="maximum-jump-dist">Maximum Jump Dist</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>The maximum jump distance in the rupture.</p>
+<table>
+<thead>
+<tr><th><a href="resources/hist_MAX_JUMP_DIST.png" target="_blank"><img src="resources/hist_MAX_JUMP_DIST.png" alt="hist" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/hist_MAX_JUMP_DIST_cumulative.png" target="_blank"><img src="resources/hist_MAX_JUMP_DIST_cumulative.png" alt="hist" /></a></td></tr>
+</tbody>
+</table>
+<h4 id="maximum-jump-dist-extremes--examples">Maximum Jump Dist Extremes &amp; Examples</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Example ruptures at various percentiles of Maximum Jump Dist</p>
+<table>
+<thead>
+<tr><th><strong>Minimum: 0.0</strong></th><th><strong>p50: 0.006117107</strong></th><th><strong>p90: 1.82</strong></th><th><strong>p95: 1.82</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_0.html"><img src="resources/hist_rup_0.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_2208.html"><img src="resources/hist_rup_2208.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_987.html"><img src="resources/hist_rup_987.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1153.html"><img src="resources/hist_rup_1153.png" /></a></td></tr>
+<tr><td><strong>p97.5: 1.82</strong></td><td><strong>p99: 1.82</strong></td><td><strong>p99.9: 1.82</strong></td><td><strong>Maximum: 1.82</strong></td></tr>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_1232.html"><img src="resources/hist_rup_1232.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1280.html"><img src="resources/hist_rup_1280.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1307.html"><img src="resources/hist_rup_1307.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1310.html"><img src="resources/hist_rup_1310.png" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="cumulative-jump-dist">Cumulative Jump Dist</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>The total cumulative jump distance summed over all jumps in the rupture.</p>
+<table>
+<thead>
+<tr><th><a href="resources/hist_CUM_JUMP_DIST.png" target="_blank"><img src="resources/hist_CUM_JUMP_DIST.png" alt="hist" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/hist_CUM_JUMP_DIST_cumulative.png" target="_blank"><img src="resources/hist_CUM_JUMP_DIST_cumulative.png" alt="hist" /></a></td></tr>
+</tbody>
+</table>
+<h4 id="cumulative-jump-dist-extremes--examples">Cumulative Jump Dist Extremes &amp; Examples</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Example ruptures at various percentiles of Cumulative Jump Dist</p>
+<table>
+<thead>
+<tr><th><strong>Minimum: 0.0</strong></th><th><strong>p50: 0.011590694</strong></th><th><strong>p90: 1.83</strong></th><th><strong>p95: 1.83</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_0.html"><img src="resources/hist_rup_0.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1893.html"><img src="resources/hist_rup_1893.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_75.html"><img src="resources/hist_rup_75.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_733.html"><img src="resources/hist_rup_733.png" /></a></td></tr>
+<tr><td><strong>p97.5: 1.83</strong></td><td><strong>p99: 1.83</strong></td><td><strong>p99.9: 1.83</strong></td><td><strong>Maximum: 1.83</strong></td></tr>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_1055.html"><img src="resources/hist_rup_1055.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1237.html"><img src="resources/hist_rup_1237.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1307.html"><img src="resources/hist_rup_1307.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1310.html"><img src="resources/hist_rup_1310.png" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="ideal-length-ratio">Ideal Length Ratio</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>The ratio between the total length of this rupture and the 'idealized length,' which we define as the straight line distance between the furthest two subsections.</p>
+<table>
+<thead>
+<tr><th><a href="resources/hist_IDEAL_LEN_RATIO.png" target="_blank"><img src="resources/hist_IDEAL_LEN_RATIO.png" alt="hist" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/hist_IDEAL_LEN_RATIO_cumulative.png" target="_blank"><img src="resources/hist_IDEAL_LEN_RATIO_cumulative.png" alt="hist" /></a></td></tr>
+</tbody>
+</table>
+<h4 id="ideal-length-ratio-extremes--examples">Ideal Length Ratio Extremes &amp; Examples</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Example ruptures at various percentiles of Ideal Length Ratio</p>
+<table>
+<thead>
+<tr><th><strong>Minimum: 1</strong></th><th><strong>p50: 1.01</strong></th><th><strong>p90: 1.03</strong></th><th><strong>p95: 1.03</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_2788.html"><img src="resources/hist_rup_2788.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_260.html"><img src="resources/hist_rup_260.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_2120.html"><img src="resources/hist_rup_2120.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_2216.html"><img src="resources/hist_rup_2216.png" /></a></td></tr>
+<tr><td><strong>p97.5: 1.04</strong></td><td><strong>p99: 1.04</strong></td><td><strong>p99.9: 1.04</strong></td><td><strong>Maximum: 1.06</strong></td></tr>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_2042.html"><img src="resources/hist_rup_2042.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1945.html"><img src="resources/hist_rup_1945.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_246.html"><img src="resources/hist_rup_246.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1251.html"><img src="resources/hist_rup_1251.png" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="ideal-length-difference">Ideal Length Difference</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>The difference between the total length of this rupture and the 'idealized length,' which we define as the straight line distance between the furthest two subsections.</p>
+<table>
+<thead>
+<tr><th><a href="resources/hist_IDEAL_LEN_DIFF.png" target="_blank"><img src="resources/hist_IDEAL_LEN_DIFF.png" alt="hist" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/hist_IDEAL_LEN_DIFF_cumulative.png" target="_blank"><img src="resources/hist_IDEAL_LEN_DIFF_cumulative.png" alt="hist" /></a></td></tr>
+</tbody>
+</table>
+<h4 id="ideal-length-difference-extremes--examples">Ideal Length Difference Extremes &amp; Examples</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Example ruptures at various percentiles of Ideal Length Difference</p>
+<table>
+<thead>
+<tr><th><strong>Minimum: -2.3869882E-4</strong></th><th><strong>p50: 2.07</strong></th><th><strong>p90: 9.75</strong></th><th><strong>p95: 11.06</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_11.html"><img src="resources/hist_rup_11.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_2671.html"><img src="resources/hist_rup_2671.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_294.html"><img src="resources/hist_rup_294.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_586.html"><img src="resources/hist_rup_586.png" /></a></td></tr>
+<tr><td><strong>p97.5: 12.32</strong></td><td><strong>p99: 13.12</strong></td><td><strong>p99.9: 13.81</strong></td><td><strong>Maximum: 14.02</strong></td></tr>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_589.html"><img src="resources/hist_rup_589.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_662.html"><img src="resources/hist_rup_662.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_868.html"><img src="resources/hist_rup_868.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_869.html"><img src="resources/hist_rup_869.png" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="rake">Rake</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>The area-averaged rake for this rupture.</p>
+<table>
+<thead>
+<tr><th><a href="resources/hist_RAKE.png" target="_blank"><img src="resources/hist_RAKE.png" alt="hist" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/hist_RAKE_cumulative.png" target="_blank"><img src="resources/hist_RAKE_cumulative.png" alt="hist" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="cumulative-rake-change">Cumulative Rake Change</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Cumulative rake change for this rupture.</p>
+<h3 id="mechanism-change">Mechanism Change</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>The number of times a rupture changed mechanisms, e.g., from right-lateral SS to left-lateral or SS to reverse.</p>
+<table>
+<thead>
+<tr><th><a href="resources/hist_MECH_CHANGE.png" target="_blank"><img src="resources/hist_MECH_CHANGE.png" alt="hist" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/hist_MECH_CHANGE_cumulative.png" target="_blank"><img src="resources/hist_MECH_CHANGE_cumulative.png" alt="hist" /></a></td></tr>
+</tbody>
+</table>
+<h4 id="mechanism-change-extremes--examples">Mechanism Change Extremes &amp; Examples</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Example ruptures at various percentiles of Mechanism Change</p>
+<table>
+<thead>
+<tr><th><strong>Minimum: 0.0</strong></th><th><strong>p50: 0.0</strong></th><th><strong>p90: 0.0</strong></th><th><strong>p95: 0.0</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_0.html"><img src="resources/hist_rup_0.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1540.html"><img src="resources/hist_rup_1540.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_2772.html"><img src="resources/hist_rup_2772.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_2926.html"><img src="resources/hist_rup_2926.png" /></a></td></tr>
+<tr><td><strong>p97.5: 0.0</strong></td><td><strong>p99: 0.0</strong></td><td><strong>p99.9: 0.0</strong></td><td><strong>Maximum: 0.0</strong></td></tr>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_3003.html"><img src="resources/hist_rup_3003.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_3050.html"><img src="resources/hist_rup_3050.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_3077.html"><img src="resources/hist_rup_3077.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_3080.html"><img src="resources/hist_rup_3080.png" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="cumulative-azimuth-change">Cumulative Azimuth Change</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Cumulative azimuth change for this rupture.</p>
+<table>
+<thead>
+<tr><th><a href="resources/hist_CUM_AZ_CHANGE.png" target="_blank"><img src="resources/hist_CUM_AZ_CHANGE.png" alt="hist" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/hist_CUM_AZ_CHANGE_cumulative.png" target="_blank"><img src="resources/hist_CUM_AZ_CHANGE_cumulative.png" alt="hist" /></a></td></tr>
+</tbody>
+</table>
+<h4 id="cumulative-azimuth-change-extremes--examples">Cumulative Azimuth Change Extremes &amp; Examples</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Example ruptures at various percentiles of Cumulative Azimuth Change</p>
+<table>
+<thead>
+<tr><th><strong>Minimum: 0.0</strong></th><th><strong>p50: 59.09</strong></th><th><strong>p90: 235.02</strong></th><th><strong>p95: 265.91</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_0.html"><img src="resources/hist_rup_0.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_2366.html"><img src="resources/hist_rup_2366.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_280.html"><img src="resources/hist_rup_280.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_66.html"><img src="resources/hist_rup_66.png" /></a></td></tr>
+<tr><td><strong>p97.5: 267.69</strong></td><td><strong>p99: 267.85</strong></td><td><strong>p99.9: 267.96</strong></td><td><strong>Maximum: 268</strong></td></tr>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_74.html"><img src="resources/hist_rup_74.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_661.html"><img src="resources/hist_rup_661.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_867.html"><img src="resources/hist_rup_867.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_869.html"><img src="resources/hist_rup_869.png" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="biasi--wesnousky-20162017-prob">Biasi &amp; Wesnousky (2016,2017) Prob</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Biasi &amp; Wesnousky (2016,2017) conditional probability of passing through each jump.</p>
+<table>
+<thead>
+<tr><th><a href="resources/hist_BW_PROB.png" target="_blank"><img src="resources/hist_BW_PROB.png" alt="hist" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/hist_BW_PROB_cumulative.png" target="_blank"><img src="resources/hist_BW_PROB_cumulative.png" alt="hist" /></a></td></tr>
+</tbody>
+</table>
+<h4 id="biasi--wesnousky-20162017-prob-extremes--examples">Biasi &amp; Wesnousky (2016,2017) Prob Extremes &amp; Examples</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Example ruptures at various percentiles of Biasi &amp; Wesnousky (2016,2017) Prob</p>
+<table>
+<thead>
+<tr><th><strong>Maximum: 1</strong></th><th><strong>p50: 0.22</strong></th><th><strong>p10: 0.0039505213</strong></th><th><strong>p5: 0.0028828129</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_3080.html"><img src="resources/hist_rup_3080.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_2168.html"><img src="resources/hist_rup_2168.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_578.html"><img src="resources/hist_rup_578.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_579.html"><img src="resources/hist_rup_579.png" /></a></td></tr>
+<tr><td><strong>p2.5: 0.0021036742</strong></td><td><strong>p1: 0.0021036742</strong></td><td><strong>p0.1: 0.0021036742</strong></td><td><strong>Minimum: 0.0021036742</strong></td></tr>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_863.html"><img src="resources/hist_rup_863.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_375.html"><img src="resources/hist_rup_375.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_74.html"><img src="resources/hist_rup_74.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_71.html"><img src="resources/hist_rup_71.png" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="max-slip-rate-difference">Max Slip Rate Difference</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>The difference between the slip rate with the highest and lowest slip rate in the rupture.</p>
+<table>
+<thead>
+<tr><th><a href="resources/hist_MAX_SLIP_DIFF.png" target="_blank"><img src="resources/hist_MAX_SLIP_DIFF.png" alt="hist" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/hist_MAX_SLIP_DIFF_cumulative.png" target="_blank"><img src="resources/hist_MAX_SLIP_DIFF_cumulative.png" alt="hist" /></a></td></tr>
+</tbody>
+</table>
+<h4 id="max-slip-rate-difference-extremes--examples">Max Slip Rate Difference Extremes &amp; Examples</h4>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>Example ruptures at various percentiles of Max Slip Rate Difference</p>
+<table>
+<thead>
+<tr><th><strong>Minimum: 0.0</strong></th><th><strong>p50: 10</strong></th><th><strong>p90: 24</strong></th><th><strong>p95: 24</strong></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_0.html"><img src="resources/hist_rup_0.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_466.html"><img src="resources/hist_rup_466.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_848.html"><img src="resources/hist_rup_848.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1282.html"><img src="resources/hist_rup_1282.png" /></a></td></tr>
+<tr><td><strong>p97.5: 25</strong></td><td><strong>p99: 25</strong></td><td><strong>p99.9: 25</strong></td><td><strong>Maximum: 25</strong></td></tr>
+<tr><td><a href="resources/../hist_rup_pages/hist_rup_595.html"><img src="resources/hist_rup_595.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1062.html"><img src="resources/hist_rup_1062.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1307.html"><img src="resources/hist_rup_1307.png" /></a></td><td><a href="resources/../hist_rup_pages/hist_rup_1310.html"><img src="resources/hist_rup_1310.png" /></a></td></tr>
+</tbody>
+</table>
+<h2 id="fault-section-connections">Fault Section Connections</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><a href="resources/sect_connectivity.png" target="_blank"><img src="resources/sect_connectivity.png" alt="plot" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><script>var a = document.createElement('a'); a.appendChild(document.createTextNode('View GeoJSON'));a.href = 'http://geojson.io/#data=data:text/x-url,'+encodeURIComponent(new URL('resources/sect_connectivity.geojson', document.baseURI).href); document.scripts[ document.scripts.length - 1 ].parentNode.appendChild( a );</script> <a href="resources/sect_connectivity.geojson">Download GeoJSON</a></td></tr>
+<tr><td><a href="resources/sect_connectivity_hist.png" target="_blank"><img src="resources/sect_connectivity_hist.png" alt="plot" /></a></td></tr>
+</tbody>
+</table>
+<h2 id="jump-counts-over-distance">Jump Counts Over Distance</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><a href="resources/jumps_0.1km_counts.png" target="_blank"><img src="resources/jumps_0.1km_counts.png" alt="Plausibility Filter" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><a href="resources/jumps_1.0km_counts.png" target="_blank"><img src="resources/jumps_1.0km_counts.png" alt="Plausibility Filter" /></a></td></tr>
+</tbody>
+</table>
+<h2 id="subsection-maximum-values">Subsection Maximum Values</h2>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<p>These plots show the maximum value of various quantities across all ruptures for which each individual subsection participates. This is useful, for example, to find sections with low maximum magnitudes (due to low or no connectivity).</p>
+<h3 id="subsection-maximum-rupture-length">Subsection Maximum Rupture Length</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><a href="resources/sect_max_LENGTH.png" target="_blank"><img src="resources/sect_max_LENGTH.png" alt="map" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><script>var a = document.createElement('a'); a.appendChild(document.createTextNode('View GeoJSON'));a.href = 'http://geojson.io/#data=data:text/x-url,'+encodeURIComponent(new URL('resources/sect_max_LENGTH.geojson', document.baseURI).href); document.scripts[ document.scripts.length - 1 ].parentNode.appendChild( a );</script> <a href="resources/sect_max_LENGTH.geojson">Download GeoJSON</a></td></tr>
+<tr><td><a href="resources/sect_max_LENGTH_hist.png" target="_blank"><img src="resources/sect_max_LENGTH_hist.png" alt="map" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="subsection-maximum-rupture-magnitude">Subsection Maximum Rupture Magnitude</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><a href="resources/sect_max_MAG.png" target="_blank"><img src="resources/sect_max_MAG.png" alt="map" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><script>var a = document.createElement('a'); a.appendChild(document.createTextNode('View GeoJSON'));a.href = 'http://geojson.io/#data=data:text/x-url,'+encodeURIComponent(new URL('resources/sect_max_MAG.geojson', document.baseURI).href); document.scripts[ document.scripts.length - 1 ].parentNode.appendChild( a );</script> <a href="resources/sect_max_MAG.geojson">Download GeoJSON</a></td></tr>
+<tr><td><a href="resources/sect_max_MAG_hist.png" target="_blank"><img src="resources/sect_max_MAG_hist.png" alt="map" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="subsection-maximum-cumulative-jump-dist">Subsection Maximum Cumulative Jump Dist</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><a href="resources/sect_max_CUM_JUMP_DIST.png" target="_blank"><img src="resources/sect_max_CUM_JUMP_DIST.png" alt="map" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><script>var a = document.createElement('a'); a.appendChild(document.createTextNode('View GeoJSON'));a.href = 'http://geojson.io/#data=data:text/x-url,'+encodeURIComponent(new URL('resources/sect_max_CUM_JUMP_DIST.geojson', document.baseURI).href); document.scripts[ document.scripts.length - 1 ].parentNode.appendChild( a );</script> <a href="resources/sect_max_CUM_JUMP_DIST.geojson">Download GeoJSON</a></td></tr>
+<tr><td><a href="resources/sect_max_CUM_JUMP_DIST_hist.png" target="_blank"><img src="resources/sect_max_CUM_JUMP_DIST_hist.png" alt="map" /></a></td></tr>
+</tbody>
+</table>
+<h3 id="subsection-maximum-cumulative-rake-change">Subsection Maximum Cumulative Rake Change</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<h3 id="subsection-maximum-cumulative-azimuth-change">Subsection Maximum Cumulative Azimuth Change</h3>
+<p><em><a href="#table-of-contents">(top)</a></em></p>
+<table>
+<thead>
+<tr><th><a href="resources/sect_max_CUM_AZ_CHANGE.png" target="_blank"><img src="resources/sect_max_CUM_AZ_CHANGE.png" alt="map" /></a></th></tr>
+</thead>
+<tbody>
+<tr><td><script>var a = document.createElement('a'); a.appendChild(document.createTextNode('View GeoJSON'));a.href = 'http://geojson.io/#data=data:text/x-url,'+encodeURIComponent(new URL('resources/sect_max_CUM_AZ_CHANGE.geojson', document.baseURI).href); document.scripts[ document.scripts.length - 1 ].parentNode.appendChild( a );</script> <a href="resources/sect_max_CUM_AZ_CHANGE.geojson">Download GeoJSON</a></td></tr>
+<tr><td><a href="resources/sect_max_CUM_AZ_CHANGE_hist.png" target="_blank"><img src="resources/sect_max_CUM_AZ_CHANGE_hist.png" alt="map" /></a></td></tr>
+</tbody>
+</table>
+</article>
+</html>
