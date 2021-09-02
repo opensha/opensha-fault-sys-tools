@@ -166,5 +166,6 @@ That command will generate [this output file](data/u3_ssaf_sub_sects.geojson) wi
       }
     },
 ...
+  }
 }
 ```
