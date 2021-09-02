@@ -37,6 +37,8 @@ If you check out the OpenSHA project, updates will be checked when you run Fault
 
 You can force an update at any time by running `fst_force_opensha_update.sh`, which you might want to do now to ensure that you can successfully download/build OpenSHA.
 
+If you encounter any problems, or wish to switch your build/update method, you can safely delete the 'opensha' subdirectory and try again.
+
 ## Calculation Pipeline and Example
 
 ### Defining Your Fault Model
