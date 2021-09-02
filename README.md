@@ -13,7 +13,9 @@ Tools for Fault Systems: building and analyzing [Rupture Sets](doc/glossary.md#r
 
 First, clone this entire repository from GitHub or download it as a zip file. Here's the command to do it in a terminal:
 
-`git clone https://github.com/opensha/opensha-fault-sys-tools.git`
+```
+git clone https://github.com/opensha/opensha-fault-sys-tools.git
+```
 
 For convenience, you may want to add the `sbin` directory of this repository to your PATH, otherwise you will have to manually type the full path to each scrip that you want to execute this. This is outside the scope of this documentation, but for most users, adding the following line to `~/.bash_profile` should work:
 
