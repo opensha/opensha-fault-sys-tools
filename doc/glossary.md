@@ -14,6 +14,14 @@ A small subset of a [fault section](#fault-section), usually with length approxi
 
 A collection of [fault sections](#fault-section] for a region.
 
+### Multifault Rupture
+
+A [supra-seismogenic ruptures](#supra-seismogenic-rupture) for which multiple [fault sections](#fault-section) participate
+
+### Plausibility Filter
+
+TODO
+
 ### Rupture Set
 
 A Rupture Set defines all of the on-fault [supra-seismogenic ruptures](#supra-seismogenic-rupture) in a fault system, and their properties (magnitude, rake, etc).
