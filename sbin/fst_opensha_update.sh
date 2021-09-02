@@ -27,7 +27,7 @@ HASH_URL="http://opensha.usc.edu/apps/opensha/fault-sys-tools/build-version.gith
 GIT_BRANCH="${OPENSHA_FS_GIT_BRANCH:-modular-fault-sys-rup-set2}"
 
 if [[ -e $JAR && $OPENSHA_JAR_DISABLE_UPDATE -eq 1 ]];then
-	# jar file already exists, and we have disabled update jecks
+	# jar file already exists, and we have disabled update checks
 	exit 0;
 fi
 
