@@ -30,6 +30,10 @@ A Rupture Set defines all of the on-fault [supra-seismogenic ruptures](#supra-se
 
 TODO
 
+### Solution
+
+A Solution defines the annual rate of occurrence of each [supra-seismogenic ruptures](#supra-seismogenic-rupture) from a [Rupture Set](#rupture-set), and may also supply information about gridded seismicity.
+
 ### Supra-Seismogenic Rupture
 
 An earthquake rupture that ruptures the entire seismogenic width of the fault, usually with M&ge;6.5 (depending on the seismogenic width and [scaling relationships](#scaling-relationship) used). In a [Rupture Set](#rupture-set), this refers to a unique set of [fault subsections](#fault-subsection).
