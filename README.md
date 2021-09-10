@@ -45,7 +45,7 @@ If you encounter any problems, or wish to switch your build/update method, you c
 
 ### Defining Your Fault Model
 
-The first step is to define your [fault sections](doc/glossary.md#fault-section) in the [OpenSHA GeoJSON format](https://opensha.org/Geospatial-File-Formats). An example input file, consisting of UCERF3 Southern San Andreas fault sections is [avilable here](data/u3_ssaf_sects.geojson). You can skip this step if you wish to use an existing UCERF3 Fault Model.
+The first step is to define your [fault sections](doc/glossary.md#fault-section) in the [OpenSHA GeoJSON format](https://opensha.org/Geospatial-File-Formats). An example input file, consisting of UCERF3 Southern San Andreas fault sections is [available here](data/u3_ssaf_sects.geojson). You can skip this step if you wish to use an existing UCERF3 Fault Model.
 
 ### Building Fault Subsections
 
