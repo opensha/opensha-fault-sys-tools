@@ -84,14 +84,14 @@ _[(top)](#table-of-contents)_
 ## Participation Rates
 _[(top)](#table-of-contents)_
 
-| <p align="center">**Supra-Seismogenic**</p> | <p align="center">**Supra-Seismogenic -> M6**</p> |
+| <p align="center">**Supra-Seismogenic**</p> | <p align="center">**Range: M&le;6**</p> |
 |-----|-----|
 | ![Map](resources/sol_partic_supra_seis.png) | ![Map](resources/sol_partic_supra_seis_to_m6.png) |
 | <script>var a = document.createElement('a'); a.appendChild(document.createTextNode('View GeoJSON'));a.href = 'http://geojson.io/#data=data:text/x-url,'+encodeURIComponent(new URL('resources/sol_partic_supra_seis.geojson', document.baseURI).href); document.scripts[ document.scripts.length - 1 ].parentNode.appendChild( a );</script> [Download GeoJSON](resources/sol_partic_supra_seis.geojson) | <script>var a = document.createElement('a'); a.appendChild(document.createTextNode('View GeoJSON'));a.href = 'http://geojson.io/#data=data:text/x-url,'+encodeURIComponent(new URL('resources/sol_partic_supra_seis_to_m6.geojson', document.baseURI).href); document.scripts[ document.scripts.length - 1 ].parentNode.appendChild( a );</script> [Download GeoJSON](resources/sol_partic_supra_seis_to_m6.geojson) |
-| <p align="center">**M&ge;6**</p> | <p align="center">**M6 -> 7**</p> |
+| <p align="center">**M&ge;6**</p> | <p align="center">**Range: M&isin;[6, 7]**</p> |
 | ![Map](resources/sol_partic_m6.png) | ![Map](resources/sol_partic_m6_to_m7.png) |
 | <script>var a = document.createElement('a'); a.appendChild(document.createTextNode('View GeoJSON'));a.href = 'http://geojson.io/#data=data:text/x-url,'+encodeURIComponent(new URL('resources/sol_partic_m6.geojson', document.baseURI).href); document.scripts[ document.scripts.length - 1 ].parentNode.appendChild( a );</script> [Download GeoJSON](resources/sol_partic_m6.geojson) | <script>var a = document.createElement('a'); a.appendChild(document.createTextNode('View GeoJSON'));a.href = 'http://geojson.io/#data=data:text/x-url,'+encodeURIComponent(new URL('resources/sol_partic_m6_to_m7.geojson', document.baseURI).href); document.scripts[ document.scripts.length - 1 ].parentNode.appendChild( a );</script> [Download GeoJSON](resources/sol_partic_m6_to_m7.geojson) |
-| <p align="center">**M&ge;7**</p> | <p align="center">**M7 -> 8**</p> |
+| <p align="center">**M&ge;7**</p> | <p align="center">**Range: M&isin;[7, 8]**</p> |
 | ![Map](resources/sol_partic_m7.png) | ![Map](resources/sol_partic_m7_to_m8.png) |
 | <script>var a = document.createElement('a'); a.appendChild(document.createTextNode('View GeoJSON'));a.href = 'http://geojson.io/#data=data:text/x-url,'+encodeURIComponent(new URL('resources/sol_partic_m7.geojson', document.baseURI).href); document.scripts[ document.scripts.length - 1 ].parentNode.appendChild( a );</script> [Download GeoJSON](resources/sol_partic_m7.geojson) | <script>var a = document.createElement('a'); a.appendChild(document.createTextNode('View GeoJSON'));a.href = 'http://geojson.io/#data=data:text/x-url,'+encodeURIComponent(new URL('resources/sol_partic_m7_to_m8.geojson', document.baseURI).href); document.scripts[ document.scripts.length - 1 ].parentNode.appendChild( a );</script> [Download GeoJSON](resources/sol_partic_m7_to_m8.geojson) |
 | <p align="center">**M&ge;8**</p> |  |
