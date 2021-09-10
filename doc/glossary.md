@@ -30,6 +30,10 @@ A Rupture Set defines all of the on-fault [supra-seismogenic ruptures](#supra-se
 
 TODO
 
+### Simulated Annealing
+
+An inversion technique used in the [UCERF3 Grand Inversion](https://pubs.geoscienceworld.org/ssa/bssa/article/104/3/1181/351434/The-UCERF3-Grand-Inversion-Solving-for-the-Long). See [Wikipedia entry](https://en.wikipedia.org/wiki/Simulated_annealing) for more information.
+
 ### Solution
 
 A Solution defines the annual rate of occurrence of each [supra-seismogenic ruptures](#supra-seismogenic-rupture) from a [Rupture Set](#rupture-set), and may also supply information about gridded seismicity.
