@@ -143,7 +143,7 @@ Once you have a [Solution](doc/glossary.md#solution), you can build a report wit
 opensha-fault-sys-tools$ fst_report_builder.sh --input-file data/u3_ssaf_simple_solution.zip --output-dir report
 ```
 
-You can [view an example report here](examples/solution_report). TODO
+You can [view an example report here](examples/sol_report). TODO
 
 ### Compute and Disaggregate Hazard
 
