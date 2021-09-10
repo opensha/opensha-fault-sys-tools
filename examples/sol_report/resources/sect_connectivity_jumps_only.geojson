@@ -1,0 +1,239 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#ff0000",
+        "label": "Connections",
+        "fromSection": "San Andreas (Mojave N), Subsection 0",
+        "toSection": "San Andreas (Big Bend), Subsection 6",
+        "distance": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.8518250363345,
+            34.79712386210561,
+            7.550000190734863
+          ],
+          [
+            -118.92840467400458,
+            34.8134576141716,
+            7.550000190734863
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#ff0000",
+        "label": "Connections",
+        "fromSection": "San Andreas (Big Bend), Subsection 0",
+        "toSection": "San Andreas (Carrizo) rev, Subsection 7",
+        "distance": 0.005473587512384782
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.37335663889063,
+            34.923154155091765,
+            7.550000190734863
+          ],
+          [
+            -119.43480594829917,
+            34.96455468312408,
+            7.550000190734863
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#ff0000",
+        "label": "Connections",
+        "fromSection": "San Andreas (Cholame) rev, Subsection 10",
+        "toSection": "San Andreas (Parkfield), Subsection 0",
+        "distance": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.2804492824142,
+            35.73195600564984,
+            6.0
+          ],
+          [
+            -120.31955214651093,
+            35.77080139246692,
+            5.563636259599165
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#ff0000",
+        "label": "Connections",
+        "fromSection": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 7",
+        "toSection": "San Andreas (San Bernardino S), Subsection 6",
+        "distance": 1.8222305966416772
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.7610877949366,
+            33.97144453916142,
+            6.400000095367432
+          ],
+          [
+            -116.83850603731712,
+            33.97730824093955,
+            6.89230779501108
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#ff0000",
+        "label": "Connections",
+        "fromSection": "San Andreas (San Bernardino N), Subsection 0",
+        "toSection": "San Andreas (Mojave S), Subsection 14",
+        "distance": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.52103148566366,
+            34.30335611657143,
+            6.89230779501108
+          ],
+          [
+            -117.5760357420024,
+            34.32777781741164,
+            6.550000190734863
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#ff0000",
+        "label": "Connections",
+        "fromSection": "San Andreas (Mojave S), Subsection 0",
+        "toSection": "San Andreas (Mojave N), Subsection 4",
+        "distance": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.47181946678108,
+            34.68476333714389,
+            6.550000190734863
+          ],
+          [
+            -118.54698695109134,
+            34.709543553234084,
+            7.550000190734863
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#ff0000",
+        "label": "Connections",
+        "fromSection": "San Andreas (San Bernardino S), Subsection 0",
+        "toSection": "San Andreas (San Bernardino N), Subsection 5",
+        "distance": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.18685498530947,
+            34.137010636251404,
+            6.89230779501108
+          ],
+          [
+            -117.25022991774246,
+            34.16253393291819,
+            6.89230779501108
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#ff0000",
+        "label": "Connections",
+        "fromSection": "San Andreas (Carrizo) rev, Subsection 0",
+        "toSection": "San Andreas (Cholame) rev, Subsection 0",
+        "distance": 0.0061171069370125845
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.83959477039905,
+            35.28887509887633,
+            7.550000190734863
+          ],
+          [
+            -119.88628651149158,
+            35.333628917934014,
+            6.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#ff0000",
+        "label": "Connections",
+        "fromSection": "San Andreas (Coachella) rev, Subsection 0",
+        "toSection": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 0",
+        "distance": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.22563668207488,
+            33.77144032596936,
+            5.550000190734863
+          ],
+          [
+            -116.26974976050892,
+            33.838923367068766,
+            6.400000095367432
+          ]
+        ]
+      }
+    }
+  ]
+}

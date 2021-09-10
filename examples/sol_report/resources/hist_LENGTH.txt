@@ -1,0 +1,26 @@
+
+X-Axis: Length (km)
+Y-Axis: Count
+Number of Data Sets: 1
+
+
+DATASET #1
+
+     Name: Unique
+   Points: 11
+     Info: 
+
+Data[x,y]:
+25.0	  440.0
+75.0	  466.0
+125.0	  411.0
+175.0	  376.0
+225.0	  335.0
+275.0	  286.0
+325.0	  241.0
+375.0	  197.0
+425.0	  160.0
+475.0	  119.0
+525.0	  50.0
+
+

@@ -1,0 +1,28 @@
+
+X-Axis: Section Max - Min Slip Rate in Rupture (mm/yr)
+Y-Axis: Annual Rate
+Number of Data Sets: 1
+
+
+DATASET #1
+
+     Name: Unique
+   Points: 13
+     Info: 
+
+Data[x,y]:
+1.0	  0.3549227
+3.0	  0.0015847795
+5.0	  7.806867E-4
+7.0	  2.1530842E-4
+9.0	  0.0
+11.0	  0.0016985161
+13.0	  0.0
+15.0	  0.0024477907
+17.0	  3.7925615E-4
+19.0	  6.522255E-4
+21.0	  2.1422734E-4
+23.0	  7.3282386E-4
+25.0	  0.001325324
+
+

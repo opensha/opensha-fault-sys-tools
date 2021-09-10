@@ -1,0 +1,17 @@
+
+X-Axis: Cumulative Jump Distance (km)
+Y-Axis: Annual Rate
+Number of Data Sets: 1
+
+
+DATASET #1
+
+     Name: Unique
+   Points: 2
+     Info: 
+
+Data[x,y]:
+0.5	  0.36127543
+1.5	  0.0036782185
+
+

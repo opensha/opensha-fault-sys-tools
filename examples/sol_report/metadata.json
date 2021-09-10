@@ -1,0 +1,118 @@
+{
+  "primary": {
+    "name": "u3_ssaf_simple_sol",
+    "numRuptures": 3081,
+    "totalRate": 0.3649536509321333,
+    "numSingleStrandRuptures": 3081,
+    "availableConnections": -1,
+    "actualConnections": 9,
+    "scalarRanges": [
+      {
+        "scalar": "LENGTH",
+        "min": 9.114590314131325,
+        "max": 546.5675219169284
+      },
+      {
+        "scalar": "MAG",
+        "min": 5.358555707385699,
+        "max": 8.05732056152314
+      },
+      {
+        "scalar": "SECT_COUNT",
+        "min": 2.0,
+        "max": 88.0
+      },
+      {
+        "scalar": "CLUSTER_COUNT",
+        "min": 1.0,
+        "max": 10.0
+      },
+      {
+        "scalar": "AREA",
+        "min": 19.523450092896127,
+        "max": 6854.914418096209
+      },
+      {
+        "scalar": "MAX_JUMP_DIST",
+        "min": 0.0,
+        "max": 1.8222305966416772
+      },
+      {
+        "scalar": "CUM_JUMP_DIST",
+        "min": 0.0,
+        "max": 1.8338212910910745
+      },
+      {
+        "scalar": "IDEAL_LEN_RATIO",
+        "min": 0.9999913192388962,
+        "max": 1.0587211575280875
+      },
+      {
+        "scalar": "IDEAL_LEN_DIFF",
+        "min": -2.3869881982818697E-4,
+        "max": 14.017162949378417
+      },
+      {
+        "scalar": "RAKE",
+        "min": 180.0,
+        "max": 180.0
+      },
+      {
+        "scalar": "CUM_RAKE_CHANGE",
+        "min": 0.0,
+        "max": 0.0
+      },
+      {
+        "scalar": "MECH_CHANGE",
+        "min": 0.0,
+        "max": 0.0
+      },
+      {
+        "scalar": "CUM_AZ_CHANGE",
+        "min": 0.0,
+        "max": 267.9980773925781
+      },
+      {
+        "scalar": "BW_PROB",
+        "min": 0.0021036742255091667,
+        "max": 1.0
+      },
+      {
+        "scalar": "MAX_SLIP_DIFF",
+        "min": 0.0,
+        "max": 25.0
+      }
+    ]
+  },
+  "region": {
+    "type": "Feature",
+    "properties": {},
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            -121.000000000001,
+            32.999999999999
+          ],
+          [
+            -114.999999999999,
+            32.999999999999
+          ],
+          [
+            -114.999999999999,
+            37.000000000001
+          ],
+          [
+            -121.000000000001,
+            37.000000000001
+          ],
+          [
+            -121.000000000001,
+            32.999999999999
+          ]
+        ]
+      ]
+    }
+  }
+}

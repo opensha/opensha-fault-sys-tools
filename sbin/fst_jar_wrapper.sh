@@ -30,5 +30,9 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )/../"
 # check for updates
 $DIR/sbin/fst_opensha_update.sh
 
+if [[ $COLUMNS -gt 0 ]];then
+	export COLUMNS
+fi
+
 java -Djava.awt.headless=true $MEM_ARG -cp $DIR/opensha/opensha-all.jar $@
 exit $?

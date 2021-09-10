@@ -1,0 +1,2635 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 7",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 7",
+        "id": 20,
+        "stroke-width": 1.0,
+        "stroke": "#c0c0c0",
+        "fill-opacity": 0.05
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -116.73269559113048,
+              33.940760025435765,
+              0.0
+            ],
+            [
+              -116.70324383713779,
+              34.00841714011222,
+              12.800000190734863
+            ],
+            [
+              -116.74914740744545,
+              34.00506811511889,
+              12.800000190734863
+            ],
+            [
+              -116.77193494611899,
+              34.0208111130388,
+              12.800000190734863
+            ],
+            [
+              -116.801391,
+              33.953153999999984,
+              0.0
+            ],
+            [
+              -116.77859800000002,
+              33.93741099999999,
+              0.0
+            ],
+            [
+              -116.73269559113048,
+              33.940760025435765,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 6",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 6",
+        "id": 19,
+        "stroke-width": 1.0,
+        "stroke": "#c0c0c0",
+        "fill-opacity": 0.05
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -116.6603418003405,
+              33.93323404402099,
+              0.0
+            ],
+            [
+              -116.63089265608002,
+              34.000891159691655,
+              12.800000190734863
+            ],
+            [
+              -116.65635606566282,
+              34.01182011422688,
+              12.800000190734863
+            ],
+            [
+              -116.70324383713779,
+              34.00841714011222,
+              12.800000190734863
+            ],
+            [
+              -116.73269559113048,
+              33.940760025435765,
+              0.0
+            ],
+            [
+              -116.685809,
+              33.94416300000001,
+              0.0
+            ],
+            [
+              -116.6603418003405,
+              33.93323404402099,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 5",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 5",
+        "id": 18,
+        "stroke-width": 1.0,
+        "stroke": "#c0c0c0",
+        "fill-opacity": 0.05
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -116.59092398722937,
+              33.90865997217298,
+              0.0
+            ],
+            [
+              -116.56148335759272,
+              33.976317091088696,
+              12.800000190734863
+            ],
+            [
+              -116.59442728468592,
+              33.98522611773948,
+              12.800000190734863
+            ],
+            [
+              -116.63089265608002,
+              34.000891159691655,
+              12.800000190734863
+            ],
+            [
+              -116.6603418003405,
+              33.93323404402099,
+              0.0
+            ],
+            [
+              -116.62387099999998,
+              33.917569,
+              0.0
+            ],
+            [
+              -116.59092398722937,
+              33.90865997217298,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 4",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 4",
+        "id": 17,
+        "stroke-width": 1.0,
+        "stroke": "#c0c0c0",
+        "fill-opacity": 0.05
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -116.52041298522923,
+              33.8858242263424,
+              0.0
+            ],
+            [
+              -116.4909802586428,
+              33.95348134827193,
+              12.800000190734863
+            ],
+            [
+              -116.55541593891874,
+              33.974675119132456,
+              12.800000190734863
+            ],
+            [
+              -116.56148335759272,
+              33.976317091088696,
+              12.800000190734863
+            ],
+            [
+              -116.59092398722937,
+              33.90865997217298,
+              0.0
+            ],
+            [
+              -116.58485600000002,
+              33.907017999999994,
+              0.0
+            ],
+            [
+              -116.52041298522923,
+              33.8858242263424,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 3",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 3",
+        "id": 16,
+        "stroke-width": 1.0,
+        "stroke": "#c0c0c0",
+        "fill-opacity": 0.05
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -116.45225590692863,
+              33.858537274130526,
+              0.0
+            ],
+            [
+              -116.42283261218692,
+              33.926194399659224,
+              12.800000190734863
+            ],
+            [
+              -116.48745667470948,
+              33.95232112208261,
+              12.800000190734863
+            ],
+            [
+              -116.4909802586428,
+              33.95348134827193,
+              12.800000190734863
+            ],
+            [
+              -116.52041298522923,
+              33.8858242263424,
+              0.0
+            ],
+            [
+              -116.51688900000002,
+              33.884664,
+              0.0
+            ],
+            [
+              -116.45225590692863,
+              33.858537274130526,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 2",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 2",
+        "id": 15,
+        "stroke-width": 1.0,
+        "stroke": "#c0c0c0",
+        "fill-opacity": 0.05
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -116.37990301548099,
+              33.847152307399064,
+              0.0
+            ],
+            [
+              -116.35048365223939,
+              33.914809434428754,
+              12.800000190734863
+            ],
+            [
+              -116.353587165269,
+              33.916175126849666,
+              12.800000190734863
+            ],
+            [
+              -116.39710730164138,
+              33.91578012690174,
+              12.800000190734863
+            ],
+            [
+              -116.42283261218692,
+              33.926194399659224,
+              12.800000190734863
+            ],
+            [
+              -116.45225590692863,
+              33.858537274130526,
+              0.0
+            ],
+            [
+              -116.426527,
+              33.848123,
+              0.0
+            ],
+            [
+              -116.38300700000002,
+              33.848518,
+              0.0
+            ],
+            [
+              -116.37990301548099,
+              33.847152307399064,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 1",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 1",
+        "id": 14,
+        "stroke-width": 1.0,
+        "stroke": "#c0c0c0",
+        "fill-opacity": 0.05
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -116.31307350383246,
+              33.81771916288479,
+              0.0
+            ],
+            [
+              -116.28366429430909,
+              33.885376293793115,
+              12.800000190734863
+            ],
+            [
+              -116.35048365223939,
+              33.914809434428754,
+              12.800000190734863
+            ],
+            [
+              -116.37990301548099,
+              33.847152307399064,
+              0.0
+            ],
+            [
+              -116.31307350383246,
+              33.81771916288479,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 0",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 0",
+        "id": 13,
+        "stroke-width": 1.0,
+        "stroke": "#c0c0c0",
+        "fill-opacity": 0.05
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -116.24629,
+              33.78825,
+              0.0
+            ],
+            [
+              -116.21689094183128,
+              33.855907134789014,
+              12.800000190734863
+            ],
+            [
+              -116.28366429430909,
+              33.885376293793115,
+              12.800000190734863
+            ],
+            [
+              -116.31307350383246,
+              33.81771916288479,
+              0.0
+            ],
+            [
+              -116.24629,
+              33.78825,
+              0.0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 7",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 7",
+        "id": 87,
+        "stroke-width": 3.0,
+        "stroke": "#00008c",
+        "Solution / Target Slip Rate": 0.2983102
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.5281940731996,
+            35.971344773565306
+          ],
+          [
+            -120.56089000000001,
+            36.002647
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 12",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 12",
+        "id": 12,
+        "stroke-width": 3.0,
+        "stroke": "#00008c",
+        "Solution / Target Slip Rate": 0.3650418
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.75283340480384,
+            33.38387582888369
+          ],
+          [
+            -115.71192,
+            33.35009000000001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 11",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 11",
+        "id": 11,
+        "stroke-width": 3.0,
+        "stroke": "#000b97",
+        "Solution / Target Slip Rate": 0.53129345
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.79377861192742,
+            33.417648224220365
+          ],
+          [
+            -115.75283340480384,
+            33.38387582888369
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 6",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 6",
+        "id": 86,
+        "stroke-width": 3.0,
+        "stroke": "#002fbb",
+        "Solution / Target Slip Rate": 0.6311049
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.4955240684735,
+            35.940033684652576
+          ],
+          [
+            -120.5281940731996,
+            35.971344773565306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 0",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 0",
+        "id": 0,
+        "stroke-width": 3.0,
+        "stroke": "#003cc8",
+        "Solution / Target Slip Rate": 0.6680327
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.24629,
+            33.78825
+          ],
+          [
+            -116.20499146741484,
+            33.75462721314246
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 14",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 14",
+        "id": 48,
+        "stroke-width": 3.0,
+        "stroke": "#0042cd",
+        "Solution / Target Slip Rate": 0.68272376
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.6120949028528,
+            34.34307232904929
+          ],
+          [
+            -117.549,
+            34.3163
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 1",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 1",
+        "id": 1,
+        "stroke-width": 3.0,
+        "stroke": "#0043ce",
+        "Solution / Target Slip Rate": 0.6850537
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.20499146741484,
+            33.75462721314246
+          ],
+          [
+            -116.16372532122625,
+            33.7209906852224
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 2",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 2",
+        "id": 2,
+        "stroke-width": 3.0,
+        "stroke": "#0043ce",
+        "Solution / Target Slip Rate": 0.68611705
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.16372532122625,
+            33.7209906852224
+          ],
+          [
+            -116.12249150813209,
+            33.68734044445239
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 10",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 10",
+        "id": 10,
+        "stroke-width": 3.0,
+        "stroke": "#0043cf",
+        "Solution / Target Slip Rate": 0.68721676
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.83475567426233,
+            33.45140715830936
+          ],
+          [
+            -115.79377861192742,
+            33.417648224220365
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 8",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 8",
+        "id": 8,
+        "stroke-width": 3.0,
+        "stroke": "#004bd5",
+        "Solution / Target Slip Rate": 0.706974
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.91680557634051,
+            33.518884531687505
+          ],
+          [
+            -115.87576464474175,
+            33.48515260339918
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 9",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 9",
+        "id": 9,
+        "stroke-width": 3.0,
+        "stroke": "#0054de",
+        "Solution / Target Slip Rate": 0.73469186
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.87576464474175,
+            33.48515260339918
+          ],
+          [
+            -115.83475567426233,
+            33.45140715830936
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 13",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 13",
+        "id": 47,
+        "stroke-width": 3.0,
+        "stroke": "#0055df",
+        "Solution / Target Slip Rate": 0.7350298
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.67523008176381,
+            34.36981227308013
+          ],
+          [
+            -117.6120949028528,
+            34.34307232904929
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 5",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 5",
+        "id": 5,
+        "stroke-width": 3.0,
+        "stroke": "#005ae3",
+        "Solution / Target Slip Rate": 0.7499533
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.04012066822075,
+            33.61999893695511
+          ],
+          [
+            -115.99898353500198,
+            33.58630772639538
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 12",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 12",
+        "id": 46,
+        "stroke-width": 3.0,
+        "stroke": "#0060e9",
+        "Solution / Target Slip Rate": 0.7657779
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.73840555396322,
+            34.396519778943464
+          ],
+          [
+            -117.67523008176381,
+            34.36981227308013
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 6",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 6",
+        "id": 6,
+        "stroke-width": 3.0,
+        "stroke": "#0062eb",
+        "Solution / Target Slip Rate": 0.7717506
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.99898353500198,
+            33.58630772639538
+          ],
+          [
+            -115.95787852207476,
+            33.55260291532101
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 7",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 7",
+        "id": 7,
+        "stroke-width": 3.0,
+        "stroke": "#0062eb",
+        "Solution / Target Slip Rate": 0.77329004
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.95787852207476,
+            33.55260291532101
+          ],
+          [
+            -115.91680557634051,
+            33.518884531687505
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 11",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 11",
+        "id": 45,
+        "stroke-width": 3.0,
+        "stroke": "#006df5",
+        "Solution / Target Slip Rate": 0.8033618
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.80177149155563,
+            34.42295058781866
+          ],
+          [
+            -117.753579,
+            34.402927
+          ],
+          [
+            -117.73840555396322,
+            34.396519778943464
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 7",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 7",
+        "id": 41,
+        "stroke-width": 3.0,
+        "stroke": "#0071f8",
+        "Solution / Target Slip Rate": 0.8126434
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.05582496885143,
+            34.52803729849493
+          ],
+          [
+            -117.99225160095655,
+            34.50181492817264
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 9",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 9",
+        "id": 43,
+        "stroke-width": 3.0,
+        "stroke": "#0074fc",
+        "Solution / Target Slip Rate": 0.82284075
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.92871824172026,
+            34.47555965096717
+          ],
+          [
+            -117.86522487677752,
+            34.44927151986353
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Big Bend), Subsection 6",
+      "properties": {
+        "name": "San Andreas (Big Bend), Subsection 6",
+        "id": 60,
+        "stroke-width": 3.0,
+        "stroke": "#0074fc",
+        "Solution / Target Slip Rate": 0.8229977
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.966692786826,
+            34.819304237224465
+          ],
+          [
+            -118.890122,
+            34.807599
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 8",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 8",
+        "id": 42,
+        "stroke-width": 3.0,
+        "stroke": "#0077fe",
+        "Solution / Target Slip Rate": 0.8318111
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.99225160095655,
+            34.50181492817264
+          ],
+          [
+            -117.92871824172026,
+            34.47555965096717
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 0",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 0",
+        "id": 34,
+        "stroke-width": 3.0,
+        "stroke": "#1583ff",
+        "Solution / Target Slip Rate": 0.8471345
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.50894799999999,
+            34.698495
+          ],
+          [
+            -118.44398115121955,
+            34.674457203559655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave N), Subsection 4",
+      "properties": {
+        "name": "San Andreas (Mojave N), Subsection 4",
+        "id": 53,
+        "stroke-width": 3.0,
+        "stroke": "#1b86ff",
+        "Solution / Target Slip Rate": 0.8511027
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.58503605996746,
+            34.72058028209205
+          ],
+          [
+            -118.50894799999999,
+            34.698495
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Carrizo) rev, Subsection 7",
+      "properties": {
+        "name": "San Andreas (Carrizo) rev, Subsection 7",
+        "id": 68,
+        "stroke-width": 3.0,
+        "stroke": "#248bff",
+        "Solution / Target Slip Rate": 0.8565907
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.46672782772076,
+            34.985001017961444
+          ],
+          [
+            -119.40289999999999,
+            34.9441
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Big Bend), Subsection 0",
+      "properties": {
+        "name": "San Andreas (Big Bend), Subsection 0",
+        "id": 54,
+        "stroke-width": 3.0,
+        "stroke": "#3192ff",
+        "Solution / Target Slip Rate": 0.86522377
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.402865,
+            34.94406
+          ],
+          [
+            -119.362861,
+            34.915714
+          ],
+          [
+            -119.33964164999718,
+            34.90786006480433
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 10",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 10",
+        "id": 44,
+        "stroke-width": 3.0,
+        "stroke": "#3694ff",
+        "Solution / Target Slip Rate": 0.8683944
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.86522487677752,
+            34.44927151986353
+          ],
+          [
+            -117.80177149155563,
+            34.42295058781866
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 4",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 4",
+        "id": 38,
+        "stroke-width": 3.0,
+        "stroke": "#499eff",
+        "Solution / Target Slip Rate": 0.8807615
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.24930695417588,
+            34.6021373429813
+          ],
+          [
+            -118.18449099797523,
+            34.57796206870853
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave N), Subsection 0",
+      "properties": {
+        "name": "San Andreas (Mojave N), Subsection 0",
+        "id": 49,
+        "stroke-width": 3.0,
+        "stroke": "#54a4ff",
+        "Solution / Target Slip Rate": 0.8880003
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.890122,
+            34.807599
+          ],
+          [
+            -118.887642,
+            34.807221
+          ],
+          [
+            -118.8136322117126,
+            34.78634265885379
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave N), Subsection 3",
+      "properties": {
+        "name": "San Andreas (Mojave N), Subsection 3",
+        "id": 52,
+        "stroke-width": 3.0,
+        "stroke": "#58a6ff",
+        "Solution / Target Slip Rate": 0.8906147
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.66116473507155,
+            34.74261823458466
+          ],
+          [
+            -118.58503605996746,
+            34.72058028209205
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Carrizo) rev, Subsection 0",
+      "properties": {
+        "name": "San Andreas (Carrizo) rev, Subsection 0",
+        "id": 61,
+        "stroke-width": 3.0,
+        "stroke": "#59a7ff",
+        "Solution / Target Slip Rate": 0.8912492
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.8659,
+            35.3142
+          ],
+          [
+            -119.81330599545488,
+            35.263544506411485
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave N), Subsection 2",
+      "properties": {
+        "name": "San Andreas (Mojave N), Subsection 2",
+        "id": 51,
+        "stroke-width": 3.0,
+        "stroke": "#60abff",
+        "Solution / Target Slip Rate": 0.89607775
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.7373339930633,
+            34.764608793313585
+          ],
+          [
+            -118.66116473507155,
+            34.74261823458466
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Big Bend), Subsection 4",
+      "properties": {
+        "name": "San Andreas (Big Bend), Subsection 4",
+        "id": 58,
+        "stroke-width": 3.0,
+        "stroke": "#62acff",
+        "Solution / Target Slip Rate": 0.897708
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.1189556843082,
+            34.846253646127764
+          ],
+          [
+            -119.04314614073186,
+            34.83150256141211
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 6",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 6",
+        "id": 40,
+        "stroke-width": 3.0,
+        "stroke": "#63adff",
+        "Solution / Target Slip Rate": 0.8982723
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.11971275913949,
+            34.55375255220413
+          ],
+          [
+            -118.103936,
+            34.547849
+          ],
+          [
+            -118.05582496885143,
+            34.52803729849493
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Carrizo) rev, Subsection 6",
+      "properties": {
+        "name": "San Andreas (Carrizo) rev, Subsection 6",
+        "id": 67,
+        "stroke-width": 3.0,
+        "stroke": "#6eb2ff",
+        "Solution / Target Slip Rate": 0.90539825
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.52903154176602,
+            35.027478518277945
+          ],
+          [
+            -119.47109999999999,
+            34.9878
+          ],
+          [
+            -119.46672782772076,
+            34.985001017961444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Big Bend), Subsection 5",
+      "properties": {
+        "name": "San Andreas (Big Bend), Subsection 5",
+        "id": 59,
+        "stroke-width": 3.0,
+        "stroke": "#71b4ff",
+        "Solution / Target Slip Rate": 0.90703535
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.04314614073186,
+            34.83150256141211
+          ],
+          [
+            -119.030091,
+            34.828957
+          ],
+          [
+            -118.966692786826,
+            34.819304237224465
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Cholame) rev, Subsection 5",
+      "properties": {
+        "name": "San Andreas (Cholame) rev, Subsection 5",
+        "id": 74,
+        "stroke-width": 3.0,
+        "stroke": "#7bb9ff",
+        "Solution / Target Slip Rate": 0.9138348
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.06546088622072,
+            35.511508106134556
+          ],
+          [
+            -120.086757,
+            35.533307
+          ],
+          [
+            -120.10452095654146,
+            35.55157961441091
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Cholame) rev, Subsection 7",
+      "properties": {
+        "name": "San Andreas (Cholame) rev, Subsection 7",
+        "id": 76,
+        "stroke-width": 3.0,
+        "stroke": "#7dbaff",
+        "Solution / Target Slip Rate": 0.9152893
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.14354756222582,
+            35.59168534138018
+          ],
+          [
+            -120.18261328451806,
+            35.63177847474066
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Big Bend), Subsection 1",
+      "properties": {
+        "name": "San Andreas (Big Bend), Subsection 1",
+        "id": 55,
+        "stroke-width": 3.0,
+        "stroke": "#7ebbff",
+        "Solution / Target Slip Rate": 0.9155165
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.33964164999718,
+            34.90786006480433
+          ],
+          [
+            -119.26758184125273,
+            34.88344816690578
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Cholame) rev, Subsection 6",
+      "properties": {
+        "name": "San Andreas (Cholame) rev, Subsection 6",
+        "id": 75,
+        "stroke-width": 3.0,
+        "stroke": "#7fbbff",
+        "Solution / Target Slip Rate": 0.91636735
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.10452095654146,
+            35.55157961441091
+          ],
+          [
+            -120.14354756222582,
+            35.59168534138018
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave N), Subsection 1",
+      "properties": {
+        "name": "San Andreas (Mojave N), Subsection 1",
+        "id": 50,
+        "stroke-width": 3.0,
+        "stroke": "#83bdff",
+        "Solution / Target Slip Rate": 0.9188953
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.8136322117126,
+            34.78634265885379
+          ],
+          [
+            -118.76731400000001,
+            34.773248
+          ],
+          [
+            -118.7373339930633,
+            34.764608793313585
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 3",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 3",
+        "id": 37,
+        "stroke-width": 3.0,
+        "stroke": "#84beff",
+        "Solution / Target Slip Rate": 0.9194863
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.31416063027963,
+            34.62627832414309
+          ],
+          [
+            -118.24930695417588,
+            34.6021373429813
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Carrizo) rev, Subsection 2",
+      "properties": {
+        "name": "San Andreas (Carrizo) rev, Subsection 2",
+        "id": 63,
+        "stroke-width": 3.0,
+        "stroke": "#84beff",
+        "Solution / Target Slip Rate": 0.91963094
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.76077772150654,
+            35.21286628300376
+          ],
+          [
+            -119.70831500231347,
+            35.16216540073254
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 5",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 5",
+        "id": 39,
+        "stroke-width": 3.0,
+        "stroke": "#90c4ff",
+        "Solution / Target Slip Rate": 0.9272476
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.18449099797523,
+            34.57796206870853
+          ],
+          [
+            -118.11971275913949,
+            34.55375255220413
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Big Bend), Subsection 3",
+      "properties": {
+        "name": "San Andreas (Big Bend), Subsection 3",
+        "id": 57,
+        "stroke-width": 3.0,
+        "stroke": "#90c4ff",
+        "Solution / Target Slip Rate": 0.9273694
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.19479236624592,
+            34.86095767852397
+          ],
+          [
+            -119.1189556843082,
+            34.846253646127764
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Cholame) rev, Subsection 8",
+      "properties": {
+        "name": "San Andreas (Cholame) rev, Subsection 8",
+        "id": 77,
+        "stroke-width": 3.0,
+        "stroke": "#93c6ff",
+        "Solution / Target Slip Rate": 0.9294689
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.18261328451806,
+            35.63177847474066
+          ],
+          [
+            -120.22171820823927,
+            35.6718589832143
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Carrizo) rev, Subsection 1",
+      "properties": {
+        "name": "San Andreas (Carrizo) rev, Subsection 1",
+        "id": 62,
+        "stroke-width": 3.0,
+        "stroke": "#95c7ff",
+        "Solution / Target Slip Rate": 0.931008
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.81330599545488,
+            35.263544506411485
+          ],
+          [
+            -119.76077772150654,
+            35.21286628300376
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Carrizo) rev, Subsection 3",
+      "properties": {
+        "name": "San Andreas (Carrizo) rev, Subsection 3",
+        "id": 64,
+        "stroke-width": 3.0,
+        "stroke": "#96c8ff",
+        "Solution / Target Slip Rate": 0.9316823
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.70831500231347,
+            35.16216540073254
+          ],
+          [
+            -119.7068,
+            35.1607
+          ],
+          [
+            -119.64908615931976,
+            35.1167642008763
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Carrizo) rev, Subsection 5",
+      "properties": {
+        "name": "San Andreas (Carrizo) rev, Subsection 5",
+        "id": 66,
+        "stroke-width": 3.0,
+        "stroke": "#9bcaff",
+        "Solution / Target Slip Rate": 0.9343792
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.58972001753934,
+            35.07149248862441
+          ],
+          [
+            -119.55830000000002,
+            35.0475
+          ],
+          [
+            -119.52903154176602,
+            35.027478518277945
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Carrizo) rev, Subsection 4",
+      "properties": {
+        "name": "San Andreas (Carrizo) rev, Subsection 4",
+        "id": 65,
+        "stroke-width": 3.0,
+        "stroke": "#b0d5ff",
+        "Solution / Target Slip Rate": 0.9480736
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.64908615931976,
+            35.1167642008763
+          ],
+          [
+            -119.58972001753934,
+            35.07149248862441
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 1",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 1",
+        "id": 35,
+        "stroke-width": 3.0,
+        "stroke": "#b2d6ff",
+        "Solution / Target Slip Rate": 0.94949895
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.44398115121955,
+            34.674457203559655
+          ],
+          [
+            -118.37905202859892,
+            34.65038496130314
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Cholame) rev, Subsection 0",
+      "properties": {
+        "name": "San Andreas (Cholame) rev, Subsection 0",
+        "id": 69,
+        "stroke-width": 3.0,
+        "stroke": "#bddcff",
+        "Solution / Target Slip Rate": 0.9569797
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.865953,
+            35.314166
+          ],
+          [
+            -119.90662981770572,
+            35.35308842963216
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 3",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 3",
+        "id": 3,
+        "stroke-width": 3.0,
+        "stroke": "#cfe5ff",
+        "Solution / Target Slip Rate": 0.968325
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.12249150813209,
+            33.68734044445239
+          ],
+          [
+            -116.08128997487063,
+            33.65367651899347
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Big Bend), Subsection 2",
+      "properties": {
+        "name": "San Andreas (Big Bend), Subsection 2",
+        "id": 56,
+        "stroke-width": 3.0,
+        "stroke": "#ddedff",
+        "Solution / Target Slip Rate": 0.9776138
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.26758184125273,
+            34.88344816690578
+          ],
+          [
+            -119.21,
+            34.8639
+          ],
+          [
+            -119.19479236624592,
+            34.86095767852397
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 4",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 4",
+        "id": 4,
+        "stroke-width": 3.0,
+        "stroke": "#ecf5ff",
+        "Solution / Target Slip Rate": 0.9875736
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.08128997487063,
+            33.65367651899347
+          ],
+          [
+            -116.04012066822075,
+            33.61999893695511
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Cholame) rev, Subsection 10",
+      "properties": {
+        "name": "San Andreas (Cholame) rev, Subsection 10",
+        "id": 79,
+        "stroke-width": 3.0,
+        "stroke": "#f6faff",
+        "Solution / Target Slip Rate": 0.9941888
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.26086241835993,
+            35.711926835445304
+          ],
+          [
+            -120.300046,
+            35.751982
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Cholame) rev, Subsection 4",
+      "properties": {
+        "name": "San Andreas (Cholame) rev, Subsection 4",
+        "id": 73,
+        "stroke-width": 3.0,
+        "stroke": "#fffefe",
+        "Solution / Target Slip Rate": 1.0018395
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.0263791529641,
+            35.47146313609132
+          ],
+          [
+            -120.06546088622072,
+            35.511508106134556
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 2",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 2",
+        "id": 36,
+        "stroke-width": 3.0,
+        "stroke": "#fffcfa",
+        "Solution / Target Slip Rate": 1.006253
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.37905202859892,
+            34.65038496130314
+          ],
+          [
+            -118.31416063027963,
+            34.62627832414309
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Cholame) rev, Subsection 2",
+      "properties": {
+        "name": "San Andreas (Cholame) rev, Subsection 2",
+        "id": 71,
+        "stroke-width": 3.0,
+        "stroke": "#fff9f5",
+        "Solution / Target Slip Rate": 1.0136207
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.9473458545409,
+            35.391997217935995
+          ],
+          [
+            -119.97029900000001,
+            35.413909
+          ],
+          [
+            -119.98733633242452,
+            35.431405580177724
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Cholame) rev, Subsection 3",
+      "properties": {
+        "name": "San Andreas (Cholame) rev, Subsection 3",
+        "id": 72,
+        "stroke-width": 3.0,
+        "stroke": "#fff9f4",
+        "Solution / Target Slip Rate": 1.0145676
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.98733633242452,
+            35.431405580177724
+          ],
+          [
+            -120.0263791529641,
+            35.47146313609132
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Cholame) rev, Subsection 1",
+      "properties": {
+        "name": "San Andreas (Cholame) rev, Subsection 1",
+        "id": 70,
+        "stroke-width": 3.0,
+        "stroke": "#fff7ef",
+        "Solution / Target Slip Rate": 1.0208756
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.90662981770572,
+            35.35308842963216
+          ],
+          [
+            -119.9473458545409,
+            35.391997217935995
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Cholame) rev, Subsection 9",
+      "properties": {
+        "name": "San Andreas (Cholame) rev, Subsection 9",
+        "id": 78,
+        "stroke-width": 3.0,
+        "stroke": "#fff2e7",
+        "Solution / Target Slip Rate": 1.0310097
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.22171820823927,
+            35.6718589832143
+          ],
+          [
+            -120.26086241835993,
+            35.711926835445304
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino N), Subsection 5",
+      "properties": {
+        "name": "San Andreas (San Bernardino N), Subsection 5",
+        "id": 33,
+        "stroke-width": 3.0,
+        "stroke": "#ffcea2",
+        "Solution / Target Slip Rate": 1.1217642
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.27827052183355,
+            34.17528263386798
+          ],
+          [
+            -117.27416099999999,
+            34.173137
+          ],
+          [
+            -117.222023,
+            34.150027
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino S), Subsection 6",
+      "properties": {
+        "name": "San Andreas (San Bernardino S), Subsection 6",
+        "id": 27,
+        "stroke-width": 3.0,
+        "stroke": "#ffbe84",
+        "Solution / Target Slip Rate": 1.1605133
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.86346654788693,
+            34.001562821332264
+          ],
+          [
+            -116.81979500000001,
+            33.95911400000003
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino N), Subsection 0",
+      "properties": {
+        "name": "San Andreas (San Bernardino N), Subsection 0",
+        "id": 28,
+        "stroke-width": 3.0,
+        "stroke": "#ffb879",
+        "Solution / Target Slip Rate": 1.1747206
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.549,
+            34.3163
+          ],
+          [
+            -117.49307159352331,
+            34.29040587913245
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino S), Subsection 4",
+      "properties": {
+        "name": "San Andreas (San Bernardino S), Subsection 4",
+        "id": 25,
+        "stroke-width": 3.0,
+        "stroke": "#ffb573",
+        "Solution / Target Slip Rate": 1.1835835
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.97538718523874,
+            34.0599973981166
+          ],
+          [
+            -116.91357152512464,
+            34.03786017447605
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino N), Subsection 3",
+      "properties": {
+        "name": "San Andreas (San Bernardino N), Subsection 3",
+        "id": 31,
+        "stroke-width": 3.0,
+        "stroke": "#ffb472",
+        "Solution / Target Slip Rate": 1.1842121
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.38661911006464,
+            34.23176408145991
+          ],
+          [
+            -117.33242666677006,
+            34.20353526469957
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 0",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 0",
+        "id": 13,
+        "stroke-width": 3.0,
+        "stroke": "#ffb36f",
+        "Solution / Target Slip Rate": 1.1879735
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.24629,
+            33.78825
+          ],
+          [
+            -116.31307350383246,
+            33.81771916288479
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino S), Subsection 5",
+      "properties": {
+        "name": "San Andreas (San Bernardino S), Subsection 5",
+        "id": 26,
+        "stroke-width": 3.0,
+        "stroke": "#ffab60",
+        "Solution / Target Slip Rate": 1.2082702
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.91357152512464,
+            34.03786017447605
+          ],
+          [
+            -116.90235000000001,
+            34.033837
+          ],
+          [
+            -116.87354100000002,
+            34.011347
+          ],
+          [
+            -116.86346654788693,
+            34.001562821332264
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino S), Subsection 3",
+      "properties": {
+        "name": "San Andreas (San Bernardino S), Subsection 3",
+        "id": 24,
+        "stroke-width": 3.0,
+        "stroke": "#ffa555",
+        "Solution / Target Slip Rate": 1.2224506
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.03726796824522,
+            34.082040279901406
+          ],
+          [
+            -117.0139,
+            34.073768
+          ],
+          [
+            -116.97538718523874,
+            34.0599973981166
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino N), Subsection 4",
+      "properties": {
+        "name": "San Andreas (San Bernardino N), Subsection 4",
+        "id": 32,
+        "stroke-width": 3.0,
+        "stroke": "#ffa452",
+        "Solution / Target Slip Rate": 1.2258863
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.33242666677006,
+            34.20353526469957
+          ],
+          [
+            -117.27827052183355,
+            34.17528263386798
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 1",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 1",
+        "id": 14,
+        "stroke-width": 3.0,
+        "stroke": "#ff9231",
+        "Solution / Target Slip Rate": 1.2694203
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.31307350383246,
+            33.81771916288479
+          ],
+          [
+            -116.37990301548099,
+            33.847152307399064
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino N), Subsection 1",
+      "properties": {
+        "name": "San Andreas (San Bernardino N), Subsection 1",
+        "id": 29,
+        "stroke-width": 3.0,
+        "stroke": "#ff8a23",
+        "Solution / Target Slip Rate": 1.287911
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.49307159352331,
+            34.29040587913245
+          ],
+          [
+            -117.45100000000001,
+            34.2709
+          ],
+          [
+            -117.43824884143784,
+            34.26311710763183
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino N), Subsection 2",
+      "properties": {
+        "name": "San Andreas (San Bernardino N), Subsection 2",
+        "id": 30,
+        "stroke-width": 3.0,
+        "stroke": "#ff8920",
+        "Solution / Target Slip Rate": 1.2908931
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.43824884143784,
+            34.26311710763183
+          ],
+          [
+            -117.38869200000002,
+            34.232843
+          ],
+          [
+            -117.38661911006464,
+            34.23176408145991
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino S), Subsection 2",
+      "properties": {
+        "name": "San Andreas (San Bernardino S), Subsection 2",
+        "id": 23,
+        "stroke-width": 3.0,
+        "stroke": "#ff871d",
+        "Solution / Target Slip Rate": 1.2952343
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.0989823555746,
+            34.104425892648955
+          ],
+          [
+            -117.06767400000001,
+            34.092795
+          ],
+          [
+            -117.03726796824522,
+            34.082040279901406
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino S), Subsection 0",
+      "properties": {
+        "name": "San Andreas (San Bernardino S), Subsection 0",
+        "id": 21,
+        "stroke-width": 3.0,
+        "stroke": "#ff7e0b",
+        "Solution / Target Slip Rate": 1.3189116
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.222023,
+            34.150027
+          ],
+          [
+            -117.16048608545933,
+            34.12724178524563
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 2",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 2",
+        "id": 15,
+        "stroke-width": 3.0,
+        "stroke": "#ff7901",
+        "Solution / Target Slip Rate": 1.3318433
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.37990301548099,
+            33.847152307399064
+          ],
+          [
+            -116.38300700000002,
+            33.848518
+          ],
+          [
+            -116.426527,
+            33.848123
+          ],
+          [
+            -116.45225590692863,
+            33.858537274130526
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 3",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 3",
+        "id": 16,
+        "stroke-width": 3.0,
+        "stroke": "#f26a00",
+        "Solution / Target Slip Rate": 1.4097953
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.45225590692863,
+            33.858537274130526
+          ],
+          [
+            -116.51688900000002,
+            33.884664
+          ],
+          [
+            -116.52041298522923,
+            33.8858242263424
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino S), Subsection 1",
+      "properties": {
+        "name": "San Andreas (San Bernardino S), Subsection 1",
+        "id": 22,
+        "stroke-width": 3.0,
+        "stroke": "#f26a00",
+        "Solution / Target Slip Rate": 1.4110384
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.16048608545933,
+            34.12724178524563
+          ],
+          [
+            -117.0989823555746,
+            34.104425892648955
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 4",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 4",
+        "id": 17,
+        "stroke-width": 3.0,
+        "stroke": "#ef6600",
+        "Solution / Target Slip Rate": 1.4316157
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.52041298522923,
+            33.8858242263424
+          ],
+          [
+            -116.58485600000002,
+            33.907018
+          ],
+          [
+            -116.59092398722937,
+            33.90865997217298
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 7",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 7",
+        "id": 20,
+        "stroke-width": 3.0,
+        "stroke": "#e85f00",
+        "Solution / Target Slip Rate": 1.471999
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.73269559113048,
+            33.940760025435765
+          ],
+          [
+            -116.77859800000002,
+            33.937411
+          ],
+          [
+            -116.801391,
+            33.953153999999984
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 5",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 5",
+        "id": 18,
+        "stroke-width": 3.0,
+        "stroke": "#e35a00",
+        "Solution / Target Slip Rate": 1.5008676
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.59092398722937,
+            33.90865997217298
+          ],
+          [
+            -116.62387099999998,
+            33.917569
+          ],
+          [
+            -116.6603418003405,
+            33.93323404402099
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 6",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 6",
+        "id": 19,
+        "stroke-width": 3.0,
+        "stroke": "#e35900",
+        "Solution / Target Slip Rate": 1.5050932
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.6603418003405,
+            33.93323404402099
+          ],
+          [
+            -116.685809,
+            33.944163
+          ],
+          [
+            -116.73269559113048,
+            33.940760025435765
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 0",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 0",
+        "id": 80,
+        "stroke-width": 3.0,
+        "stroke": "#dd5300",
+        "Solution / Target Slip Rate": 1.537893
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.300046,
+            35.751982
+          ],
+          [
+            -120.33256137318875,
+            35.78334590374476
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 2",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 2",
+        "id": 82,
+        "stroke-width": 3.0,
+        "stroke": "#d34800",
+        "Solution / Target Slip Rate": 1.5976628
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.36510241131823,
+            35.81470104771494
+          ],
+          [
+            -120.39766915710962,
+            35.846047414875194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 1",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 1",
+        "id": 81,
+        "stroke-width": 3.0,
+        "stroke": "#b82c00",
+        "Solution / Target Slip Rate": 1.7557406
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.33256137318875,
+            35.78334590374476
+          ],
+          [
+            -120.36510241131823,
+            35.81470104771494
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 5",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 5",
+        "id": 85,
+        "stroke-width": 3.0,
+        "stroke": "#960a00",
+        "Solution / Target Slip Rate": 1.9428124
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.46287994283166,
+            35.90871375046115
+          ],
+          [
+            -120.4955240684735,
+            35.940033684652576
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 4",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 4",
+        "id": 84,
+        "stroke-width": 3.0,
+        "stroke": "#8c0000",
+        "Solution / Target Slip Rate": 2.1565626
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.43026165333787,
+            35.87738498815751
+          ],
+          [
+            -120.46287994283166,
+            35.90871375046115
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 3",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 3",
+        "id": 83,
+        "stroke-width": 3.0,
+        "stroke": "#8c0000",
+        "Solution / Target Slip Rate": 2.3244185
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.39766915710962,
+            35.846047414875194
+          ],
+          [
+            -120.43026165333787,
+            35.87738498815751
+          ]
+        ]
+      }
+    }
+  ]
+}
