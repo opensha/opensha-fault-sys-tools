@@ -417,249 +417,13 @@
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Carrizo) rev, Subsection 7",
-      "properties": {
-        "name": "San Andreas (Carrizo) rev, Subsection 7",
-        "id": 68,
-        "stroke-width": 3.0,
-        "stroke": "#8cb814",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.259648
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -119.46672782772076,
-            34.985001017961444
-          ],
-          [
-            -119.40289999999999,
-            34.9441
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (San Bernardino S), Subsection 4",
-      "properties": {
-        "name": "San Andreas (San Bernardino S), Subsection 4",
-        "id": 25,
-        "stroke-width": 3.0,
-        "stroke": "#99ba16",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.173122
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -116.97538718523874,
-            34.0599973981166
-          ],
-          [
-            -116.91357152512464,
-            34.03786017447605
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 0",
-      "properties": {
-        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 0",
-        "id": 13,
-        "stroke-width": 3.0,
-        "stroke": "#9aba16",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.169012
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -116.24629,
-            33.78825
-          ],
-          [
-            -116.31307350383246,
-            33.81771916288479
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Big Bend), Subsection 0",
-      "properties": {
-        "name": "San Andreas (Big Bend), Subsection 0",
-        "id": 54,
-        "stroke-width": 3.0,
-        "stroke": "#a4bd18",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.0958014
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -119.402865,
-            34.94406
-          ],
-          [
-            -119.362861,
-            34.915714
-          ],
-          [
-            -119.33964164999718,
-            34.90786006480433
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (San Bernardino S), Subsection 3",
-      "properties": {
-        "name": "San Andreas (San Bernardino S), Subsection 3",
-        "id": 24,
-        "stroke-width": 3.0,
-        "stroke": "#aabe19",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.0527422
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.03726796824522,
-            34.082040279901406
-          ],
-          [
-            -117.0139,
-            34.073768
-          ],
-          [
-            -116.97538718523874,
-            34.0599973981166
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 1",
-      "properties": {
-        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 1",
-        "id": 14,
-        "stroke-width": 3.0,
-        "stroke": "#aabe19",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.0511541
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -116.31307350383246,
-            33.81771916288479
-          ],
-          [
-            -116.37990301548099,
-            33.847152307399064
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 2",
-      "properties": {
-        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 2",
-        "id": 15,
-        "stroke-width": 3.0,
-        "stroke": "#afc01a",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.0148563
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -116.37990301548099,
-            33.847152307399064
-          ],
-          [
-            -116.38300700000002,
-            33.848518
-          ],
-          [
-            -116.426527,
-            33.848123
-          ],
-          [
-            -116.45225590692863,
-            33.858537274130526
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Parkfield), Subsection 7",
-      "properties": {
-        "name": "San Andreas (Parkfield), Subsection 7",
-        "id": 87,
-        "stroke-width": 3.0,
-        "stroke": "#b5c11b",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.976707
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -120.5281940731996,
-            35.971344773565306
-          ],
-          [
-            -120.56089000000001,
-            36.002647
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 4",
-      "properties": {
-        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 4",
-        "id": 17,
-        "stroke-width": 3.0,
-        "stroke": "#b6c21b",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.9645495
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -116.52041298522923,
-            33.8858242263424
-          ],
-          [
-            -116.58485600000002,
-            33.907018
-          ],
-          [
-            -116.59092398722937,
-            33.90865997217298
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 7",
       "properties": {
         "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 7",
         "id": 20,
         "stroke-width": 3.0,
-        "stroke": "#bac21c",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.9382653
+        "stroke": "#4aa520",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.7145247
       },
       "geometry": {
         "type": "LineString",
@@ -686,8 +450,8 @@
         "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 6",
         "id": 19,
         "stroke-width": 3.0,
-        "stroke": "#bbc21c",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.9328487
+        "stroke": "#4ba51e",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.7014084
       },
       "geometry": {
         "type": "LineString",
@@ -709,104 +473,100 @@
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Carrizo) rev, Subsection 6",
+      "id": "San Andreas (San Bernardino S), Subsection 0",
       "properties": {
-        "name": "San Andreas (Carrizo) rev, Subsection 6",
-        "id": 67,
+        "name": "San Andreas (San Bernardino S), Subsection 0",
+        "id": 21,
         "stroke-width": 3.0,
-        "stroke": "#bbc31c",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.9281118
+        "stroke": "#7cb312",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.3718185
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -119.52903154176602,
-            35.027478518277945
+            -117.222023,
+            34.150027
           ],
           [
-            -119.47109999999999,
-            34.9878
-          ],
-          [
-            -119.46672782772076,
-            34.985001017961444
+            -117.16048608545933,
+            34.12724178524563
           ]
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 3",
+      "id": "San Andreas (San Bernardino S), Subsection 1",
       "properties": {
-        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 3",
-        "id": 16,
+        "name": "San Andreas (San Bernardino S), Subsection 1",
+        "id": 22,
         "stroke-width": 3.0,
-        "stroke": "#bcc31c",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.9195807
+        "stroke": "#7cb312",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.3718185
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -116.45225590692863,
-            33.858537274130526
+            -117.16048608545933,
+            34.12724178524563
           ],
           [
-            -116.51688900000002,
-            33.884664
-          ],
-          [
-            -116.52041298522923,
-            33.8858242263424
+            -117.0989823555746,
+            34.104425892648955
           ]
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "San Andreas (San Bernardino S), Subsection 6",
+      "id": "San Andreas (San Bernardino N), Subsection 0",
       "properties": {
-        "name": "San Andreas (San Bernardino S), Subsection 6",
-        "id": 27,
+        "name": "San Andreas (San Bernardino N), Subsection 0",
+        "id": 28,
         "stroke-width": 3.0,
-        "stroke": "#c5c51e",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.8564043
+        "stroke": "#8cb814",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.2641919
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -116.86346654788693,
-            34.001562821332264
+            -117.549,
+            34.3163
           ],
           [
-            -116.81979500000001,
-            33.95911400000003
+            -117.49307159352331,
+            34.29040587913245
           ]
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Big Bend), Subsection 6",
+      "id": "San Andreas (San Bernardino N), Subsection 1",
       "properties": {
-        "name": "San Andreas (Big Bend), Subsection 6",
-        "id": 60,
+        "name": "San Andreas (San Bernardino N), Subsection 1",
+        "id": 29,
         "stroke-width": 3.0,
-        "stroke": "#c7c51e",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.8425972
+        "stroke": "#8cb814",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.2628255
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -118.966692786826,
-            34.819304237224465
+            -117.49307159352331,
+            34.29040587913245
           ],
           [
-            -118.890122,
-            34.807599
+            -117.45100000000001,
+            34.2709
+          ],
+          [
+            -117.43824884143784,
+            34.26311710763183
           ]
         ]
       }
@@ -818,8 +578,8 @@
         "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 5",
         "id": 18,
         "stroke-width": 3.0,
-        "stroke": "#cac61e",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.8251896
+        "stroke": "#9bbb17",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.1602607
       },
       "geometry": {
         "type": "LineString",
@@ -841,13 +601,185 @@
     },
     {
       "type": "Feature",
+      "id": "San Andreas (San Bernardino S), Subsection 2",
+      "properties": {
+        "name": "San Andreas (San Bernardino S), Subsection 2",
+        "id": 23,
+        "stroke-width": 3.0,
+        "stroke": "#9fbc17",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.1277642
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.0989823555746,
+            34.104425892648955
+          ],
+          [
+            -117.06767400000001,
+            34.092795
+          ],
+          [
+            -117.03726796824522,
+            34.082040279901406
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 2",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 2",
+        "id": 15,
+        "stroke-width": 3.0,
+        "stroke": "#a2bc18",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.1091568
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.37990301548099,
+            33.847152307399064
+          ],
+          [
+            -116.38300700000002,
+            33.848518
+          ],
+          [
+            -116.426527,
+            33.848123
+          ],
+          [
+            -116.45225590692863,
+            33.858537274130526
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave N), Subsection 0",
+      "properties": {
+        "name": "San Andreas (Mojave N), Subsection 0",
+        "id": 49,
+        "stroke-width": 3.0,
+        "stroke": "#a2bc18",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.1079059
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.890122,
+            34.807599
+          ],
+          [
+            -118.887642,
+            34.807221
+          ],
+          [
+            -118.8136322117126,
+            34.78634265885379
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave N), Subsection 1",
+      "properties": {
+        "name": "San Andreas (Mojave N), Subsection 1",
+        "id": 50,
+        "stroke-width": 3.0,
+        "stroke": "#a3bd18",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.1047187
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.8136322117126,
+            34.78634265885379
+          ],
+          [
+            -118.76731400000001,
+            34.773248
+          ],
+          [
+            -118.7373339930633,
+            34.764608793313585
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 3",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 3",
+        "id": 16,
+        "stroke-width": 3.0,
+        "stroke": "#a4bd18",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.096918
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.45225590692863,
+            33.858537274130526
+          ],
+          [
+            -116.51688900000002,
+            33.884664
+          ],
+          [
+            -116.52041298522923,
+            33.8858242263424
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 4",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 4",
+        "id": 17,
+        "stroke-width": 3.0,
+        "stroke": "#a5bd18",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.088749
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.52041298522923,
+            33.8858242263424
+          ],
+          [
+            -116.58485600000002,
+            33.907018
+          ],
+          [
+            -116.59092398722937,
+            33.90865997217298
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "San Andreas (Mojave N), Subsection 2",
       "properties": {
         "name": "San Andreas (Mojave N), Subsection 2",
         "id": 51,
         "stroke-width": 3.0,
-        "stroke": "#ccc71f",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.8044486
+        "stroke": "#acbf19",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -3.0413108
       },
       "geometry": {
         "type": "LineString",
@@ -865,13 +797,693 @@
     },
     {
       "type": "Feature",
+      "id": "San Andreas (Big Bend), Subsection 3",
+      "properties": {
+        "name": "San Andreas (Big Bend), Subsection 3",
+        "id": 57,
+        "stroke-width": 3.0,
+        "stroke": "#b6c21b",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.9686165
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.19479236624592,
+            34.86095767852397
+          ],
+          [
+            -119.1189556843082,
+            34.846253646127764
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Big Bend), Subsection 2",
+      "properties": {
+        "name": "San Andreas (Big Bend), Subsection 2",
+        "id": 56,
+        "stroke-width": 3.0,
+        "stroke": "#b8c21b",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.9546144
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.26758184125273,
+            34.88344816690578
+          ],
+          [
+            -119.21,
+            34.8639
+          ],
+          [
+            -119.19479236624592,
+            34.86095767852397
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 0",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 0",
+        "id": 13,
+        "stroke-width": 3.0,
+        "stroke": "#bec31d",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.910138
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.24629,
+            33.78825
+          ],
+          [
+            -116.31307350383246,
+            33.81771916288479
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 1",
+      "properties": {
+        "name": "San Andreas (San Gorgonio Pass-Garnet HIll), Subsection 1",
+        "id": 14,
+        "stroke-width": 3.0,
+        "stroke": "#bec31d",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.910138
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.31307350383246,
+            33.81771916288479
+          ],
+          [
+            -116.37990301548099,
+            33.847152307399064
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Big Bend), Subsection 4",
+      "properties": {
+        "name": "San Andreas (Big Bend), Subsection 4",
+        "id": 58,
+        "stroke-width": 3.0,
+        "stroke": "#c5c51e",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.8559823
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.1189556843082,
+            34.846253646127764
+          ],
+          [
+            -119.04314614073186,
+            34.83150256141211
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Big Bend), Subsection 0",
+      "properties": {
+        "name": "San Andreas (Big Bend), Subsection 0",
+        "id": 54,
+        "stroke-width": 3.0,
+        "stroke": "#c6c51e",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.850337
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.402865,
+            34.94406
+          ],
+          [
+            -119.362861,
+            34.915714
+          ],
+          [
+            -119.33964164999718,
+            34.90786006480433
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Big Bend), Subsection 1",
+      "properties": {
+        "name": "San Andreas (Big Bend), Subsection 1",
+        "id": 55,
+        "stroke-width": 3.0,
+        "stroke": "#c6c51e",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.8497472
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.33964164999718,
+            34.90786006480433
+          ],
+          [
+            -119.26758184125273,
+            34.88344816690578
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave N), Subsection 4",
+      "properties": {
+        "name": "San Andreas (Mojave N), Subsection 4",
+        "id": 53,
+        "stroke-width": 3.0,
+        "stroke": "#c8c51e",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.8396583
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.58503605996746,
+            34.72058028209205
+          ],
+          [
+            -118.50894799999999,
+            34.698495
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave N), Subsection 3",
+      "properties": {
+        "name": "San Andreas (Mojave N), Subsection 3",
+        "id": 52,
+        "stroke-width": 3.0,
+        "stroke": "#c8c51e",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.839259
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.66116473507155,
+            34.74261823458466
+          ],
+          [
+            -118.58503605996746,
+            34.72058028209205
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino S), Subsection 3",
+      "properties": {
+        "name": "San Andreas (San Bernardino S), Subsection 3",
+        "id": 24,
+        "stroke-width": 3.0,
+        "stroke": "#ccc71f",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.8050692
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.03726796824522,
+            34.082040279901406
+          ],
+          [
+            -117.0139,
+            34.073768
+          ],
+          [
+            -116.97538718523874,
+            34.0599973981166
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino N), Subsection 2",
+      "properties": {
+        "name": "San Andreas (San Bernardino N), Subsection 2",
+        "id": 30,
+        "stroke-width": 3.0,
+        "stroke": "#d6c921",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.7310934
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.43824884143784,
+            34.26311710763183
+          ],
+          [
+            -117.38869200000002,
+            34.232843
+          ],
+          [
+            -117.38661911006464,
+            34.23176408145991
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Carrizo) rev, Subsection 5",
+      "properties": {
+        "name": "San Andreas (Carrizo) rev, Subsection 5",
+        "id": 66,
+        "stroke-width": 3.0,
+        "stroke": "#d7c921",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.724105
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.58972001753934,
+            35.07149248862441
+          ],
+          [
+            -119.55830000000002,
+            35.0475
+          ],
+          [
+            -119.52903154176602,
+            35.027478518277945
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Carrizo) rev, Subsection 7",
+      "properties": {
+        "name": "San Andreas (Carrizo) rev, Subsection 7",
+        "id": 68,
+        "stroke-width": 3.0,
+        "stroke": "#dbca22",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.6912253
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.46672782772076,
+            34.985001017961444
+          ],
+          [
+            -119.40289999999999,
+            34.9441
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Carrizo) rev, Subsection 6",
+      "properties": {
+        "name": "San Andreas (Carrizo) rev, Subsection 6",
+        "id": 67,
+        "stroke-width": 3.0,
+        "stroke": "#dbca22",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.6897137
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.52903154176602,
+            35.027478518277945
+          ],
+          [
+            -119.47109999999999,
+            34.9878
+          ],
+          [
+            -119.46672782772076,
+            34.985001017961444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Carrizo) rev, Subsection 4",
+      "properties": {
+        "name": "San Andreas (Carrizo) rev, Subsection 4",
+        "id": 65,
+        "stroke-width": 3.0,
+        "stroke": "#deca22",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.6731627
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.64908615931976,
+            35.1167642008763
+          ],
+          [
+            -119.58972001753934,
+            35.07149248862441
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Big Bend), Subsection 6",
+      "properties": {
+        "name": "San Andreas (Big Bend), Subsection 6",
+        "id": 60,
+        "stroke-width": 3.0,
+        "stroke": "#dfca22",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.6618707
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.966692786826,
+            34.819304237224465
+          ],
+          [
+            -118.890122,
+            34.807599
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Big Bend), Subsection 5",
+      "properties": {
+        "name": "San Andreas (Big Bend), Subsection 5",
+        "id": 59,
+        "stroke-width": 3.0,
+        "stroke": "#e0ca22",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.6608832
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.04314614073186,
+            34.83150256141211
+          ],
+          [
+            -119.030091,
+            34.828957
+          ],
+          [
+            -118.966692786826,
+            34.819304237224465
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 0",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 0",
+        "id": 34,
+        "stroke-width": 3.0,
+        "stroke": "#e1ca22",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.6423788
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.50894799999999,
+            34.698495
+          ],
+          [
+            -118.44398115121955,
+            34.674457203559655
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 1",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 1",
+        "id": 35,
+        "stroke-width": 3.0,
+        "stroke": "#e2ca22",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.6406832
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -118.44398115121955,
+            34.674457203559655
+          ],
+          [
+            -118.37905202859892,
+            34.65038496130314
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino S), Subsection 4",
+      "properties": {
+        "name": "San Andreas (San Bernardino S), Subsection 4",
+        "id": 25,
+        "stroke-width": 3.0,
+        "stroke": "#e5cb23",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.6131294
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.97538718523874,
+            34.0599973981166
+          ],
+          [
+            -116.91357152512464,
+            34.03786017447605
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 7",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 7",
+        "id": 87,
+        "stroke-width": 3.0,
+        "stroke": "#e8cb23",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.5860767
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.5281940731996,
+            35.971344773565306
+          ],
+          [
+            -120.56089000000001,
+            36.002647
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 6",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 6",
+        "id": 86,
+        "stroke-width": 3.0,
+        "stroke": "#e8cb23",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.5845077
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.4955240684735,
+            35.940033684652576
+          ],
+          [
+            -120.5281940731996,
+            35.971344773565306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Carrizo) rev, Subsection 2",
+      "properties": {
+        "name": "San Andreas (Carrizo) rev, Subsection 2",
+        "id": 63,
+        "stroke-width": 3.0,
+        "stroke": "#eacb24",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.5716438
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.76077772150654,
+            35.21286628300376
+          ],
+          [
+            -119.70831500231347,
+            35.16216540073254
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino N), Subsection 3",
+      "properties": {
+        "name": "San Andreas (San Bernardino N), Subsection 3",
+        "id": 31,
+        "stroke-width": 3.0,
+        "stroke": "#eacb24",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.564493
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.38661911006464,
+            34.23176408145991
+          ],
+          [
+            -117.33242666677006,
+            34.20353526469957
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Carrizo) rev, Subsection 3",
+      "properties": {
+        "name": "San Andreas (Carrizo) rev, Subsection 3",
+        "id": 64,
+        "stroke-width": 3.0,
+        "stroke": "#edcb24",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.5416512
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -119.70831500231347,
+            35.16216540073254
+          ],
+          [
+            -119.7068,
+            35.1607
+          ],
+          [
+            -119.64908615931976,
+            35.1167642008763
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 5",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 5",
+        "id": 85,
+        "stroke-width": 3.0,
+        "stroke": "#f0cb24",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.5001266
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.46287994283166,
+            35.90871375046115
+          ],
+          [
+            -120.4955240684735,
+            35.940033684652576
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (San Bernardino S), Subsection 6",
+      "properties": {
+        "name": "San Andreas (San Bernardino S), Subsection 6",
+        "id": 27,
+        "stroke-width": 3.0,
+        "stroke": "#f1ca24",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.4967694
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.86346654788693,
+            34.001562821332264
+          ],
+          [
+            -116.81979500000001,
+            33.95911400000003
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "San Andreas (San Bernardino S), Subsection 5",
       "properties": {
         "name": "San Andreas (San Bernardino S), Subsection 5",
         "id": 26,
         "stroke-width": 3.0,
-        "stroke": "#ccc71f",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.8036244
+        "stroke": "#f1ca24",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.4967532
       },
       "geometry": {
         "type": "LineString",
@@ -897,297 +1509,13 @@
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Carrizo) rev, Subsection 3",
-      "properties": {
-        "name": "San Andreas (Carrizo) rev, Subsection 3",
-        "id": 64,
-        "stroke-width": 3.0,
-        "stroke": "#cdc71f",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.7973163
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -119.70831500231347,
-            35.16216540073254
-          ],
-          [
-            -119.7068,
-            35.1607
-          ],
-          [
-            -119.64908615931976,
-            35.1167642008763
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Carrizo) rev, Subsection 2",
-      "properties": {
-        "name": "San Andreas (Carrizo) rev, Subsection 2",
-        "id": 63,
-        "stroke-width": 3.0,
-        "stroke": "#cdc71f",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.795805
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -119.76077772150654,
-            35.21286628300376
-          ],
-          [
-            -119.70831500231347,
-            35.16216540073254
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Mojave N), Subsection 0",
-      "properties": {
-        "name": "San Andreas (Mojave N), Subsection 0",
-        "id": 49,
-        "stroke-width": 3.0,
-        "stroke": "#d3c820",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.758281
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.890122,
-            34.807599
-          ],
-          [
-            -118.887642,
-            34.807221
-          ],
-          [
-            -118.8136322117126,
-            34.78634265885379
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (San Bernardino S), Subsection 2",
-      "properties": {
-        "name": "San Andreas (San Bernardino S), Subsection 2",
-        "id": 23,
-        "stroke-width": 3.0,
-        "stroke": "#d4c820",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.7493804
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.0989823555746,
-            34.104425892648955
-          ],
-          [
-            -117.06767400000001,
-            34.092795
-          ],
-          [
-            -117.03726796824522,
-            34.082040279901406
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Carrizo) rev, Subsection 4",
-      "properties": {
-        "name": "San Andreas (Carrizo) rev, Subsection 4",
-        "id": 65,
-        "stroke-width": 3.0,
-        "stroke": "#d5c820",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.7382886
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -119.64908615931976,
-            35.1167642008763
-          ],
-          [
-            -119.58972001753934,
-            35.07149248862441
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Mojave N), Subsection 4",
-      "properties": {
-        "name": "San Andreas (Mojave N), Subsection 4",
-        "id": 53,
-        "stroke-width": 3.0,
-        "stroke": "#d5c820",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.7366545
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.58503605996746,
-            34.72058028209205
-          ],
-          [
-            -118.50894799999999,
-            34.698495
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Carrizo) rev, Subsection 5",
-      "properties": {
-        "name": "San Andreas (Carrizo) rev, Subsection 5",
-        "id": 66,
-        "stroke-width": 3.0,
-        "stroke": "#d6c921",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.7319617
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -119.58972001753934,
-            35.07149248862441
-          ],
-          [
-            -119.55830000000002,
-            35.0475
-          ],
-          [
-            -119.52903154176602,
-            35.027478518277945
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Big Bend), Subsection 1",
-      "properties": {
-        "name": "San Andreas (Big Bend), Subsection 1",
-        "id": 55,
-        "stroke-width": 3.0,
-        "stroke": "#d7c921",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.7232485
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -119.33964164999718,
-            34.90786006480433
-          ],
-          [
-            -119.26758184125273,
-            34.88344816690578
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (San Bernardino S), Subsection 0",
-      "properties": {
-        "name": "San Andreas (San Bernardino S), Subsection 0",
-        "id": 21,
-        "stroke-width": 3.0,
-        "stroke": "#d8c921",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.7146244
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.222023,
-            34.150027
-          ],
-          [
-            -117.16048608545933,
-            34.12724178524563
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Mojave N), Subsection 1",
-      "properties": {
-        "name": "San Andreas (Mojave N), Subsection 1",
-        "id": 50,
-        "stroke-width": 3.0,
-        "stroke": "#d8c921",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.7129853
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.8136322117126,
-            34.78634265885379
-          ],
-          [
-            -118.76731400000001,
-            34.773248
-          ],
-          [
-            -118.7373339930633,
-            34.764608793313585
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Mojave N), Subsection 3",
-      "properties": {
-        "name": "San Andreas (Mojave N), Subsection 3",
-        "id": 52,
-        "stroke-width": 3.0,
-        "stroke": "#d8c921",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.7120428
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.66116473507155,
-            34.74261823458466
-          ],
-          [
-            -118.58503605996746,
-            34.72058028209205
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "San Andreas (Carrizo) rev, Subsection 0",
       "properties": {
         "name": "San Andreas (Carrizo) rev, Subsection 0",
         "id": 61,
         "stroke-width": 3.0,
-        "stroke": "#dbca22",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.695811
+        "stroke": "#f5c824",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.4374502
       },
       "geometry": {
         "type": "LineString",
@@ -1205,133 +1533,13 @@
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Big Bend), Subsection 4",
-      "properties": {
-        "name": "San Andreas (Big Bend), Subsection 4",
-        "id": 58,
-        "stroke-width": 3.0,
-        "stroke": "#e0ca22",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.6590772
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -119.1189556843082,
-            34.846253646127764
-          ],
-          [
-            -119.04314614073186,
-            34.83150256141211
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Mojave S), Subsection 0",
-      "properties": {
-        "name": "San Andreas (Mojave S), Subsection 0",
-        "id": 34,
-        "stroke-width": 3.0,
-        "stroke": "#e0ca22",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.6533196
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.50894799999999,
-            34.698495
-          ],
-          [
-            -118.44398115121955,
-            34.674457203559655
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (San Bernardino N), Subsection 0",
-      "properties": {
-        "name": "San Andreas (San Bernardino N), Subsection 0",
-        "id": 28,
-        "stroke-width": 3.0,
-        "stroke": "#e3cb23",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.6315794
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.549,
-            34.3163
-          ],
-          [
-            -117.49307159352331,
-            34.29040587913245
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Parkfield), Subsection 6",
-      "properties": {
-        "name": "San Andreas (Parkfield), Subsection 6",
-        "id": 86,
-        "stroke-width": 3.0,
-        "stroke": "#e3cb23",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.6257954
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -120.4955240684735,
-            35.940033684652576
-          ],
-          [
-            -120.5281940731996,
-            35.971344773565306
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Coachella) rev, Subsection 0",
-      "properties": {
-        "name": "San Andreas (Coachella) rev, Subsection 0",
-        "id": 0,
-        "stroke-width": 3.0,
-        "stroke": "#e3cb23",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.6249118
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -116.24629,
-            33.78825
-          ],
-          [
-            -116.20499146741484,
-            33.75462721314246
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "San Andreas (Carrizo) rev, Subsection 1",
       "properties": {
         "name": "San Andreas (Carrizo) rev, Subsection 1",
         "id": 62,
         "stroke-width": 3.0,
-        "stroke": "#e4cb23",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.6185098
+        "stroke": "#f5c824",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.4354932
       },
       "geometry": {
         "type": "LineString",
@@ -1349,372 +1557,24 @@
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Coachella) rev, Subsection 1",
+      "id": "San Andreas (San Bernardino N), Subsection 4",
       "properties": {
-        "name": "San Andreas (Coachella) rev, Subsection 1",
-        "id": 1,
+        "name": "San Andreas (San Bernardino N), Subsection 4",
+        "id": 32,
         "stroke-width": 3.0,
-        "stroke": "#e9cb23",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.582769
+        "stroke": "#f8c524",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.3664193
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            -116.20499146741484,
-            33.75462721314246
-          ],
-          [
-            -116.16372532122625,
-            33.7209906852224
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Big Bend), Subsection 5",
-      "properties": {
-        "name": "San Andreas (Big Bend), Subsection 5",
-        "id": 59,
-        "stroke-width": 3.0,
-        "stroke": "#e9cb24",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.5749075
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -119.04314614073186,
-            34.83150256141211
-          ],
-          [
-            -119.030091,
-            34.828957
-          ],
-          [
-            -118.966692786826,
-            34.819304237224465
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Coachella) rev, Subsection 2",
-      "properties": {
-        "name": "San Andreas (Coachella) rev, Subsection 2",
-        "id": 2,
-        "stroke-width": 3.0,
-        "stroke": "#eecb24",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.5295255
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -116.16372532122625,
-            33.7209906852224
-          ],
-          [
-            -116.12249150813209,
-            33.68734044445239
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Mojave S), Subsection 14",
-      "properties": {
-        "name": "San Andreas (Mojave S), Subsection 14",
-        "id": 48,
-        "stroke-width": 3.0,
-        "stroke": "#eecb24",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.5268154
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.6120949028528,
-            34.34307232904929
-          ],
-          [
-            -117.549,
-            34.3163
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (San Bernardino S), Subsection 1",
-      "properties": {
-        "name": "San Andreas (San Bernardino S), Subsection 1",
-        "id": 22,
-        "stroke-width": 3.0,
-        "stroke": "#efcb24",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.5206947
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.16048608545933,
-            34.12724178524563
-          ],
-          [
-            -117.0989823555746,
-            34.104425892648955
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Mojave S), Subsection 7",
-      "properties": {
-        "name": "San Andreas (Mojave S), Subsection 7",
-        "id": 41,
-        "stroke-width": 3.0,
-        "stroke": "#f4c924",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.4583073
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.05582496885143,
-            34.52803729849493
-          ],
-          [
-            -117.99225160095655,
-            34.50181492817264
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Mojave S), Subsection 9",
-      "properties": {
-        "name": "San Andreas (Mojave S), Subsection 9",
-        "id": 43,
-        "stroke-width": 3.0,
-        "stroke": "#f5c824",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.4388573
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.92871824172026,
-            34.47555965096717
-          ],
-          [
-            -117.86522487677752,
-            34.44927151986353
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (San Bernardino N), Subsection 3",
-      "properties": {
-        "name": "San Andreas (San Bernardino N), Subsection 3",
-        "id": 31,
-        "stroke-width": 3.0,
-        "stroke": "#f5c824",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.4296548
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.38661911006464,
-            34.23176408145991
-          ],
           [
             -117.33242666677006,
             34.20353526469957
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Parkfield), Subsection 5",
-      "properties": {
-        "name": "San Andreas (Parkfield), Subsection 5",
-        "id": 85,
-        "stroke-width": 3.0,
-        "stroke": "#f5c824",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.4288037
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -120.46287994283166,
-            35.90871375046115
           ],
           [
-            -120.4955240684735,
-            35.940033684652576
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Cholame) rev, Subsection 0",
-      "properties": {
-        "name": "San Andreas (Cholame) rev, Subsection 0",
-        "id": 69,
-        "stroke-width": 3.0,
-        "stroke": "#f5c824",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.4233737
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -119.865953,
-            35.314166
-          ],
-          [
-            -119.90662981770572,
-            35.35308842963216
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (San Bernardino N), Subsection 1",
-      "properties": {
-        "name": "San Andreas (San Bernardino N), Subsection 1",
-        "id": 29,
-        "stroke-width": 3.0,
-        "stroke": "#f7c624",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.3843262
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.49307159352331,
-            34.29040587913245
-          ],
-          [
-            -117.45100000000001,
-            34.2709
-          ],
-          [
-            -117.43824884143784,
-            34.26311710763183
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Big Bend), Subsection 3",
-      "properties": {
-        "name": "San Andreas (Big Bend), Subsection 3",
-        "id": 57,
-        "stroke-width": 3.0,
-        "stroke": "#f8c624",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.3777797
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -119.19479236624592,
-            34.86095767852397
-          ],
-          [
-            -119.1189556843082,
-            34.846253646127764
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Mojave S), Subsection 8",
-      "properties": {
-        "name": "San Andreas (Mojave S), Subsection 8",
-        "id": 42,
-        "stroke-width": 3.0,
-        "stroke": "#f8c524",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.3710334
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.99225160095655,
-            34.50181492817264
-          ],
-          [
-            -117.92871824172026,
-            34.47555965096717
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (San Bernardino N), Subsection 2",
-      "properties": {
-        "name": "San Andreas (San Bernardino N), Subsection 2",
-        "id": 30,
-        "stroke-width": 3.0,
-        "stroke": "#f8c424",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.3599977
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.43824884143784,
-            34.26311710763183
-          ],
-          [
-            -117.38869200000002,
-            34.232843
-          ],
-          [
-            -117.38661911006464,
-            34.23176408145991
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Mojave S), Subsection 13",
-      "properties": {
-        "name": "San Andreas (Mojave S), Subsection 13",
-        "id": 47,
-        "stroke-width": 3.0,
-        "stroke": "#f8c424",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.350476
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.67523008176381,
-            34.36981227308013
-          ],
-          [
-            -117.6120949028528,
-            34.34307232904929
+            -117.27827052183355,
+            34.17528263386798
           ]
         ]
       }
@@ -1726,8 +1586,8 @@
         "name": "San Andreas (San Bernardino N), Subsection 5",
         "id": 33,
         "stroke-width": 3.0,
-        "stroke": "#f8c424",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.3500643
+        "stroke": "#f8c524",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.3664193
       },
       "geometry": {
         "type": "LineString",
@@ -1749,76 +1609,24 @@
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Mojave S), Subsection 4",
+      "id": "San Andreas (Cholame) rev, Subsection 0",
       "properties": {
-        "name": "San Andreas (Mojave S), Subsection 4",
-        "id": 38,
-        "stroke-width": 3.0,
-        "stroke": "#f8c424",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.3477206
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.24930695417588,
-            34.6021373429813
-          ],
-          [
-            -118.18449099797523,
-            34.57796206870853
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Coachella) rev, Subsection 12",
-      "properties": {
-        "name": "San Andreas (Coachella) rev, Subsection 12",
-        "id": 12,
+        "name": "San Andreas (Cholame) rev, Subsection 0",
+        "id": 69,
         "stroke-width": 3.0,
         "stroke": "#f9c324",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.334461
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.3355455
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -115.75283340480384,
-            33.38387582888369
+            -119.865953,
+            35.314166
           ],
           [
-            -115.71192,
-            33.35009000000001
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Big Bend), Subsection 2",
-      "properties": {
-        "name": "San Andreas (Big Bend), Subsection 2",
-        "id": 56,
-        "stroke-width": 3.0,
-        "stroke": "#f9c223",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.3105967
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -119.26758184125273,
-            34.88344816690578
-          ],
-          [
-            -119.21,
-            34.8639
-          ],
-          [
-            -119.19479236624592,
-            34.86095767852397
+            -119.90662981770572,
+            35.35308842963216
           ]
         ]
       }
@@ -1830,8 +1638,8 @@
         "name": "San Andreas (Cholame) rev, Subsection 1",
         "id": 70,
         "stroke-width": 3.0,
-        "stroke": "#f9c123",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.308787
+        "stroke": "#f9c324",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.3321083
       },
       "geometry": {
         "type": "LineString",
@@ -1849,24 +1657,24 @@
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Mojave S), Subsection 12",
+      "id": "San Andreas (Mojave S), Subsection 2",
       "properties": {
-        "name": "San Andreas (Mojave S), Subsection 12",
-        "id": 46,
+        "name": "San Andreas (Mojave S), Subsection 2",
+        "id": 36,
         "stroke-width": 3.0,
-        "stroke": "#f9c023",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.2962835
+        "stroke": "#f9c123",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.2997646
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -117.73840555396322,
-            34.396519778943464
+            -118.37905202859892,
+            34.65038496130314
           ],
           [
-            -117.67523008176381,
-            34.36981227308013
+            -118.31416063027963,
+            34.62627832414309
           ]
         ]
       }
@@ -1878,8 +1686,8 @@
         "name": "San Andreas (Parkfield), Subsection 4",
         "id": 84,
         "stroke-width": 3.0,
-        "stroke": "#fabe23",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.261592
+        "stroke": "#f9c023",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.289492
       },
       "geometry": {
         "type": "LineString",
@@ -1902,8 +1710,8 @@
         "name": "San Andreas (Mojave S), Subsection 3",
         "id": 37,
         "stroke-width": 3.0,
-        "stroke": "#fabe23",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.2564244
+        "stroke": "#fab922",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.1931136
       },
       "geometry": {
         "type": "LineString",
@@ -1921,252 +1729,96 @@
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Mojave S), Subsection 1",
+      "id": "San Andreas (Mojave S), Subsection 7",
       "properties": {
-        "name": "San Andreas (Mojave S), Subsection 1",
-        "id": 35,
-        "stroke-width": 3.0,
-        "stroke": "#fabe23",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.2525167
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.44398115121955,
-            34.674457203559655
-          ],
-          [
-            -118.37905202859892,
-            34.65038496130314
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Coachella) rev, Subsection 5",
-      "properties": {
-        "name": "San Andreas (Coachella) rev, Subsection 5",
-        "id": 5,
-        "stroke-width": 3.0,
-        "stroke": "#fabd23",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.2460248
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -116.04012066822075,
-            33.61999893695511
-          ],
-          [
-            -115.99898353500198,
-            33.58630772639538
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (San Bernardino N), Subsection 4",
-      "properties": {
-        "name": "San Andreas (San Bernardino N), Subsection 4",
-        "id": 32,
-        "stroke-width": 3.0,
-        "stroke": "#fabc22",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.2317986
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.33242666677006,
-            34.20353526469957
-          ],
-          [
-            -117.27827052183355,
-            34.17528263386798
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Mojave S), Subsection 11",
-      "properties": {
-        "name": "San Andreas (Mojave S), Subsection 11",
-        "id": 45,
-        "stroke-width": 3.0,
-        "stroke": "#fabc22",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.2256444
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -117.80177149155563,
-            34.42295058781866
-          ],
-          [
-            -117.753579,
-            34.402927
-          ],
-          [
-            -117.73840555396322,
-            34.396519778943464
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Parkfield), Subsection 3",
-      "properties": {
-        "name": "San Andreas (Parkfield), Subsection 3",
-        "id": 83,
-        "stroke-width": 3.0,
-        "stroke": "#faba22",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.2039025
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -120.39766915710962,
-            35.846047414875194
-          ],
-          [
-            -120.43026165333787,
-            35.87738498815751
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Coachella) rev, Subsection 11",
-      "properties": {
-        "name": "San Andreas (Coachella) rev, Subsection 11",
-        "id": 11,
-        "stroke-width": 3.0,
-        "stroke": "#fab922",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.1902134
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.79377861192742,
-            33.417648224220365
-          ],
-          [
-            -115.75283340480384,
-            33.38387582888369
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Cholame) rev, Subsection 2",
-      "properties": {
-        "name": "San Andreas (Cholame) rev, Subsection 2",
-        "id": 71,
+        "name": "San Andreas (Mojave S), Subsection 7",
+        "id": 41,
         "stroke-width": 3.0,
         "stroke": "#fab821",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.1755953
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.1806536
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -119.9473458545409,
-            35.391997217935995
+            -118.05582496885143,
+            34.52803729849493
           ],
           [
-            -119.97029900000001,
-            35.413909
-          ],
-          [
-            -119.98733633242452,
-            35.431405580177724
+            -117.99225160095655,
+            34.50181492817264
           ]
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Coachella) rev, Subsection 6",
+      "id": "San Andreas (Mojave S), Subsection 5",
       "properties": {
-        "name": "San Andreas (Coachella) rev, Subsection 6",
-        "id": 6,
+        "name": "San Andreas (Mojave S), Subsection 5",
+        "id": 39,
         "stroke-width": 3.0,
         "stroke": "#fab721",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.1636326
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.1651757
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -115.99898353500198,
-            33.58630772639538
+            -118.18449099797523,
+            34.57796206870853
           ],
           [
-            -115.95787852207476,
-            33.55260291532101
+            -118.11971275913949,
+            34.55375255220413
           ]
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Cholame) rev, Subsection 5",
+      "id": "San Andreas (Mojave S), Subsection 8",
       "properties": {
-        "name": "San Andreas (Cholame) rev, Subsection 5",
-        "id": 74,
+        "name": "San Andreas (Mojave S), Subsection 8",
+        "id": 42,
         "stroke-width": 3.0,
-        "stroke": "#fab621",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.1573267
+        "stroke": "#fab521",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.148479
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -120.06546088622072,
-            35.511508106134556
+            -117.99225160095655,
+            34.50181492817264
           ],
           [
-            -120.086757,
-            35.533307
-          ],
-          [
-            -120.10452095654146,
-            35.55157961441091
+            -117.92871824172026,
+            34.47555965096717
           ]
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Mojave S), Subsection 10",
+      "id": "San Andreas (Mojave S), Subsection 4",
       "properties": {
-        "name": "San Andreas (Mojave S), Subsection 10",
-        "id": 44,
+        "name": "San Andreas (Mojave S), Subsection 4",
+        "id": 38,
         "stroke-width": 3.0,
-        "stroke": "#fab621",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.1553607
+        "stroke": "#fab521",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.1483371
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -117.86522487677752,
-            34.44927151986353
+            -118.24930695417588,
+            34.6021373429813
           ],
           [
-            -117.80177149155563,
-            34.42295058781866
+            -118.18449099797523,
+            34.57796206870853
           ]
         ]
       }
@@ -2178,8 +1830,8 @@
         "name": "San Andreas (Mojave S), Subsection 6",
         "id": 40,
         "stroke-width": 3.0,
-        "stroke": "#fab421",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.128773
+        "stroke": "#fab521",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.147765
       },
       "geometry": {
         "type": "LineString",
@@ -2201,96 +1853,52 @@
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Coachella) rev, Subsection 8",
+      "id": "San Andreas (Cholame) rev, Subsection 2",
       "properties": {
-        "name": "San Andreas (Coachella) rev, Subsection 8",
-        "id": 8,
+        "name": "San Andreas (Cholame) rev, Subsection 2",
+        "id": 71,
         "stroke-width": 3.0,
-        "stroke": "#fab320",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.1268263
+        "stroke": "#fab521",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.144768
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -115.91680557634051,
-            33.518884531687505
+            -119.9473458545409,
+            35.391997217935995
           ],
           [
-            -115.87576464474175,
-            33.48515260339918
+            -119.97029900000001,
+            35.413909
+          ],
+          [
+            -119.98733633242452,
+            35.431405580177724
           ]
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Mojave S), Subsection 2",
+      "id": "San Andreas (Mojave S), Subsection 9",
       "properties": {
-        "name": "San Andreas (Mojave S), Subsection 2",
-        "id": 36,
+        "name": "San Andreas (Mojave S), Subsection 9",
+        "id": 43,
         "stroke-width": 3.0,
-        "stroke": "#fab320",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.1198156
+        "stroke": "#f9b120",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.094224
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -118.37905202859892,
-            34.65038496130314
+            -117.92871824172026,
+            34.47555965096717
           ],
           [
-            -118.31416063027963,
-            34.62627832414309
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Cholame) rev, Subsection 6",
-      "properties": {
-        "name": "San Andreas (Cholame) rev, Subsection 6",
-        "id": 75,
-        "stroke-width": 3.0,
-        "stroke": "#f9b220",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.107672
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -120.10452095654146,
-            35.55157961441091
-          ],
-          [
-            -120.14354756222582,
-            35.59168534138018
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Coachella) rev, Subsection 7",
-      "properties": {
-        "name": "San Andreas (Coachella) rev, Subsection 7",
-        "id": 7,
-        "stroke-width": 3.0,
-        "stroke": "#f9b220",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.1074066
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -115.95787852207476,
-            33.55260291532101
-          ],
-          [
-            -115.91680557634051,
-            33.518884531687505
+            -117.86522487677752,
+            34.44927151986353
           ]
         ]
       }
@@ -2302,8 +1910,8 @@
         "name": "San Andreas (Cholame) rev, Subsection 3",
         "id": 72,
         "stroke-width": 3.0,
-        "stroke": "#f9b120",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.1017632
+        "stroke": "#f9ae1f",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.0513127
       },
       "geometry": {
         "type": "LineString",
@@ -2321,120 +1929,52 @@
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Mojave S), Subsection 5",
+      "id": "San Andreas (Mojave S), Subsection 10",
       "properties": {
-        "name": "San Andreas (Mojave S), Subsection 5",
-        "id": 39,
-        "stroke-width": 3.0,
-        "stroke": "#f9b120",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.0926828
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -118.18449099797523,
-            34.57796206870853
-          ],
-          [
-            -118.11971275913949,
-            34.55375255220413
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Parkfield), Subsection 2",
-      "properties": {
-        "name": "San Andreas (Parkfield), Subsection 2",
-        "id": 82,
-        "stroke-width": 3.0,
-        "stroke": "#f9b020",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.0798337
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -120.36510241131823,
-            35.81470104771494
-          ],
-          [
-            -120.39766915710962,
-            35.846047414875194
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Cholame) rev, Subsection 7",
-      "properties": {
-        "name": "San Andreas (Cholame) rev, Subsection 7",
-        "id": 76,
-        "stroke-width": 3.0,
-        "stroke": "#f9af20",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.071755
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -120.14354756222582,
-            35.59168534138018
-          ],
-          [
-            -120.18261328451806,
-            35.63177847474066
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Parkfield), Subsection 0",
-      "properties": {
-        "name": "San Andreas (Parkfield), Subsection 0",
-        "id": 80,
+        "name": "San Andreas (Mojave S), Subsection 10",
+        "id": 44,
         "stroke-width": 3.0,
         "stroke": "#f9ad1f",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.0467713
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.0463538
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -120.300046,
-            35.751982
+            -117.86522487677752,
+            34.44927151986353
           ],
           [
-            -120.33256137318875,
-            35.78334590374476
+            -117.80177149155563,
+            34.42295058781866
           ]
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Parkfield), Subsection 1",
+      "id": "San Andreas (Mojave S), Subsection 11",
       "properties": {
-        "name": "San Andreas (Parkfield), Subsection 1",
-        "id": 81,
+        "name": "San Andreas (Mojave S), Subsection 11",
+        "id": 45,
         "stroke-width": 3.0,
-        "stroke": "#f9ad1f",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.0467713
+        "stroke": "#f9ac1f",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.0274806
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -120.33256137318875,
-            35.78334590374476
+            -117.80177149155563,
+            34.42295058781866
           ],
           [
-            -120.36510241131823,
-            35.81470104771494
+            -117.753579,
+            34.402927
+          ],
+          [
+            -117.73840555396322,
+            34.396519778943464
           ]
         ]
       }
@@ -2446,8 +1986,8 @@
         "name": "San Andreas (Cholame) rev, Subsection 4",
         "id": 73,
         "stroke-width": 3.0,
-        "stroke": "#f9ac1f",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.0272822
+        "stroke": "#f9a91e",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.9910306
       },
       "geometry": {
         "type": "LineString",
@@ -2465,24 +2005,412 @@
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Coachella) rev, Subsection 10",
+      "id": "San Andreas (Cholame) rev, Subsection 5",
       "properties": {
-        "name": "San Andreas (Coachella) rev, Subsection 10",
-        "id": 10,
+        "name": "San Andreas (Cholame) rev, Subsection 5",
+        "id": 74,
         "stroke-width": 3.0,
-        "stroke": "#f9ab1f",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.0188346
+        "stroke": "#f9a61e",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.9571351
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -115.83475567426233,
-            33.45140715830936
+            -120.06546088622072,
+            35.511508106134556
           ],
           [
-            -115.79377861192742,
-            33.417648224220365
+            -120.086757,
+            35.533307
+          ],
+          [
+            -120.10452095654146,
+            35.55157961441091
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 3",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 3",
+        "id": 83,
+        "stroke-width": 3.0,
+        "stroke": "#f8a51d",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.9498099
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.39766915710962,
+            35.846047414875194
+          ],
+          [
+            -120.43026165333787,
+            35.87738498815751
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 12",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 12",
+        "id": 46,
+        "stroke-width": 3.0,
+        "stroke": "#f8a31d",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.9182141
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.73840555396322,
+            34.396519778943464
+          ],
+          [
+            -117.67523008176381,
+            34.36981227308013
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Cholame) rev, Subsection 6",
+      "properties": {
+        "name": "San Andreas (Cholame) rev, Subsection 6",
+        "id": 75,
+        "stroke-width": 3.0,
+        "stroke": "#f89f1c",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.8717327
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.10452095654146,
+            35.55157961441091
+          ],
+          [
+            -120.14354756222582,
+            35.59168534138018
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 2",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 2",
+        "id": 82,
+        "stroke-width": 3.0,
+        "stroke": "#f89e1c",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.8591428
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.36510241131823,
+            35.81470104771494
+          ],
+          [
+            -120.39766915710962,
+            35.846047414875194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 4",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 4",
+        "id": 4,
+        "stroke-width": 3.0,
+        "stroke": "#f89d1c",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.8457192
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.08128997487063,
+            33.65367651899347
+          ],
+          [
+            -116.04012066822075,
+            33.61999893695511
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 6",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 6",
+        "id": 6,
+        "stroke-width": 3.0,
+        "stroke": "#f89d1c",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.8405915
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.99898353500198,
+            33.58630772639538
+          ],
+          [
+            -115.95787852207476,
+            33.55260291532101
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 5",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 5",
+        "id": 5,
+        "stroke-width": 3.0,
+        "stroke": "#f89c1c",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.8332803
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.04012066822075,
+            33.61999893695511
+          ],
+          [
+            -115.99898353500198,
+            33.58630772639538
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 7",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 7",
+        "id": 7,
+        "stroke-width": 3.0,
+        "stroke": "#f79a1b",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.8136373
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.95787852207476,
+            33.55260291532101
+          ],
+          [
+            -115.91680557634051,
+            33.518884531687505
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 3",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 3",
+        "id": 3,
+        "stroke-width": 3.0,
+        "stroke": "#f79a1b",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.8136146
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.12249150813209,
+            33.68734044445239
+          ],
+          [
+            -116.08128997487063,
+            33.65367651899347
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 14",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 14",
+        "id": 48,
+        "stroke-width": 3.0,
+        "stroke": "#f79a1b",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.8133142
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.6120949028528,
+            34.34307232904929
+          ],
+          [
+            -117.549,
+            34.3163
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Mojave S), Subsection 13",
+      "properties": {
+        "name": "San Andreas (Mojave S), Subsection 13",
+        "id": 47,
+        "stroke-width": 3.0,
+        "stroke": "#f79a1b",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.8132071
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.67523008176381,
+            34.36981227308013
+          ],
+          [
+            -117.6120949028528,
+            34.34307232904929
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 2",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 2",
+        "id": 2,
+        "stroke-width": 3.0,
+        "stroke": "#f79a1b",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.8124821
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.16372532122625,
+            33.7209906852224
+          ],
+          [
+            -116.12249150813209,
+            33.68734044445239
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 0",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 0",
+        "id": 0,
+        "stroke-width": 3.0,
+        "stroke": "#f7991b",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.808029
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.24629,
+            33.78825
+          ],
+          [
+            -116.20499146741484,
+            33.75462721314246
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 1",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 1",
+        "id": 1,
+        "stroke-width": 3.0,
+        "stroke": "#f7991b",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.8075618
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.20499146741484,
+            33.75462721314246
+          ],
+          [
+            -116.16372532122625,
+            33.7209906852224
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 8",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 8",
+        "id": 8,
+        "stroke-width": 3.0,
+        "stroke": "#f7981b",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.7886449
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.91680557634051,
+            33.518884531687505
+          ],
+          [
+            -115.87576464474175,
+            33.48515260339918
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Cholame) rev, Subsection 7",
+      "properties": {
+        "name": "San Andreas (Cholame) rev, Subsection 7",
+        "id": 76,
+        "stroke-width": 3.0,
+        "stroke": "#f7981b",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.7836823
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.14354756222582,
+            35.59168534138018
+          ],
+          [
+            -120.18261328451806,
+            35.63177847474066
           ]
         ]
       }
@@ -2494,8 +2422,8 @@
         "name": "San Andreas (Coachella) rev, Subsection 9",
         "id": 9,
         "stroke-width": 3.0,
-        "stroke": "#f9aa1f",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -2.0112286
+        "stroke": "#f7941a",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.7361672
       },
       "geometry": {
         "type": "LineString",
@@ -2518,8 +2446,8 @@
         "name": "San Andreas (Cholame) rev, Subsection 8",
         "id": 77,
         "stroke-width": 3.0,
-        "stroke": "#f9a61e",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.9569112
+        "stroke": "#f7931a",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.7257653
       },
       "geometry": {
         "type": "LineString",
@@ -2537,48 +2465,72 @@
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Coachella) rev, Subsection 3",
+      "id": "San Andreas (Parkfield), Subsection 0",
       "properties": {
-        "name": "San Andreas (Coachella) rev, Subsection 3",
-        "id": 3,
+        "name": "San Andreas (Parkfield), Subsection 0",
+        "id": 80,
         "stroke-width": 3.0,
-        "stroke": "#f8a01d",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.8916125
+        "stroke": "#f6911a",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.7043593
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -116.12249150813209,
-            33.68734044445239
+            -120.300046,
+            35.751982
           ],
           [
-            -116.08128997487063,
-            33.65367651899347
+            -120.33256137318875,
+            35.78334590374476
           ]
         ]
       }
     },
     {
       "type": "Feature",
-      "id": "San Andreas (Coachella) rev, Subsection 4",
+      "id": "San Andreas (Parkfield), Subsection 1",
       "properties": {
-        "name": "San Andreas (Coachella) rev, Subsection 4",
-        "id": 4,
+        "name": "San Andreas (Parkfield), Subsection 1",
+        "id": 81,
         "stroke-width": 3.0,
-        "stroke": "#f89e1c",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.8616956
+        "stroke": "#f6911a",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.7043593
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -116.08128997487063,
-            33.65367651899347
+            -120.33256137318875,
+            35.78334590374476
           ],
           [
-            -116.04012066822075,
-            33.61999893695511
+            -120.36510241131823,
+            35.81470104771494
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 10",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 10",
+        "id": 10,
+        "stroke-width": 3.0,
+        "stroke": "#f68f1a",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.686724
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.83475567426233,
+            33.45140715830936
+          ],
+          [
+            -115.79377861192742,
+            33.417648224220365
           ]
         ]
       }
@@ -2590,8 +2542,8 @@
         "name": "San Andreas (Cholame) rev, Subsection 10",
         "id": 79,
         "stroke-width": 3.0,
-        "stroke": "#f6911a",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.7023138
+        "stroke": "#f68d19",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.6571475
       },
       "geometry": {
         "type": "LineString",
@@ -2614,8 +2566,8 @@
         "name": "San Andreas (Cholame) rev, Subsection 9",
         "id": 78,
         "stroke-width": 3.0,
-        "stroke": "#f6901a",
-        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.6918113
+        "stroke": "#f68d19",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.6571012
       },
       "geometry": {
         "type": "LineString",
@@ -2627,6 +2579,54 @@
           [
             -120.26086241835993,
             35.711926835445304
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 12",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 12",
+        "id": 12,
+        "stroke-width": 3.0,
+        "stroke": "#f58418",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.5545609
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.75283340480384,
+            33.38387582888369
+          ],
+          [
+            -115.71192,
+            33.35009000000001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Coachella) rev, Subsection 11",
+      "properties": {
+        "name": "San Andreas (Coachella) rev, Subsection 11",
+        "id": 11,
+        "stroke-width": 3.0,
+        "stroke": "#f58418",
+        "Log10 M6 -\u003e 7 Participation Rate (events/yr)": -1.5545318
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.79377861192742,
+            33.417648224220365
+          ],
+          [
+            -115.75283340480384,
+            33.38387582888369
           ]
         ]
       }

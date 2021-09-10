@@ -2361,13 +2361,157 @@
     },
     {
       "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 0",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 0",
+        "id": 80,
+        "stroke-width": 3.0,
+        "stroke": "#f89d1c",
+        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -1.8400027
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.300046,
+            35.751982
+          ],
+          [
+            -120.33256137318875,
+            35.78334590374476
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 1",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 1",
+        "id": 81,
+        "stroke-width": 3.0,
+        "stroke": "#f89d1c",
+        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -1.8386679
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.33256137318875,
+            35.78334590374476
+          ],
+          [
+            -120.36510241131823,
+            35.81470104771494
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 2",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 2",
+        "id": 82,
+        "stroke-width": 3.0,
+        "stroke": "#f37315",
+        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -1.3645309
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.36510241131823,
+            35.81470104771494
+          ],
+          [
+            -120.39766915710962,
+            35.846047414875194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 3",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 3",
+        "id": 83,
+        "stroke-width": 3.0,
+        "stroke": "#f16715",
+        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -1.2344195
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.39766915710962,
+            35.846047414875194
+          ],
+          [
+            -120.43026165333787,
+            35.87738498815751
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 4",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 4",
+        "id": 84,
+        "stroke-width": 3.0,
+        "stroke": "#f05e19",
+        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -1.1319776
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.43026165333787,
+            35.87738498815751
+          ],
+          [
+            -120.46287994283166,
+            35.90871375046115
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "San Andreas (Parkfield), Subsection 5",
+      "properties": {
+        "name": "San Andreas (Parkfield), Subsection 5",
+        "id": 85,
+        "stroke-width": 3.0,
+        "stroke": "#f05820",
+        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -1.047859
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -120.46287994283166,
+            35.90871375046115
+          ],
+          [
+            -120.4955240684735,
+            35.940033684652576
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "San Andreas (Parkfield), Subsection 7",
       "properties": {
         "name": "San Andreas (Parkfield), Subsection 7",
         "id": 87,
         "stroke-width": 3.0,
-        "stroke": "#f68e19",
-        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -1.6642407
+        "stroke": "#f05727",
+        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -0.9941429
       },
       "geometry": {
         "type": "LineString",
@@ -2390,8 +2534,8 @@
         "name": "San Andreas (Parkfield), Subsection 6",
         "id": 86,
         "stroke-width": 3.0,
-        "stroke": "#f27015",
-        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -1.3317896
+        "stroke": "#f05727",
+        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -0.9941057
       },
       "geometry": {
         "type": "LineString",
@@ -2403,150 +2547,6 @@
           [
             -120.5281940731996,
             35.971344773565306
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Parkfield), Subsection 0",
-      "properties": {
-        "name": "San Andreas (Parkfield), Subsection 0",
-        "id": 80,
-        "stroke-width": 3.0,
-        "stroke": "#f05b1c",
-        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -1.0884148
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -120.300046,
-            35.751982
-          ],
-          [
-            -120.33256137318875,
-            35.78334590374476
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Parkfield), Subsection 2",
-      "properties": {
-        "name": "San Andreas (Parkfield), Subsection 2",
-        "id": 82,
-        "stroke-width": 3.0,
-        "stroke": "#f05920",
-        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -1.0498241
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -120.36510241131823,
-            35.81470104771494
-          ],
-          [
-            -120.39766915710962,
-            35.846047414875194
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Parkfield), Subsection 1",
-      "properties": {
-        "name": "San Andreas (Parkfield), Subsection 1",
-        "id": 81,
-        "stroke-width": 3.0,
-        "stroke": "#f15629",
-        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -0.9787288
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -120.33256137318875,
-            35.78334590374476
-          ],
-          [
-            -120.36510241131823,
-            35.81470104771494
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Parkfield), Subsection 5",
-      "properties": {
-        "name": "San Andreas (Parkfield), Subsection 5",
-        "id": 85,
-        "stroke-width": 3.0,
-        "stroke": "#f85e55",
-        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -0.7490801
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -120.46287994283166,
-            35.90871375046115
-          ],
-          [
-            -120.4955240684735,
-            35.940033684652576
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Parkfield), Subsection 4",
-      "properties": {
-        "name": "San Andreas (Parkfield), Subsection 4",
-        "id": 84,
-        "stroke-width": 3.0,
-        "stroke": "#f95f5b",
-        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -0.7220354
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -120.43026165333787,
-            35.87738498815751
-          ],
-          [
-            -120.46287994283166,
-            35.90871375046115
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "San Andreas (Parkfield), Subsection 3",
-      "properties": {
-        "name": "San Andreas (Parkfield), Subsection 3",
-        "id": 83,
-        "stroke-width": 3.0,
-        "stroke": "#f9605c",
-        "Log10 Supra-Seismogenic -\u003e M6 Participation Rate (events/yr)": -0.7136942
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -120.39766915710962,
-            35.846047414875194
-          ],
-          [
-            -120.43026165333787,
-            35.87738498815751
           ]
         ]
       }

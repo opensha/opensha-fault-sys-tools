@@ -2,7 +2,7 @@
   "primary": {
     "name": "u3_ssaf_simple_sol",
     "numRuptures": 3081,
-    "totalRate": 0.3649536509321333,
+    "totalRate": 0.34351427393098755,
     "numSingleStrandRuptures": 3081,
     "availableConnections": -1,
     "actualConnections": 9,
