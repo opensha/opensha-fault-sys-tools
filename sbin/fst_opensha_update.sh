@@ -24,7 +24,7 @@ fi
 JAR="opensha-all.jar"
 JAR_URL="http://opensha.usc.edu/apps/opensha/fault-sys-tools/$JAR"
 HASH_URL="http://opensha.usc.edu/apps/opensha/fault-sys-tools/build-version.githash"
-GIT_BRANCH="${OPENSHA_FS_GIT_BRANCH:-modular-fault-sys-rup-set2}"
+GIT_BRANCH="${OPENSHA_FS_GIT_BRANCH:-fault-sys-tools-stable}"
 
 if [[ -e $JAR && $OPENSHA_JAR_DISABLE_UPDATE -eq 1 ]];then
 	# jar file already exists, and we have disabled update checks
@@ -115,9 +115,18 @@ if [[ $DOWNLOAD -ne 1 && -e $DIR/git/opensha ]];then
 	echo "Checking for git updates in `pwd`"
 	echo "	On branch: $CUR_BRANCH"
 	if [[ $CUR_BRANCH != $GIT_BRANCH ]];then
-		echo "	Switching to branch: $GIT_BRANCH"
-		git fetch
-		git checkout $GIT_BRANCH
+		echo "    Local repository is on an unexpected branch: $CUR_BRANCH (expected: $GIT_BRANCH)."
+		read -r -p "    Do you wish to switch to the default branch ($GIT_BRANCH)? [Y/n] " response
+		case "$response" in
+			[nN][oO]|[nN])
+				echo "Will remain on branch $CUR_BRANCH. You can override the default branch by setting the OPENSHA_FS_GIT_BRANCH environmental variable."
+				;;
+			*)
+				echo "  Switching to branch: $GIT_BRANCH"
+				git fetch
+				git checkout $GIT_BRANCH
+				;;
+		esac
 	fi
 	git remote update
 	UPSTREAM='@{u}'

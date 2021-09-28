@@ -1,0 +1,1455 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 0,
+      "properties": {
+        "DipDeg": "45",
+        "Rake": "135",
+        "LowDepth": "13",
+        "UpDepth": "0",
+        "SlipRate": 2.5,
+        "DipDir": 404.9264,
+        "FaultName": "Lytle Creek (San Jacinto, connector), Subsection 0",
+        "FaultID": 0,
+        "ParentID": 154,
+        "ParentName": "Lytle Creek (San Jacinto, connector)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.325,
+            34.1013
+          ],
+          [
+            -117.38969213069254,
+            34.14501684122941
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 1,
+      "properties": {
+        "DipDeg": "45",
+        "Rake": "135",
+        "LowDepth": "13",
+        "UpDepth": "0",
+        "SlipRate": 2.5,
+        "DipDir": 404.9264,
+        "FaultName": "Lytle Creek (San Jacinto, connector), Subsection 1",
+        "FaultID": 1,
+        "ParentID": 154,
+        "ParentName": "Lytle Creek (San Jacinto, connector)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.38969213069254,
+            34.14501684122941
+          ],
+          [
+            -117.44196,
+            34.18028
+          ],
+          [
+            -117.45153255153924,
+            34.19100198764145
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "properties": {
+        "DipDeg": "45",
+        "Rake": "135",
+        "LowDepth": "13",
+        "UpDepth": "0",
+        "SlipRate": 2.5,
+        "DipDir": 404.9264,
+        "FaultName": "Lytle Creek (San Jacinto, connector), Subsection 2",
+        "FaultID": 2,
+        "ParentID": 154,
+        "ParentName": "Lytle Creek (San Jacinto, connector)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.45153255153924,
+            34.19100198764145
+          ],
+          [
+            -117.50122,
+            34.2466
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 14.0,
+        "DipDir": 216.45045,
+        "FaultName": "San Jacinto (Anza), Subsection 0",
+        "FaultID": 3,
+        "ParentID": 804,
+        "ParentName": "San Jacinto (Anza)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.9143,
+            33.73643
+          ],
+          [
+            -116.84570318884245,
+            33.69723235051143
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 14.0,
+        "DipDir": 216.45045,
+        "FaultName": "San Jacinto (Anza), Subsection 1",
+        "FaultID": 4,
+        "ParentID": 804,
+        "ParentName": "San Jacinto (Anza)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.84570318884245,
+            33.69723235051143
+          ],
+          [
+            -116.84472,
+            33.69667
+          ],
+          [
+            -116.77915663614712,
+            33.65569726834527
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 14.0,
+        "DipDir": 216.45045,
+        "FaultName": "San Jacinto (Anza), Subsection 2",
+        "FaultID": 5,
+        "ParentID": 804,
+        "ParentName": "San Jacinto (Anza)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.77915663614712,
+            33.65569726834527
+          ],
+          [
+            -116.74597687108503,
+            33.63493404631123
+          ],
+          [
+            -116.71270846514224,
+            33.61408735153658
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 14.0,
+        "DipDir": 216.45045,
+        "FaultName": "San Jacinto (Anza), Subsection 3",
+        "FaultID": 6,
+        "ParentID": 804,
+        "ParentName": "San Jacinto (Anza)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.71270846514224,
+            33.61408735153658
+          ],
+          [
+            -116.64740361287328,
+            33.57311067563813
+          ],
+          [
+            -116.64632982298635,
+            33.572435998782574
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 14.0,
+        "DipDir": 216.45045,
+        "FaultName": "San Jacinto (Anza), Subsection 4",
+        "FaultID": 7,
+        "ParentID": 804,
+        "ParentName": "San Jacinto (Anza)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.64632982298635,
+            33.572435998782574
+          ],
+          [
+            -116.58002562991608,
+            33.53073776542194
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 14.0,
+        "DipDir": 216.45045,
+        "FaultName": "San Jacinto (Anza), Subsection 5",
+        "FaultID": 8,
+        "ParentID": 804,
+        "ParentName": "San Jacinto (Anza)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.58002562991608,
+            33.53073776542194
+          ],
+          [
+            -116.549,
+            33.5112
+          ],
+          [
+            -116.5133,
+            33.48955000000001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0,
+        "DipDir": 223.11472,
+        "FaultName": "San Jacinto (Borrego), Subsection 0",
+        "FaultID": 9,
+        "ParentID": 801,
+        "ParentName": "San Jacinto (Borrego)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.205,
+            33.2066
+          ],
+          [
+            -116.164,
+            33.1822
+          ],
+          [
+            -116.15733823648577,
+            33.17481835948439
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0,
+        "DipDir": 223.11472,
+        "FaultName": "San Jacinto (Borrego), Subsection 1",
+        "FaultID": 10,
+        "ParentID": 801,
+        "ParentName": "San Jacinto (Borrego)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.15733823648577,
+            33.17481835948439
+          ],
+          [
+            -116.129,
+            33.1434
+          ],
+          [
+            -116.11765989962706,
+            33.13609074350657
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0,
+        "DipDir": 223.11472,
+        "FaultName": "San Jacinto (Borrego), Subsection 2",
+        "FaultID": 11,
+        "ParentID": 801,
+        "ParentName": "San Jacinto (Borrego)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.11765989962706,
+            33.13609074350657
+          ],
+          [
+            -116.06908408681998,
+            33.10475581591627
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0,
+        "DipDir": 223.11472,
+        "FaultName": "San Jacinto (Borrego), Subsection 3",
+        "FaultID": 12,
+        "ParentID": 801,
+        "ParentName": "San Jacinto (Borrego)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.06908408681998,
+            33.10475581591627
+          ],
+          [
+            -116.058,
+            33.0976
+          ],
+          [
+            -116.03426322468863,
+            33.06332323294173
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0,
+        "DipDir": 223.11472,
+        "FaultName": "San Jacinto (Borrego), Subsection 4",
+        "FaultID": 13,
+        "ParentID": 801,
+        "ParentName": "San Jacinto (Borrego)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.03426322468863,
+            33.06332323294173
+          ],
+          [
+            -116.011,
+            33.0297
+          ],
+          [
+            -115.99769876542963,
+            33.02409046694423
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0,
+        "DipDir": 223.11472,
+        "FaultName": "San Jacinto (Borrego), Subsection 5",
+        "FaultID": 14,
+        "ParentID": 801,
+        "ParentName": "San Jacinto (Borrego)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.99769876542963,
+            33.02409046694423
+          ],
+          [
+            -115.94300000000003,
+            33.00099999999999
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 8.0,
+        "DipDir": 216.88354,
+        "FaultName": "San Jacinto (Clark), Subsection 0",
+        "FaultID": 15,
+        "ParentID": 803,
+        "ParentName": "San Jacinto (Clark)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.5133,
+            33.48955
+          ],
+          [
+            -116.44158890535438,
+            33.44609310597701
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 8.0,
+        "DipDir": 216.88354,
+        "FaultName": "San Jacinto (Clark), Subsection 1",
+        "FaultID": 16,
+        "ParentID": 803,
+        "ParentName": "San Jacinto (Clark)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.44158890535438,
+            33.44609310597701
+          ],
+          [
+            -116.393,
+            33.4166
+          ],
+          [
+            -116.36706741532471,
+            33.40671133781661
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 8.0,
+        "DipDir": 216.88354,
+        "FaultName": "San Jacinto (Clark), Subsection 2",
+        "FaultID": 17,
+        "ParentID": 803,
+        "ParentName": "San Jacinto (Clark)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.36706741532471,
+            33.40671133781661
+          ],
+          [
+            -116.339,
+            33.396
+          ],
+          [
+            -116.297,
+            33.3839
+          ],
+          [
+            -116.28736808966184,
+            33.37628032350416
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 8.0,
+        "DipDir": 216.88354,
+        "FaultName": "San Jacinto (Clark), Subsection 3",
+        "FaultID": 18,
+        "ParentID": 803,
+        "ParentName": "San Jacinto (Clark)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.28736808966184,
+            33.37628032350416
+          ],
+          [
+            -116.22313076323576,
+            33.32540983689645
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 8.0,
+        "DipDir": 216.88354,
+        "FaultName": "San Jacinto (Clark), Subsection 4",
+        "FaultID": 19,
+        "ParentID": 803,
+        "ParentName": "San Jacinto (Clark)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.22313076323576,
+            33.32540983689645
+          ],
+          [
+            -116.21,
+            33.315
+          ],
+          [
+            -116.14865800701573,
+            33.28617966486806
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 8.0,
+        "DipDir": 216.88354,
+        "FaultName": "San Jacinto (Clark), Subsection 5",
+        "FaultID": 20,
+        "ParentID": 803,
+        "ParentName": "San Jacinto (Clark)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.14865800701573,
+            33.28617966486806
+          ],
+          [
+            -116.147,
+            33.2854
+          ],
+          [
+            -116.09672,
+            33.25469
+          ],
+          [
+            -116.07748796415659,
+            33.2423238173333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 8.0,
+        "DipDir": 216.88354,
+        "FaultName": "San Jacinto (Clark), Subsection 6",
+        "FaultID": 21,
+        "ParentID": 803,
+        "ParentName": "San Jacinto (Clark)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.07748796415659,
+            33.2423238173333
+          ],
+          [
+            -116.02815,
+            33.21057
+          ],
+          [
+            -116.01163161661367,
+            33.19362652113161
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 8.0,
+        "DipDir": 216.88354,
+        "FaultName": "San Jacinto (Clark), Subsection 7",
+        "FaultID": 22,
+        "ParentID": 803,
+        "ParentName": "San Jacinto (Clark)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.01163161661367,
+            33.19362652113161
+          ],
+          [
+            -115.99545,
+            33.17702
+          ],
+          [
+            -115.95325,
+            33.13817
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0,
+        "DipDir": 222.85475,
+        "FaultName": "San Jacinto (Coyote Creek), Subsection 0",
+        "FaultID": 23,
+        "ParentID": 802,
+        "ParentName": "San Jacinto (Coyote Creek)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.543,
+            33.4688
+          ],
+          [
+            -116.49128146432788,
+            33.43451989756755
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0,
+        "DipDir": 222.85475,
+        "FaultName": "San Jacinto (Coyote Creek), Subsection 1",
+        "FaultID": 24,
+        "ParentID": 802,
+        "ParentName": "San Jacinto (Coyote Creek)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.49128146432788,
+            33.43451989756755
+          ],
+          [
+            -116.47,
+            33.4204
+          ],
+          [
+            -116.44256308688087,
+            33.39745359092757
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0,
+        "DipDir": 222.85475,
+        "FaultName": "San Jacinto (Coyote Creek), Subsection 2",
+        "FaultID": 25,
+        "ParentID": 802,
+        "ParentName": "San Jacinto (Coyote Creek)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.44256308688087,
+            33.39745359092757
+          ],
+          [
+            -116.39595744303537,
+            33.35843409153857
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0,
+        "DipDir": 222.85475,
+        "FaultName": "San Jacinto (Coyote Creek), Subsection 3",
+        "FaultID": 26,
+        "ParentID": 802,
+        "ParentName": "San Jacinto (Coyote Creek)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.39595744303537,
+            33.35843409153857
+          ],
+          [
+            -116.37639834183665,
+            33.34204306370546
+          ],
+          [
+            -116.34940142663623,
+            33.319390667328854
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0,
+        "DipDir": 222.85475,
+        "FaultName": "San Jacinto (Coyote Creek), Subsection 4",
+        "FaultID": 27,
+        "ParentID": 802,
+        "ParentName": "San Jacinto (Coyote Creek)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.34940142663623,
+            33.319390667328854
+          ],
+          [
+            -116.30289279086469,
+            33.28032516991026
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0,
+        "DipDir": 222.85475,
+        "FaultName": "San Jacinto (Coyote Creek), Subsection 5",
+        "FaultID": 28,
+        "ParentID": 802,
+        "ParentName": "San Jacinto (Coyote Creek)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.30289279086469,
+            33.28032516991026
+          ],
+          [
+            -116.283,
+            33.2636
+          ],
+          [
+            -116.25460642629841,
+            33.24286508628764
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0,
+        "DipDir": 222.85475,
+        "FaultName": "San Jacinto (Coyote Creek), Subsection 6",
+        "FaultID": 29,
+        "ParentID": 802,
+        "ParentName": "San Jacinto (Coyote Creek)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.25460642629841,
+            33.24286508628764
+          ],
+          [
+            -116.205,
+            33.20660000000001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.1",
+        "UpDepth": "0",
+        "SlipRate": 6.0,
+        "DipDir": 227.10464,
+        "FaultName": "San Jacinto (San Bernardino), Subsection 0",
+        "FaultID": 30,
+        "ParentID": 807,
+        "ParentName": "San Jacinto (San Bernardino)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.49353,
+            34.24564
+          ],
+          [
+            -117.43881,
+            34.21104
+          ],
+          [
+            -117.43234832282866,
+            34.20805410152152
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.1",
+        "UpDepth": "0",
+        "SlipRate": 6.0,
+        "DipDir": 227.10464,
+        "FaultName": "San Jacinto (San Bernardino), Subsection 1",
+        "FaultID": 31,
+        "ParentID": 807,
+        "ParentName": "San Jacinto (San Bernardino)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.43234832282866,
+            34.20805410152152
+          ],
+          [
+            -117.42057,
+            34.20261
+          ],
+          [
+            -117.3975,
+            34.18619
+          ],
+          [
+            -117.37566809630674,
+            34.166465681009605
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.1",
+        "UpDepth": "0",
+        "SlipRate": 6.0,
+        "DipDir": 227.10464,
+        "FaultName": "San Jacinto (San Bernardino), Subsection 2",
+        "FaultID": 32,
+        "ParentID": 807,
+        "ParentName": "San Jacinto (San Bernardino)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.37566809630674,
+            34.166465681009605
+          ],
+          [
+            -117.36263,
+            34.15468
+          ],
+          [
+            -117.3339483425968,
+            34.11400081262834
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.1",
+        "UpDepth": "0",
+        "SlipRate": 6.0,
+        "DipDir": 227.10464,
+        "FaultName": "San Jacinto (San Bernardino), Subsection 3",
+        "FaultID": 33,
+        "ParentID": 807,
+        "ParentName": "San Jacinto (San Bernardino)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3339483425968,
+            34.11400081262834
+          ],
+          [
+            -117.325,
+            34.1013
+          ],
+          [
+            -117.28678344114088,
+            34.06471857583108
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.1",
+        "UpDepth": "0",
+        "SlipRate": 6.0,
+        "DipDir": 227.10464,
+        "FaultName": "San Jacinto (San Bernardino), Subsection 4",
+        "FaultID": 34,
+        "ParentID": 807,
+        "ParentName": "San Jacinto (San Bernardino)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.28678344114088,
+            34.06471857583108
+          ],
+          [
+            -117.237,
+            34.017
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.1",
+        "UpDepth": "0",
+        "SlipRate": 13.4,
+        "DipDir": 222.59175,
+        "FaultName": "San Jacinto (San Jacinto Valley), Subsection 0",
+        "FaultID": 35,
+        "ParentID": 806,
+        "ParentName": "San Jacinto (San Jacinto Valley)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.237,
+            34.017
+          ],
+          [
+            -117.222,
+            34.0067
+          ],
+          [
+            -117.187328233258,
+            33.97999065693553
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.1",
+        "UpDepth": "0",
+        "SlipRate": 13.4,
+        "DipDir": 222.59175,
+        "FaultName": "San Jacinto (San Jacinto Valley), Subsection 1",
+        "FaultID": 36,
+        "ParentID": 806,
+        "ParentName": "San Jacinto (San Jacinto Valley)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.187328233258,
+            33.97999065693553
+          ],
+          [
+            -117.15574261706242,
+            33.955635637420876
+          ],
+          [
+            -117.13842993153048,
+            33.94227223410988
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.1",
+        "UpDepth": "0",
+        "SlipRate": 13.4,
+        "DipDir": 222.59175,
+        "FaultName": "San Jacinto (San Jacinto Valley), Subsection 2",
+        "FaultID": 37,
+        "ParentID": 806,
+        "ParentName": "San Jacinto (San Jacinto Valley)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.13842993153048,
+            33.94227223410988
+          ],
+          [
+            -117.08958000000001,
+            33.90453
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 7.0,
+        "DipDir": 209.56622,
+        "FaultName": "San Jacinto (Superstition Mountain), Subsection 0",
+        "FaultID": 38,
+        "ParentID": 800,
+        "ParentName": "San Jacinto (Superstition Mountain)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.943,
+            33.001
+          ],
+          [
+            -115.89362334899594,
+            32.97815724410297
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 7.0,
+        "DipDir": 209.56622,
+        "FaultName": "San Jacinto (Superstition Mountain), Subsection 1",
+        "FaultID": 39,
+        "ParentID": 800,
+        "ParentName": "San Jacinto (Superstition Mountain)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.89362334899594,
+            32.97815724410297
+          ],
+          [
+            -115.84427224879084,
+            32.95529506824085
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 7.0,
+        "DipDir": 209.56622,
+        "FaultName": "San Jacinto (Superstition Mountain), Subsection 2",
+        "FaultID": 40,
+        "ParentID": 800,
+        "ParentName": "San Jacinto (Superstition Mountain)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.84427224879084,
+            32.95529506824085
+          ],
+          [
+            -115.80666,
+            32.93785
+          ],
+          [
+            -115.79511929934117,
+            32.932159418839916
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 7.0,
+        "DipDir": 209.56622,
+        "FaultName": "San Jacinto (Superstition Mountain), Subsection 3",
+        "FaultID": 41,
+        "ParentID": 800,
+        "ParentName": "San Jacinto (Superstition Mountain)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.79511929934117,
+            32.932159418839916
+          ],
+          [
+            -115.74654649773942,
+            32.908189095327245
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 7.0,
+        "DipDir": 209.56622,
+        "FaultName": "San Jacinto (Superstition Mountain), Subsection 4",
+        "FaultID": 42,
+        "ParentID": 800,
+        "ParentName": "San Jacinto (Superstition Mountain)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.74654649773942,
+            32.908189095327245
+          ],
+          [
+            -115.698,
+            32.8842
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 5.005,
+        "DipDir": 229.0742,
+        "FaultName": "San Jacinto (stepover), Subsection 0",
+        "FaultID": 43,
+        "ParentID": 805,
+        "ParentName": "San Jacinto (stepover)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.08958,
+            33.90453
+          ],
+          [
+            -117.0310669820912,
+            33.84853125249735
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 5.005,
+        "DipDir": 229.0742,
+        "FaultName": "San Jacinto (stepover), Subsection 1",
+        "FaultID": 44,
+        "ParentID": 805,
+        "ParentName": "San Jacinto (stepover)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.0310669820912,
+            33.84853125249735
+          ],
+          [
+            -117.00183703778296,
+            33.820519407693126
+          ],
+          [
+            -116.97264039139782,
+            33.79249788346259
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "properties": {
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 5.005,
+        "DipDir": 229.0742,
+        "FaultName": "San Jacinto (stepover), Subsection 2",
+        "FaultID": 45,
+        "ParentID": 805,
+        "ParentName": "San Jacinto (stepover)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.97264039139782,
+            33.79249788346259
+          ],
+          [
+            -116.91430000000001,
+            33.73643
+          ]
+        ]
+      }
+    }
+  ]
+}

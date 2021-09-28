@@ -1,0 +1,355 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 154,
+      "properties": {
+        "FaultID": "154",
+        "FaultName": "Lytle Creek (San Jacinto, connector)",
+        "DipDeg": "45",
+        "Rake": "135",
+        "LowDepth": "13",
+        "UpDepth": "0",
+        "SlipRate": 2.5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.325,
+            34.1013
+          ],
+          [
+            -117.44196,
+            34.18028
+          ],
+          [
+            -117.50122,
+            34.2466
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 804,
+      "properties": {
+        "FaultID": "804",
+        "FaultName": "San Jacinto (Anza)",
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 14.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.9143,
+            33.73643
+          ],
+          [
+            -116.84472,
+            33.69667
+          ],
+          [
+            -116.74597687108503,
+            33.63493404631123
+          ],
+          [
+            -116.64740361287328,
+            33.57311067563813
+          ],
+          [
+            -116.549,
+            33.5112
+          ],
+          [
+            -116.5133,
+            33.48955
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 801,
+      "properties": {
+        "FaultID": "801",
+        "FaultName": "San Jacinto (Borrego)",
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.205,
+            33.2066
+          ],
+          [
+            -116.164,
+            33.1822
+          ],
+          [
+            -116.129,
+            33.1434
+          ],
+          [
+            -116.058,
+            33.0976
+          ],
+          [
+            -116.011,
+            33.0297
+          ],
+          [
+            -115.943,
+            33.001
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 803,
+      "properties": {
+        "FaultID": "803",
+        "FaultName": "San Jacinto (Clark)",
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 8.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.5133,
+            33.48955
+          ],
+          [
+            -116.393,
+            33.4166
+          ],
+          [
+            -116.339,
+            33.396
+          ],
+          [
+            -116.297,
+            33.3839
+          ],
+          [
+            -116.21,
+            33.315
+          ],
+          [
+            -116.147,
+            33.2854
+          ],
+          [
+            -116.09672,
+            33.25469
+          ],
+          [
+            -116.02815,
+            33.21057
+          ],
+          [
+            -115.99545,
+            33.17702
+          ],
+          [
+            -115.95325,
+            33.13817
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 802,
+      "properties": {
+        "FaultID": "802",
+        "FaultName": "San Jacinto (Coyote Creek)",
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 5.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.543,
+            33.4688
+          ],
+          [
+            -116.47,
+            33.4204
+          ],
+          [
+            -116.37639834183665,
+            33.34204306370546
+          ],
+          [
+            -116.283,
+            33.2636
+          ],
+          [
+            -116.205,
+            33.2066
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 807,
+      "properties": {
+        "FaultID": "807",
+        "FaultName": "San Jacinto (San Bernardino)",
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.1",
+        "UpDepth": "0",
+        "SlipRate": 6.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.49353,
+            34.24564
+          ],
+          [
+            -117.43881,
+            34.21104
+          ],
+          [
+            -117.42057,
+            34.20261
+          ],
+          [
+            -117.3975,
+            34.18619
+          ],
+          [
+            -117.36263,
+            34.15468
+          ],
+          [
+            -117.325,
+            34.1013
+          ],
+          [
+            -117.237,
+            34.017
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 806,
+      "properties": {
+        "FaultID": "806",
+        "FaultName": "San Jacinto (San Jacinto Valley)",
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.1",
+        "UpDepth": "0",
+        "SlipRate": 13.4
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.237,
+            34.017
+          ],
+          [
+            -117.222,
+            34.0067
+          ],
+          [
+            -117.15574261706242,
+            33.955635637420876
+          ],
+          [
+            -117.08958,
+            33.90453
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 800,
+      "properties": {
+        "FaultID": "800",
+        "FaultName": "San Jacinto (Superstition Mountain)",
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "13.1",
+        "UpDepth": "0",
+        "SlipRate": 7.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.943,
+            33.001
+          ],
+          [
+            -115.80666,
+            32.93785
+          ],
+          [
+            -115.698,
+            32.8842
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 805,
+      "properties": {
+        "FaultID": "805",
+        "FaultName": "San Jacinto (stepover)",
+        "DipDeg": "90",
+        "Rake": "180",
+        "LowDepth": "16.8",
+        "UpDepth": "0",
+        "SlipRate": 5.005
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.08958,
+            33.90453
+          ],
+          [
+            -117.00183703778296,
+            33.820519407693126
+          ],
+          [
+            -116.9143,
+            33.73643
+          ]
+        ]
+      }
+    }
+  ]
+}
