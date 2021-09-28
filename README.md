@@ -45,7 +45,7 @@ If you encounter any problems, or wish to switch your build/update method, you c
 
 ### Defining Your Fault Model
 
-The first step is to define your [fault sections](doc/glossary.md#fault-section) in the [OpenSHA GeoJSON format](https://opensha.org/Geospatial-File-Formats). An example input file, consisting of UCERF3 Southern San Andreas fault sections is [avilable here](data/u3_ssaf_sects.geojson). You can skip this step if you wish to use an existing UCERF3 Fault Model.
+The first step is to define your [fault sections](doc/glossary.md#fault-section) in the [OpenSHA GeoJSON format](https://opensha.org/Geospatial-File-Formats). An example input file, consisting of UCERF3 Southern San Andreas fault sections is [available here](data/u3_ssaf_sects.geojson). You can skip this step if you wish to use an existing UCERF3 Fault Model.
 
 ### Building Fault Subsections
 
@@ -133,7 +133,58 @@ You can [view an example report here](examples/rup_set_report).
 
 ### Invert for a Solution
 
-TODO
+Now it's time to solve for the rate of each rupture in a Rupture Set with the [Inversion Runner Tool](doc/inversion_runner.md). This is done with the UCERF3 [Simulated Annealing](glossary.md#simulated-annealing) algorithm, and requires at least one data constraint. Various constraint options exist, e.g., MFD and slip rate constraints. Here is an example command to run a quick (2 minute) inversion constrained to match the slip rates on the S.SAF example rupture set:
+
+```
+opensha-fault-sys-tools$ fst_inversion_runner.sh --rupture-set data/u3_ssaf_simple_rup_set.zip --output-file data/u3_ssaf_simple_sol.zip --slip-constraint --completion 2m
+------------ LOADING ARCHIVE ------------
+Archive: data/u3_ssaf_simple_rup_set.zip
+...
+---------- END LOADING ARCHIVE ----------
+Generating inversion inputs with 3081 ruptures and 1 constraints
+Building empty intial solution (all zeroes)
+Calculating constraint row counts
+	SlipRate: [0..88), 88 rows (took 0 ms)
+Took 7 ms to get row counts
+Building A matrix with 88 rows and 3081 columns
+Encoding matrices
+	Encoding Slip Rate, ineq=false
+		DONE, took 51 ms to encode 95685 values (density: 35.3 %)
+DONE encoding, took 59 ms to encode 95685 values (density: 35.3 %)
+Took 75 ms to generate inputs
+Computing variable perturbation basis:
+	Inferring target GR from slip rates
+Inferring target G-R
+Perturbation-basis range: [1.2706653E-6, 0.07460762]
+Annealing!
+Threaded Simulated Annealing starting with 32 threads, TimeCompletionCriteria(milis: 120000 = 120.0 seconds), SUB: TimeCompletionCriteria(milis: 1000 = 1.0 seconds)
+Threaded total round 1 DONE after 1 secs, 2,512,720 total iterations (2,490,307 /sec).	2,309/3,081 = 74.94% non-zero rates.
+Best energy after 1,949,173 total perturbations:
+	Total:	1.8534018E-5	Equality:	1.8534018E-5	Entropy:	0.0
+	Inequality:	0.0	SlipRate:	1.8534018E-5
+Threaded total round 2 DONE after 2 secs, 5,864,866 total iterations (2,909,160 /sec).	2,345/3,081 = 76.11% non-zero rates.
+Best energy after 4,436,692 total perturbations:
+	Total:	9.632446E-6 (-48.03%)	Equality:	9.632446E-6 (-48.03%)	Entropy:	0.0 (NaN)
+	Inequality:	0.0 (NaN)	SlipRate:	9.632446E-6 (-48.03%)
+Threaded total round 3 DONE after 3 secs, 9,802,925 total iterations (3,247,077 /sec).	2,338/3,081 = 75.88% non-zero rates.
+Best energy after 7,440,634 total perturbations:
+	Total:	5.701911E-6 (-40.81%)	Equality:	5.701911E-6 (-40.81%)	Entropy:	0.0 (NaN)
+	Inequality:	0.0 (NaN)	SlipRate:	5.701911E-6 (-40.81%)
+...
+Threaded total round 120 DONE after 2 mins 0.1 secs, 466,913,800 total iterations (3,887,482 /sec).	2,324/3,081 = 75.43% non-zero rates.
+Best energy after 245,766,967 total perturbations:
+	Total:	1.1790262E-7 (-0.23%)	Equality:	1.1790262E-7 (-0.23%)	Entropy:	0.0 (NaN)
+	Inequality:	0.0 (NaN)	SlipRate:	1.1790262E-7 (-0.23%)
+Threaded annealing schedule completed.
+Done with Inversion after 2 mins 0.1 secs.
+Rounds: 120
+Total Iterations: 466913800
+Total Perturbations: 245766967
+Best energy:
+	Total:	1.1790262E-7	Equality:	1.1790262E-7	Entropy:	0.0
+	Inequality:	0.0	SlipRate:	1.1790262E-7
+DONE. Building solution...
+```
 
 ### Build a Solution Report
 

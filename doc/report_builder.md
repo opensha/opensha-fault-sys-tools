@@ -4,6 +4,11 @@ USAGE: `fst_report_builder.sh --input-file /path/to/input.zip --output-dir /path
 
 Generates Markdown/HTML reports with diagnostic plots from a [Rupture Set](glossary.md#rupture-set) or [Solution](glossary.md#solution).
 
+Example reports, each with the `DEFAULT` plot level:
+
+* [Rupture Set Report](../examples/rup_set_report/)
+* [Solution](../examples/sol_report/)
+
 ## Command Line Arguments
 
 | Argument | Default Value | Description | Example |
