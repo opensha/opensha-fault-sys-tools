@@ -1,2 +1,4 @@
 opensha
 *.swp
+tutorial/*/user_output/**
+!tutorial/*/user_output/README.md
