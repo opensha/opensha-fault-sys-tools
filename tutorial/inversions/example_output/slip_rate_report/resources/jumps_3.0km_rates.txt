@@ -1,0 +1,20 @@
+
+X-Axis: Num Jumps ≥3.0 km
+Y-Axis: Fraction (Rate-Weighted)
+Number of Data Sets: 1
+
+
+DATASET #1
+
+     Name: slip_rate_solution
+   Points: 5
+     Info: 
+
+Data[x,y]:
+0.0	  0.9728938
+1.0	  0.027106231
+2.0	  0.0
+3.0	  0.0
+4.0	  0.0
+
+

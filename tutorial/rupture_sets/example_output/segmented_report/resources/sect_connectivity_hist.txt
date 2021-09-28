@@ -1,0 +1,18 @@
+
+X-Axis: Jump Distance (km)
+Y-Axis: Count
+Number of Data Sets: 1
+
+
+DATASET #1
+
+     Name: All Connections
+   Points: 3
+     Info: 
+
+Data[x,y]:
+0.5	  0.0
+1.5	  0.0
+2.5	  0.0
+
+

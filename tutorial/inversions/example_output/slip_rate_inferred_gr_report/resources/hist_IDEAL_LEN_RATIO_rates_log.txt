@@ -1,0 +1,25 @@
+
+X-Axis: Ideal Length Ratio
+Y-Axis: Annual Rate
+Number of Data Sets: 1
+
+
+DATASET #1
+
+     Name: Unique
+   Points: 10
+     Info: 
+
+Data[x,y]:
+0.25	  0.0
+0.75	  0.009617748
+1.25	  0.036661975
+1.75	  0.0
+2.25	  0.0
+2.75	  0.0
+3.25	  0.0
+3.75	  0.0
+4.25	  0.0
+4.75	  0.0
+
+

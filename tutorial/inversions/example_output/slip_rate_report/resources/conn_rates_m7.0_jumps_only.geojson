@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#f2ca24",
+        "Log10 M≥7 Connection Rates": -3.4805424,
+        "fromSection": "Lytle Creek (San Jacinto, connector), Subsection 0",
+        "toSection": "San Jacinto (San Bernardino), Subsection 3",
+        "distance": 0.11848578008455432
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.30481930806518,
+            34.166717367010676,
+            6.842105263157895
+          ],
+          [
+            -117.31169618634001,
+            34.08857033215149,
+            8.523529411764706
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#f47f17",
+        "Log10 M≥7 Connection Rates": -2.4917154,
+        "fromSection": "San Jacinto (Clark), Subsection 0",
+        "toSection": "San Jacinto (Anza), Subsection 5",
+        "distance": 2.121971665047795E-12
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.47345162514908,
+            33.46541237830736,
+            8.894117647058824
+          ],
+          [
+            -116.54686855364523,
+            33.509907991506225,
+            8.894117647058824
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#f8a01d",
+        "Log10 M≥7 Connection Rates": -2.8914938,
+        "fromSection": "San Jacinto (Coyote Creek), Subsection 0",
+        "toSection": "San Jacinto (Anza), Subsection 5",
+        "distance": 3.4873683424433164
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.51344154468228,
+            33.449213999020834,
+            6.55
+          ],
+          [
+            -116.54686855364523,
+            33.509907991506225,
+            8.894117647058824
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#f89e1c",
+        "Log10 M≥7 Connection Rates": -2.8624086,
+        "fromSection": "San Jacinto (Anza), Subsection 0",
+        "toSection": "San Jacinto (stepover), Subsection 2",
+        "distance": 7.07323888349265E-13
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.87999376500119,
+            33.71683591518632,
+            8.894117647058824
+          ],
+          [
+            -116.94021963934435,
+            33.76135244759881,
+            8.894117647058824
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#f89d1c",
+        "Log10 M≥7 Connection Rates": -2.8408108,
+        "fromSection": "San Jacinto (Borrego), Subsection 0",
+        "toSection": "San Jacinto (Coyote Creek), Subsection 6",
+        "distance": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -116.1799928635995,
+            33.191720920608574,
+            6.55
+          ],
+          [
+            -116.22625486067804,
+            33.22214459022362,
+            6.55
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#f9af20",
+        "Log10 M≥7 Connection Rates": -3.0698397,
+        "fromSection": "San Jacinto (Superstition Mountain), Subsection 0",
+        "toSection": "San Jacinto (Borrego), Subsection 5",
+        "distance": 2.476001191557256E-12
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -115.91830847978423,
+            32.98958105123569,
+            6.55
+          ],
+          [
+            -115.9703458021365,
+            33.0125482156067,
+            6.55
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#f8a01d",
+        "Log10 M≥7 Connection Rates": -2.884796,
+        "fromSection": "San Jacinto (San Jacinto Valley), Subsection 0",
+        "toSection": "San Jacinto (San Bernardino), Subsection 4",
+        "distance": 7.07323888349265E-13
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.20829911584477,
+            33.99614871359547,
+            8.523529411764706
+          ],
+          [
+            -117.26188471819935,
+            34.040861796003746,
+            8.523529411764706
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke-width": 3.0,
+        "stroke": "#f89f1d",
+        "Log10 M≥7 Connection Rates": -2.8740163,
+        "fromSection": "San Jacinto (stepover), Subsection 0",
+        "toSection": "San Jacinto (San Jacinto Valley), Subsection 2",
+        "distance": 0.0
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.05706328808532,
+            33.87342299857295,
+            8.894117647058824
+          ],
+          [
+            -117.11051038501454,
+            33.92070760476353,
+            8.523529411764706
+          ]
+        ]
+      }
+    }
+  ]
+}

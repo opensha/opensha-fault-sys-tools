@@ -1,0 +1,23 @@
+
+X-Axis: # Clusters
+Y-Axis: Count
+Number of Data Sets: 1
+
+
+DATASET #1
+
+     Name: Unique
+   Points: 8
+     Info: 
+
+Data[x,y]:
+1.0	  108.0
+2.0	  139.0
+3.0	  97.0
+4.0	  80.0
+5.0	  80.0
+6.0	  54.0
+7.0	  26.0
+8.0	  8.0
+
+

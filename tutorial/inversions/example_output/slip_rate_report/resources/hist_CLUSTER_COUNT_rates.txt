@@ -1,0 +1,23 @@
+
+X-Axis: # Clusters
+Y-Axis: Annual Rate
+Number of Data Sets: 1
+
+
+DATASET #1
+
+     Name: Unique
+   Points: 8
+     Info: 
+
+Data[x,y]:
+1.0	  0.050697163
+2.0	  0.007376701
+3.0	  0.0010952724
+4.0	  5.71166E-4
+5.0	  4.964785E-4
+6.0	  2.48259E-4
+7.0	  5.336133E-5
+8.0	  2.8776978E-5
+
+

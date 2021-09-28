@@ -1,0 +1,20 @@
+
+X-Axis: Num Jumps ≥0.1 km
+Y-Axis: Count
+Number of Data Sets: 1
+
+
+DATASET #1
+
+     Name: slip_rate_inferred_gr_solution
+   Points: 5
+     Info: 
+
+Data[x,y]:
+0.0	  0.5625
+1.0	  0.3868243
+2.0	  0.050675675
+3.0	  0.0
+4.0	  0.0
+
+
