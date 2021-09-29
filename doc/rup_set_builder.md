@@ -11,7 +11,7 @@ This command line tool allows a user to build a [rupture set](glossary.md#ruptur
 | `-of/--output-file` | **REQUIRED** | Path to write output Fault System Rupture Set file. If the supplied path is a directory, then a file name will be determined programatically and placed in that directory. | `--output-file rup_set.zip` |
 | `-sc/--scale` | **REQUIRED** | Scaling relationship to use (for rupture magnitudes & average slips). Options: AVE_UCERF2, SHAW_2009_MOD, HANKS_BAKUN_08, ELLSWORTH_B, ELLB_SQRT_LENGTH, SHAW_CONST_STRESS_DROP, MEAN_UCERF3, TMG_SUB_2017, TMG_CRU_2017 | `--scale MEAN_UCERF3` |
 | `-s/--sub-sections` | **REQUIRED** | Path to GeoJSON file containing subsections from which to build a rupture set. Must supply this or a UCERF3 fault model (via --fault-model). Can be generated with the [subsection builder tool](sub_sect_builder.md). | `--sub-sections faults.geojson` |
-| `-p/--preset` | **REQUIRED** | Rupture set plausibility configuration preset. Options: UCERF3, COULOMB, SIMPLE_AZIMUTHAL. | `--preset SIMPLE_AZIMUTHAL` |
+| `-p/--preset` | **REQUIRED** | Rupture set plausibility configuration preset. Options: UCERF3, COULOMB, SEGMENTED, SIMPLE_AZIMUTHAL. | `--preset SIMPLE_AZIMUTHAL` |
 | `-c/--config` | _(none)_ | Rupture set plausibility configuration JSON file to override default parameters for the selected preset. | `--config config.json` |
 | `-cd/--cache-dir` | _(none)_ | Optional directory to store/load cache files (distances, coulomb, etc) to speed up rupture set building and processing. | `--cache-dir /path/to/cache` |
 | `-fm/--fault-model` | _(disabled)_ | UCERF3 Fault Model, used to fetch UCERF3 fault sections as an alternative to --sub-sections. | `--fault-model FM3_1` |
@@ -25,6 +25,10 @@ Multifault rupture plausibility is complicated, and multiple models exist. Here,
 ### UCERF3
 
 The `UCERF3` preset allows a user to reproduce the plausibility rules used in UCERF3, and docmented in [Appendix T of the UCERF3 Open File Report](https://pubs.usgs.gov/of/2013/1165/). Parameter values cannot be edited, and note that the Coulomb calculations used in UCERF3 were precomputed for the two UCERF3 fault models and will be disabled if run with a different set of subsections.
+
+### Segmented
+
+The `SEGMENTED` preset creates a fully segmented model, where no fault sections rupture together, regardless of proximity.
 
 ### Simple Azimuthal
 
