@@ -37,6 +37,7 @@ Various inversion constraints are availble, and each constraint can optinoally b
 | Argument | Default Value | Description | Example |
 |---|---|---|---|
 | `-mfd/--mfd-constraint` | _(disabled)_ | Enables the MFD constraint. Must also supply either `--infer-target-gr` or `--mfd-total-rate`. | `--mfd-constraint` |
+| `-rgr/--rel-gr-constraint` | _(disabled)_ | Enables the relative Gutenberg-Richter constraint, which constraints the overal MFD to be G-R withought constraining the total event rate. The b-value will default to 1, override with `--b-value <vlalue>`. Set constraint weight with `--mfd-weight <weight>`. | `-rel-gr-constraint` |
 | `-b/--b-value` | `1.0` | Gutenberg-Richter b-value. | `--b-value 1.0` |
 | `-itgr/--infer-target-gr` | _(disabled)_ | Flag to infer target MFD as a G-R from total deformation model moment rate. | `--infer-target-gr` |
 | `-mtr/--mfd-total-rate` | _(disabled)_ | Total (cumulative) rate for the MFD constraint. By default, this will apply to the minimum magnitude from the rupture set, but another magnitude can be supplied with `--mfd-min-mag` | `--mfd-total-rate 5.0` |
@@ -47,8 +48,19 @@ Various inversion constraints are availble, and each constraint can optinoally b
 
 | Argument | Default Value | Description | Example |
 |---|---|---|---|
-| ` -er,--event-rate-constraint` | _(disabled)_ | Enables the total event-rate constraint with the supplied total event rate. | `--event-rate-constraint 5.0` |
+| `-er,--event-rate-constraint` | _(disabled)_ | Enables the total event-rate constraint with the supplied total event rate. | `--event-rate-constraint 5.0` |
 | `-erw,--event-rate-weight` | `1.0` | Sets weight for the event-rate constraint. | `--event-rate-weight 1.0` |
+
+#### Segmentation Constraint
+
+| Argument | Default Value | Description | Example |
+|---|---|---|---|
+| `-seg,--slip-seg-constraint` | _(disabled)_ | Enables the slip-rate segmentation constraint. | `--slip-seg-constraint` |
+| `-nseg,--norm-slip-seg-constraint` | _(disabled)_ | Enables the normalized slip-rate segmentation constraint. | `--norm-slip-seg-constraint` |
+| `-ntseg,--net-slip-seg-constraint` | _(disabled)_ | Enables the net (distance-binned) slip-rate segmentation constraint. | `--net-slip-seg-constraint` |
+| `-segi,--slip-seg-ineq` | _(equality constraint)_ | Flag to make segmentation constraints an inequality constraint (only applies if segmentation rate is exceeded). | `--slip-seg-ineq` |
+| `-r0,--shaw-r0` | `3.0` | Sets R0 in the Shaw (2007) jump-distance probability model in km (used for segmentation constraint). | `--shaw-r0 3` |
+| `-segw,--slip-seg-weight` | `1.0` | Sets weight for the slip-rate segmentation constraint. | `--slip-seg-weight 1.0` |
 
 ### Simulated Annealing Parameters
 
