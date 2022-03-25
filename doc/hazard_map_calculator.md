@@ -1,12 +1,8 @@
-# Inversion Runner Tool
+# Hazard Map Calculator Tool
 
-USAGE: `fst_inversion_runner.sh --rupture-set </path/to/rupture_set.zip> --output-file </path/to/output_solution.zip> --slip-constraint --completion 30m`
+USAGE: `fst_hazard_map_calc.sh --input-file </path/to/solution.zip> --output-dir </path/to/dir> --periods 0,1`
 
-This command line tool allows a user to run an inversion to solve for the rates of each [supra-seismogenic rupture](glossary.md#supra-seismogenic-rupture) from a [Rupture Set](glossary.md#rupture-set). The output is a [Solution](glossary.md#solution) zip file.
-
-The [Simulated Annealing](glossary.md#simulated-annealing) inversion approach is described in detail in [this publication](https://pubs.geoscienceworld.org/ssa/bssa/article/104/3/1181/351434/The-UCERF3-Grand-Inversion-Solving-for-the-Long):
-
-Morgan T. Page, Edward H. Field, Kevin R. Milner, Peter M. Powers; The UCERF3 Grand Inversion: Solving for the Long‐Term Rate of Ruptures in a Fault System. _Bulletin of the Seismological Society of America 2014_;; 104 (3): 1181–1204. doi: https://doi.org/10.1785/0120130180
+This command line tool allows a user to calculate hazard maps for a [Solution](glossary.md#solution). The output is a HTML file and map plots, and a CSV file containing the hazard curves themselves.
 
 ## Command Line Arguments
 
@@ -14,13 +10,17 @@ Morgan T. Page, Edward H. Field, Kevin R. Milner, Peter M. Powers; The UCERF3 Gr
 
 | Argument | Default Value | Description | Example |
 |---|---|---|---|
-| `-rs/--rupture-set` | **REQUIRED** | Path to Rupture Set zip file. | `--rupture-set rupture_set.zip` |
-| `-of/--output-file` | **REQUIRED** | Path to write output Fault System Solution file. | `--output-file solution.zip` |
-| `-c,--completion` | **REQUIRED** | Total inversion completion criteria. If either no suffix or 'i' is appended, then it is assumed to be an iteration count. Specify times in hours, minutes, or seconds by appending 'h', 'm', or 's' respecively, or in iterations per rupture by appending 'ip'. Fractions are not allowed. This can be skipped if (and only if) the `--config-json` argument is supplied. | `--completion 30m` |
+| `-if/--input-file` | **REQUIRED** | Path to Solution zip file. | `--input-file solution.zip` |
+| `-od/--output-dir` | **REQUIRED** | Path to write output the output plots, HTML, and curves. | `--output-dir /path/to/dir` |
+| `-p/--periods` | **REQUIRED** | Calculation period(s). Mutliple can be comma separated, and PGA is `0`. | `--periods 0,1` |
 
-Additionally, at least one constraint is required (see next section).
+### Optional Arguments
 
-### Constraints
+| `-cf/--comp-file` | _(disabled)_ | Comparison solution file | `--comp-file comp_solution.zip` |
+| `-g/--gmpe` | `ASK_2014` | GMPE name. Default is ASK_2014 | `--gmpe ASK_2014` |
+| `-gs/--grid-spacing` | `ASK_2014` | Grid spacing in degrees. Default: 0.25 | `--grid-spacing 0.25` |
+| `-md/--max-distance` | `200` | Maximum distance for hazard curve calculations in km. Default is 200 km | `--max-distance 200` |
+| `-rc/--recalc` | _(disabled)_ | Flag to force recalculation (ignore existing curves files) | `--recalc` |
 
 Various inversion constraints are availble, and each constraint can optinoally be assigned custom weights (e.g., to favor one piece of data over another).
 
