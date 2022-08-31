@@ -11,7 +11,8 @@
         "Rake": "135",
         "LowDepth": "13",
         "UpDepth": "0",
-        "SlipRate": 2.5
+        "SlipRate": 2.5,
+        "SlipRateStdDev": 1.0
       },
       "geometry": {
         "type": "LineString",
@@ -41,7 +42,8 @@
         "Rake": "180",
         "LowDepth": "16.8",
         "UpDepth": "0",
-        "SlipRate": 14.0
+        "SlipRate": 14.0,
+        "SlipRateStdDev": 1.75
       },
       "geometry": {
         "type": "LineString",
@@ -83,7 +85,8 @@
         "Rake": "180",
         "LowDepth": "13.1",
         "UpDepth": "0",
-        "SlipRate": 5.0
+        "SlipRate": 5.0,
+        "SlipRateStdDev": 2.25
       },
       "geometry": {
         "type": "LineString",
@@ -125,7 +128,8 @@
         "Rake": "180",
         "LowDepth": "16.8",
         "UpDepth": "0",
-        "SlipRate": 8.0
+        "SlipRate": 8.0,
+        "SlipRateStdDev": 1.25
       },
       "geometry": {
         "type": "LineString",
@@ -183,7 +187,8 @@
         "Rake": "180",
         "LowDepth": "13.1",
         "UpDepth": "0",
-        "SlipRate": 5.0
+        "SlipRate": 5.0,
+        "SlipRateStdDev": 2.25
       },
       "geometry": {
         "type": "LineString",
@@ -221,7 +226,8 @@
         "Rake": "180",
         "LowDepth": "16.1",
         "UpDepth": "0",
-        "SlipRate": 6.0
+        "SlipRate": 6.0,
+        "SlipRateStdDev": 2.0
       },
       "geometry": {
         "type": "LineString",
@@ -267,7 +273,8 @@
         "Rake": "180",
         "LowDepth": "16.1",
         "UpDepth": "0",
-        "SlipRate": 13.4
+        "SlipRate": 13.4,
+        "SlipRateStdDev": 1.375
       },
       "geometry": {
         "type": "LineString",
@@ -301,7 +308,8 @@
         "Rake": "180",
         "LowDepth": "13.1",
         "UpDepth": "0",
-        "SlipRate": 7.0
+        "SlipRate": 7.0,
+        "SlipRateStdDev": 1.75
       },
       "geometry": {
         "type": "LineString",
@@ -331,7 +339,8 @@
         "Rake": "180",
         "LowDepth": "16.8",
         "UpDepth": "0",
-        "SlipRate": 5.005
+        "SlipRate": 5.005,
+        "SlipRateStdDev": 0.0024999999999999467
       },
       "geometry": {
         "type": "LineString",
