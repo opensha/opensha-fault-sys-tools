@@ -54,6 +54,9 @@ External constraints or inversion configuration can be supplied via a JSON inter
 | `--mfd-total-rate` | _(disabled)_ | Total (cumulative) rate for the MFD constraint. By default, this will apply to the minimum magnitude from the rupture set, but another magnitude can be supplied with `--mfd-min-mag` | `--mfd-total-rate 5.0` |
 | `--mfd-min-mag` | _(determined from rupture set)_ | Minimum magnitude for the MFD constraint (default is minimum magnitude of the rupture set), used with --mfd-total-rate. | `--mfd-min-mag 5.0` |
 | `-mw/--mfd-weight` | `1.0` | Sets the weight for the MFD constraint. | `--mfd-weight 1.0` |
+| `--mfd-ineq` | _(disabled)_ | Flag to configure MFD constraints as inequality rather than equality constraints.  Used in conjunction with `--mfd-constraint`. Use `--mfd-transition-mag` instead if you want to transition from equality to inequality constraints. | `--mfd-ineq` |
+| `--mfd-transition-mag` | _(disabled)_ | Magnitude at and above which the mfd constraint should be applied as a inequality, allowing a natural taper (default is equality only). | `--mfd-transition-mag 7.8` |
+| `--rel-gr-constraint ` | _(disabled)_ | Enables the relative Gutenberg-Richter constraint, which constraints the overal MFD to be G-R withought constraining the total event rate. The b-value will default to 1, override with `--b-value <vlalue>`. Set constraint weight with `--mfd-weight <weight>`, or configure as an inequality with `--mfd-ineq`. | `--rel-gr-constraint ` |
 
 #### Paleoseismic Data Constraints
 
