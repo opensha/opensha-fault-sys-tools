@@ -40,34 +40,52 @@ External constraints or inversion configuration can be supplied via a JSON inter
 |---|---|---|---|
 | `-sl/--slip-constraint` | _(disabled)_ | Enables the slip-rate constraint. | `--slip-constraint` |
 | `-sw/--slip-weight` | `1.0` | Sets the weight for the regular slip-rate constraint, where misfits are not normalized by the section slip rate. Enabled by default if `--slip-constraint` is enabled and no other slip weights are explicitly set. | `--slip-weight 1.0` |
-| `-nsw/--norm-slip-weight` | `0.0` | Sets the weight for the normalized slip-rate constraint, where misfits are normalized by the section slip rate. Disabled by default. | `--norm-slip-weight 1.0` |
-| `-usw/--uncertain-slip-weight` | `0.0` | Sets the weight for the uncertainty-weighted slip-rate constraint, where misfits are normalized by the section slip rate standard deviation. Disabled by default. | `--uncertain-slip-weight 1.0` |
+| `--norm-slip-weight` | `0.0` | Sets the weight for the normalized slip-rate constraint, where misfits are normalized by the section slip rate. Disabled by default. | `--norm-slip-weight 1.0` |
+| `--uncertain-slip-weight` | `0.0` | Sets the weight for the uncertainty-weighted slip-rate constraint, where misfits are normalized by the section slip rate standard deviation. Disabled by default. | `--uncertain-slip-weight 1.0` |
 
 #### MFD Constraints
 
 | Argument | Default Value | Description | Example |
 |---|---|---|---|
 | `-mfd/--mfd-constraint` | _(disabled)_ | Enables the MFD constraint. Must also supply either `--infer-target-gr` or `--mfd-total-rate`. | `--mfd-constraint` |
-| `-rgr/--rel-gr-constraint` | _(disabled)_ | Enables the relative Gutenberg-Richter constraint, which constrains the overal MFD to be G-R withought constraining the total event rate. The b-value will default to 1, override with `--b-value <vlalue>`. Set constraint weight with `--mfd-weight <weight>`. | `-rel-gr-constraint` |
+| `--rel-gr-constraint` | _(disabled)_ | Enables the relative Gutenberg-Richter constraint, which constrains the overal MFD to be G-R withought constraining the total event rate. The b-value will default to 1, override with `--b-value <vlalue>`. Set constraint weight with `--mfd-weight <weight>`. | `-rel-gr-constraint` |
 | `-b/--b-value` | `1.0` | Gutenberg-Richter b-value. | `--b-value 1.0` |
-| `-itgr/--infer-target-gr` | _(disabled)_ | Flag to infer target MFD as a G-R from total deformation model moment rate. | `--infer-target-gr` |
-| `-mtr/--mfd-total-rate` | _(disabled)_ | Total (cumulative) rate for the MFD constraint. By default, this will apply to the minimum magnitude from the rupture set, but another magnitude can be supplied with `--mfd-min-mag` | `--mfd-total-rate 5.0` |
-| `-mmm/--mfd-min-mag` | _(determined from rupture set)_ | Minimum magnitude for the MFD constraint (default is minimum magnitude of the rupture set), used with --mfd-total-rate. | `--mfd-min-mag 5.0` |
+| `--infer-target-gr` | _(disabled)_ | Flag to infer target MFD as a G-R from total deformation model moment rate. | `--infer-target-gr` |
+| `--mfd-total-rate` | _(disabled)_ | Total (cumulative) rate for the MFD constraint. By default, this will apply to the minimum magnitude from the rupture set, but another magnitude can be supplied with `--mfd-min-mag` | `--mfd-total-rate 5.0` |
+| `--mfd-min-mag` | _(determined from rupture set)_ | Minimum magnitude for the MFD constraint (default is minimum magnitude of the rupture set), used with --mfd-total-rate. | `--mfd-min-mag 5.0` |
 | `-mw/--mfd-weight` | `1.0` | Sets the weight for the MFD constraint. | `--mfd-weight 1.0` |
+
+#### Paleoseismic Data Constraints
+
+Paleoseismic constraitns are always weighted by their uncertainties, and also use a probability-of-detection model (see `--paleo-prob-model`). Note that the NSHM23 probability model should not be used generally (it delegates to other models based on region or fault names).
+
+Paleoseismic constraint data needs to either be attached to the input rupture set, or supplied via a simple CSV file. See example CSV file for paleo data here: [u3_ssaf_paleo_data.csv](../data/u3_ssaf_paleo_data.csv).
+
+You may wish to apply the smoothness constraint if you enable this option, and can use `--paleo-smooth` to do so only on faults with paleoseismic constraint data.
+
+| Argument | Default Value | Description | Example |
+|---|---|---|---|
+| `-paleo/--paleo-constraint` | _(disabled)_ | Enables the paleoseismic data constraint. Must supply --paleo-data, or rupture set must already have a PaleoseismicConstraintData module attached. See also --paleo-prob-model. | `--paleo-constraint` |
+| `--paleo-data` | _(supplied by rupture set)_ | Paleoseismic data CSV file. Format must be as follows (including a header row with column names, although those names are not tested to exactly match those that follow). If values are omitted (or are negative) for 'Subsection Index', the closest subsection to each site location will be mapped automatically. CSV File columns: Site Name, Subsection Index, Latitude, Longitude, Rate, Rate Std Dev. | `--paleo-data data.csv` |
+| `--paleo-prob-model` | `UCERF3` | Paleoseismic probability of detection model, one of: UCERF3, YOUNGS_2003, NSHM23, NONE | `--paleo-prob-model UCERF3` |
+| `--paleo-weight` | `1.0` | Sets the weight for the Paleoseismic data constraint. | `--mfd-weight 1.0` |
 
 #### Total Event Rate Constraint
 
 | Argument | Default Value | Description | Example |
 |---|---|---|---|
-| `-er,--event-rate-constraint` | _(disabled)_ | Enables the total event-rate constraint with the supplied total event rate. | `--event-rate-constraint 5.0` |
-| `-erw,--event-rate-weight` | `1.0` | Sets weight for the event-rate constraint. | `--event-rate-weight 1.0` |
+| `--event-rate-constraint` | _(disabled)_ | Enables the total event-rate constraint with the supplied total event rate. | `--event-rate-constraint 5.0` |
+| `--event-rate-weight` | `1.0` | Sets weight for the event-rate constraint. | `--event-rate-weight 1.0` |
 
 #### Smoothness Constraint
 
+Note: good starting weights to try are 1000 or 10000, depending on how other constraints are weighted.
+
 | Argument | Default Value | Description | Example |
 |---|---|---|---|
-| `-sm,--smooth` | _(disabled)_ | Laplacian smoothness constraint that smooths supra-seismogenic participation rates along adjacent subsections on a parent section. | `--smooth 1000` |
-| `-smw,--smooth-weight` | `1.0` | Sets weight for the smoothness constraint. | `--event-rate-weight 1.0` |
+| `--smooth` | _(disabled)_ | Laplacian smoothness constraint that smooths supra-seismogenic participation rates along adjacent subsections on a parent section. | `--smooth` |
+| `--paleo-smooth` | _(disabled)_ | Enables the Laplacian smoothness constraint (see --smooth), but only for faults with paleoseismic constraints. | `--paleo-smooth` |
+| `--smooth-weight` | `1.0` | Sets weight for the smoothness constraint. | `--event-rate-weight 1.0` |
 
 #### Segmentation Constraint
 
