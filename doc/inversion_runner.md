@@ -4,9 +4,11 @@ USAGE: `fst_inversion_runner.sh --rupture-set </path/to/rupture_set.zip> --outpu
 
 This command line tool allows a user to run an inversion to solve for the rates of each [supra-seismogenic rupture](glossary.md#supra-seismogenic-rupture) from a [Rupture Set](glossary.md#rupture-set). The output is a [Solution](glossary.md#solution) zip file.
 
-The [Simulated Annealing](glossary.md#simulated-annealing) inversion approach is described in detail in [this publication](https://pubs.geoscienceworld.org/ssa/bssa/article/104/3/1181/351434/The-UCERF3-Grand-Inversion-Solving-for-the-Long):
+The [Simulated Annealing](glossary.md#simulated-annealing) inversion approach is described in detail in these publications:
 
-Morgan T. Page, Edward H. Field, Kevin R. Milner, Peter M. Powers; The UCERF3 Grand Inversion: Solving for the Long‐Term Rate of Ruptures in a Fault System. _Bulletin of the Seismological Society of America 2014_;; 104 (3): 1181–1204. doi: https://doi.org/10.1785/0120130180
+* Milner, K. R., & Field, E. H. (2023). A Comprehensive Fault‐System Inversion Approach: Methods and Application to NSHM23. _Bulletin of the Seismological Society of America_, 114(1), 486-522. doi: 
+https://doi.org/10.1785/0120230122
+* Morgan T. Page, Edward H. Field, Kevin R. Milner, Peter M. Powers; The UCERF3 Grand Inversion: Solving for the Long‐Term Rate of Ruptures in a Fault System. _Bulletin of the Seismological Society of America_, 104 (3): 1181–1204. doi: https://doi.org/10.1785/0120130180
 
 ## Command Line Arguments
 
@@ -45,18 +47,56 @@ External constraints or inversion configuration can be supplied via a JSON inter
 
 #### MFD Constraints
 
+These arguments let you add a regional MFD constraint. Those constraints can be determined in different ways that are broken out into subsections below. First, we list the options common to any MFD approach.
+
 | Argument | Default Value | Description | Example |
 |---|---|---|---|
 | `-mfd/--mfd-constraint` | _(disabled)_ | Enables the MFD constraint. Must also supply either `--infer-target-gr` or `--mfd-total-rate`. | `--mfd-constraint` |
-| `--rel-gr-constraint` | _(disabled)_ | Enables the relative Gutenberg-Richter constraint, which constrains the overal MFD to be G-R withought constraining the total event rate. The b-value will default to 1, override with `--b-value <vlalue>`. Set constraint weight with `--mfd-weight <weight>`. | `-rel-gr-constraint` |
+| `-mw/--mfd-weight` | `1.0` | Sets the weight for the MFD constraint. | `--mfd-weight 1.0` |
 | `-b/--b-value` | `1.0` | Gutenberg-Richter b-value. | `--b-value 1.0` |
+| `--mfd-ineq` | _(disabled)_ | Flag to configure MFD constraints as inequality rather than equality constraints.  Used in conjunction with `--mfd-constraint`. Use `--mfd-transition-mag` instead if you want to transition from equality to inequality constraints. | `--mfd-ineq` |
+| `--mfd-transition-mag` | _(disabled)_ | Magnitude at and above which the mfd constraint should be applied as a inequality, allowing a natural taper (default is equality only). | `--mfd-transition-mag 7.8` |
+| `--b-dependent-mfd-uncert` | _(disabled)_ | Flag to enable NSHM23 b-value and magnitude-dependent uncertainty model: `0.1 * max[1, 10^(b*0.5*(M-6))]`. This switches the constraint type to be uncertainty-weighted (otherwise it is a normalized constraint). | `--b-dependent-mfd-uncert` |
+
+##### Simple G-R
+
+These arguments are used to create a simple G-R with a specified b-value (via the `--b-value <b>` argument) and scaled to either a specified total event rate, the moment rate implied by the slip rates (deformation model), or applied in a relative sense only (with no rate constraint).
+
+| Argument | Default Value | Description | Example |
+|---|---|---|---|
 | `--infer-target-gr` | _(disabled)_ | Flag to infer target MFD as a G-R from total deformation model moment rate. | `--infer-target-gr` |
 | `--mfd-total-rate` | _(disabled)_ | Total (cumulative) rate for the MFD constraint. By default, this will apply to the minimum magnitude from the rupture set, but another magnitude can be supplied with `--mfd-min-mag` | `--mfd-total-rate 5.0` |
 | `--mfd-min-mag` | _(determined from rupture set)_ | Minimum magnitude for the MFD constraint (default is minimum magnitude of the rupture set), used with --mfd-total-rate. | `--mfd-min-mag 5.0` |
-| `-mw/--mfd-weight` | `1.0` | Sets the weight for the MFD constraint. | `--mfd-weight 1.0` |
-| `--mfd-ineq` | _(disabled)_ | Flag to configure MFD constraints as inequality rather than equality constraints.  Used in conjunction with `--mfd-constraint`. Use `--mfd-transition-mag` instead if you want to transition from equality to inequality constraints. | `--mfd-ineq` |
-| `--mfd-transition-mag` | _(disabled)_ | Magnitude at and above which the mfd constraint should be applied as a inequality, allowing a natural taper (default is equality only). | `--mfd-transition-mag 7.8` |
 | `--rel-gr-constraint ` | _(disabled)_ | Enables the relative Gutenberg-Richter constraint, which constraints the overal MFD to be G-R withought constraining the total event rate. The b-value will default to 1, override with `--b-value <vlalue>`. Set constraint weight with `--mfd-weight <weight>`, or configure as an inequality with `--mfd-ineq`. | `--rel-gr-constraint ` |
+
+##### Supra-Seismogenic b-value G-R
+
+These arguments create a regional MFD constraint by first assuming nucleation G-R constraints on each subsection (with _b_ specified via the `--b-value <b>` argument) that match the slip rate on each section. Those section G-Rs are then summed to create the regional MFD constraint.
+
+This implementation is described in detail in [Milner and Field (2023)](https://doi.org/10.1785/0120230122).
+
+| Argument | Default Value | Description | Example |
+|---|---|---|---|
+| `--supra-b-mfds` | _(disabled)_ | Flag to enable the supra-seismogenic b-value mode. Used in conjunction with `--mfd-constraint`, `--sect-rate-constraint`, and/or `--sect-mfd-constraint`. | `--supra-b-mfds` |
+| `--adj-mfds-for-seg` | _(disabled)_ | If supplied, MFDs will be adjusted for compatibility with the chosen segmentation model using the NSHM23 adjustment approach (Milner and Field, 2023). See segmentation model arguments for how to specify the segmentation model. | `--adj-mfds-for-seg` |
+| `--adj-mfds-for-slips` | _(disabled)_ | If supplied, MFDs will be adjusted for compatibility with the scaling relationship. This can be needed if the chosen scaling relationship does not determine average slip directly from moment (e.g., in length-based relationships). | `--adj-mfds-for-slips` |
+| `--sub-seis-mo-red` | `FROM_INPUT_SLIP_RATES` | If supplied, slip rates will be adjusted to account for sub-seismogenic ruptures. The default implementation uses input slip rates attached to the rupture set; by default, this applies any coupling coefficient to reduct the slip rate but makes no adjustment for sub-seismogenic ruptures. Options: FAULT_SPECIFIC_IMPLIED_FROM_SUPRA_B, SUB_SEIS_B_1, SYSTEM_AVG_IMPLIED_FROM_SUPRA_B, SYSTEM_AVG_SUB_B_1, FROM_INPUT_SLIP_RATES, SUPRA_B_TO_M6p5, NONE. | `--sub-seis-mo-red` |
+| `--adj-mfd-ucert-slip` | _(disabled)_ | If supplied, slip rate uncertainties are propagated to section and regional MFD constraints. | `--adj-mfd-ucert-slip` |
+| `--adj-mfd-ucert-paleo` | _(disabled)_ | If supplied, section MFD uncertainties are expanded to account for any incompatibilities found with supplied paleoseismic constraints. | `--adj-mfd-ucert-paleo` |
+
+#### Section Rate Constraints
+
+Rates on individual subsections can be constrained. Supported implementations are for section total nucleation rate (so that each section's total rate matches that from its assumed MFD), or to match full nucleation MFDs. Currently, this works with the Supra-Seismogenic b-value G-R MFD constraint, but support for externally supplied rates could be added if desired. These options are available even if the regional MFD constraint is not enabled (so long as `--supra-b-mfds` is enabled).
+
+| Argument | Default Value | Description | Example |
+|---|---|---|---|
+| `--sect-rate-constraint` | _(disabled)_ | Enables section nucleation rate constraints that match the total rate implied by their assumed MFDs. | `--sect-rate-constraint` |
+| `--sect-rate-weight` | `1.0` | Sets the weight for the section rate constraint. | `--sect-rate-weight 1.0` |
+| `--sect-rate-uncert` | _(disabled)_ | Flag to enable uncertainty-weighting of section rate constraints. Usually used in conjunction with `--adj-mfd-ucert-slip` (assuming that slip rate uncertainties are present). Otherwise, the constraint will be normalized. | `--sect-rate-uncert` |
+| `--sect-mfd-constraint` | _(disabled)_ | Enables section nucleation MFD constraints. | `--sect-mfd-constraint` |
+| `--sect-mfd-weight` | `1.0` | Sets the weight for the section MFD constraint. | `--sect-mfd-weight 1.0` |
+| `--sect-mfd-uncert` | _(disabled)_ | Flag to enable uncertainty-weighting of section MFD constraints. Usually used in conjunction with `--adj-mfd-ucert-slip` (assuming that slip rate uncertainties are present) and `--b-dependent-mfd-uncert`. Otherwise, the constraint will be normalized. | `--sect-rate-uncert` |
+
 
 #### Paleoseismic Data Constraints
 
@@ -75,10 +115,13 @@ You may wish to apply the smoothness constraint if you enable this option, and c
 
 #### Total Event Rate Constraint
 
+Constrain the total rate of all supra-seismoggenic ruptures to equal this rate.
+
 | Argument | Default Value | Description | Example |
 |---|---|---|---|
 | `--event-rate-constraint` | _(disabled)_ | Enables the total event-rate constraint with the supplied total event rate. | `--event-rate-constraint 5.0` |
 | `--event-rate-weight` | `1.0` | Sets weight for the event-rate constraint. | `--event-rate-weight 1.0` |
+| `--event-rate-ineq` | _(disabled)_ | Flag to constraint total event rates as an inequality constraint (i.e., to no exceed the specified rate). | `--event-rate-ineq` |
 
 #### Smoothness Constraint
 
@@ -92,16 +135,18 @@ Note: good starting weights to try are 1000 or 10000, depending on how other con
 
 #### Segmentation Constraint
 
-_Note: this constraint implementation is deprecated and not recommended. It will be repalced with a better version in the future._
+Segmentation constraint as described in [Milner and Field (2023)](https://doi.org/10.1785/0120230122).
 
 | Argument | Default Value | Description | Example |
 |---|---|---|---|
-| `-seg,--slip-seg-constraint` | _(disabled)_ | Enables the slip-rate segmentation constraint. | `--slip-seg-constraint` |
-| `-nseg,--norm-slip-seg-constraint` | _(disabled)_ | Enables the normalized slip-rate segmentation constraint. | `--norm-slip-seg-constraint` |
-| `-ntseg,--net-slip-seg-constraint` | _(disabled)_ | Enables the net (distance-binned) slip-rate segmentation constraint. | `--net-slip-seg-constraint` |
-| `-segi,--slip-seg-ineq` | _(equality constraint)_ | Flag to make segmentation constraints an inequality constraint (only applies if segmentation rate is exceeded). | `--slip-seg-ineq` |
-| `-r0,--shaw-r0` | `3.0` | Sets R0 in the Shaw (2007) jump-distance probability model in km (used for segmentation constraint). | `--shaw-r0 3` |
-| `-segw,--slip-seg-weight` | `1.0` | Sets weight for the slip-rate segmentation constraint. | `--slip-seg-weight 1.0` |
+| `--seg-constraint` | _(disabled)_ | Enables the default segmentation constraint implementation where passthrough rates are constrained not to exceed the prescribed rate. Must supply a constraint model, e.g. via `--seg-dist-d0` or `--seg-rates`. | `--seg-constraint` |
+| `--slip-seg-constraint` | _(disabled)_ | Enables the alternative segmentation constraint implementation where constraitns are applied as proxy-slip constraints. In this implementation, larger magnitude ruptures contribute more to the segmentation budget (because they consume more slip). | `--slip-seg-constraint` |
+| `--seg-constraint-eq` | _(inequality constraint)_ | Flag to make segmentation constraints an equality constraint. This is generally not recommended unless all faults only have a single connection. When Y's exist, it might be impossible to match imposed equality segmentation constraints. | `--seg-constraint-eq` |
+| `--seg-rates` | _(disabled)_ | Specify custom segmentation passthrough rates via a CSV file. The format consists of a header line: `Section ID1,Section ID2,Fractional Passthrough Rate`, and a line for each constrained jump. Section IDs are subsection must be on different parent faults (unless the `--seg-parent-rates` flag is present), and passthrough rates should be in the range [0,1]. Passthrough rates are assumed to be 1 for all jumps not included in the file. | `--seg-rates seg_rates.csv` |
+| `--seg-dist-d0` | _(disabled)_ | Use Shaw and Dieterich (2007) distance-dependent segmentation rate model. Sets D0 (referred to as R0 in their model) in km, where D0=3 is the preferred value. Also see `--seg-dist-delta`. | `--seg-dist-do 3` |
+| `--seg-dist-delta` | `0` | Sets the fault uncertainty parameter, &delta;, in the NSHM23 implementation of the Shaw and Dieterich (2007) distance-dependent segmentation rate model. With uits in km, this shifts the exponential distribution to the right by &delta;; values less than this value are unconstrained. Used in conjunction with `--seg-dist-d0`. | `--seg-dist-delta 1` |
+| `--seg-nshm23` | _(disabled)_ | Use an NSHM23 segmentation constraint. This includes distance-dependent segmentation, along with special constraints on the SAF creeping section and Wasatch faults (if found by name). Note that this won't include all features of the NSHM23 segmentation constraint, such as rupture length limits or detection of special fault exceptions to the Classic model. Options: LOW,MID,HIGH,CLASSIC | `--seg-nshm23 MID` |
+| `--seg-weight` | `1.0` | Sets weight for the slip-rate segmentation constraint. | `--seg-weight 1.0` |
 
 ### Simulated Annealing Parameters
 

@@ -14,6 +14,10 @@ A small subset of a [fault section](#fault-section), usually with length approxi
 
 A collection of [fault sections](#fault-section] for a region.
 
+### Logic Tree Branch
+
+A single path through a model's epistemic logic tree; usually specifiying a combination of input data and model parameters used.
+
 ### Multifault Rupture
 
 A [supra-seismogenic ruptures](#supra-seismogenic-rupture) for which multiple [fault sections](#fault-section) participate

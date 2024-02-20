@@ -6,7 +6,7 @@ Tools for Fault Systems: building and analyzing [Rupture Sets](doc/glossary.md#r
 
 * Java (either JRE or JDK) 11 or above in your path: https://adoptopenjdk.net/
   * confirm by typing `java -version` in a terminal
-* Unix-like environment: Linux, Mac OS X, Windows Subsystem for Linux (WSL), possibly Cygwin though untested
+* Unix-like environment: Linux, Mac OS X, Windows Subsystem for Linux (WSL)
 * Basic command line skills (changing directories, defining environmental variables, editing text files, running scripts)
 
 ## Setup
@@ -17,7 +17,7 @@ First, clone this entire repository from GitHub or download it as a zip file. He
 git clone https://github.com/opensha/opensha-fault-sys-tools.git
 ```
 
-For convenience, you may want to add the `sbin` directory of this repository to your PATH, otherwise you will have to manually type the full path to each scrip that you want to execute this. This is outside the scope of this documentation, but for most users, adding the following line to `~/.bash_profile` should work:
+For convenience, you may want to add the `sbin` directory of this repository to your PATH, otherwise you will have to manually type the full path to each scrip that you want to execute. This is outside the scope of this documentation, but for most users adding the following line to `~/.bash_profile` should work:
 
 ```
 export PATH=$PATH:/path/to/opensha-fault-sys-tools/sbin
@@ -61,7 +61,7 @@ Writing sections to u3_ssaf_sub_sects.geojson
 Or to use a UCERF3 fault model, in this case FM3.1:
 
 ```
-opensha-fault-sys-tools$ fst_sub_sect_builder.sh --fault-model FM3_1 --output-file fm3_1_sub_sects.geojson 
+opensha-fault-sys-tools$ fst_sub_sect_builder.sh --ucerf3 --fault-model FM3_1 --output-file fm3_1_sub_sects.geojson 
 Loading FM from cached file: FM3_1.xml
 Loaded 313 fault sections.
 Built 2606 subsections
@@ -198,4 +198,5 @@ You can [view an example report here](examples/sol_report).
 
 ### Compute and Disaggregate Hazard
 
-TODO
+You can compute and disaggregate hazard curves and spectra at individual sites with the [Hazard Calculation Tool](doc/hazard_calculator.md). You can also compute hazard maps with the [Hazard Map Calculation Tool](doc/hazard_map_calculator.md).
+
