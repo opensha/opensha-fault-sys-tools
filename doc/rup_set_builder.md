@@ -9,7 +9,7 @@ This command line tool allows a user to build a [rupture set](glossary.md#ruptur
 | Argument | Default Value | Description | Example |
 |---|---|---|---|
 | `-of/--output-file` | **REQUIRED** | Path to write output Fault System Rupture Set file. If the supplied path is a directory, then a file name will be determined programatically and placed in that directory. | `--output-file rup_set.zip` |
-| `-sc/--scale` | **REQUIRED** | Scaling relationship to use (for rupture magnitudes & average slips). Options: AVE_UCERF2, SHAW_2009_MOD, HANKS_BAKUN_08, ELLSWORTH_B, ELLB_SQRT_LENGTH, SHAW_CONST_STRESS_DROP, MEAN_UCERF3, TMG_SUB_2017, TMG_CRU_2017 | `--scale MEAN_UCERF3` |
+| `-sc/--scale` | **REQUIRED** | Scaling relationship to use (for rupture magnitudes & average slips). Options: SHAW_2009_MOD, HANKS_BAKUN_08, ELLSWORTH_B, ELLB_SQRT_LENGTH, SHAW_CONST_STRESS_DROP, AVE_UCERF2, MEAN_UCERF3, LOGA_C4p3, LOGA_C4p2, LOGA_C4p1, WIDTH_LIMITED, LOGA_C4p2_SQRT_LEN, WIDTH_LIMITED_CSD, MEAN_NSHM23 | `--scale MEAN_UCERF3` |
 | `-s/--sub-sections` | **REQUIRED** | Path to GeoJSON file containing subsections from which to build a rupture set. Must supply this or a UCERF3 fault model (via --fault-model). Can be generated with the [subsection builder tool](sub_sect_builder.md). | `--sub-sections faults.geojson` |
 | `-p/--preset` | **REQUIRED** | Rupture set plausibility configuration preset. Options: UCERF3, COULOMB, SEGMENTED, SIMPLE_AZIMUTHAL. | `--preset SIMPLE_AZIMUTHAL` |
 | `-c/--config` | _(none)_ | Rupture set plausibility configuration JSON file to override default parameters for the selected preset. | `--config config.json` |

@@ -58,14 +58,14 @@ Built 88 subsections
 Writing sections to u3_ssaf_sub_sects.geojson
 ```
 
-Or to use a UCERF3 fault model, in this case FM3.1:
+Or to use a NSHM23 WUS fault model, in this case FM v3:
 
 ```
-opensha-fault-sys-tools$ fst_sub_sect_builder.sh --ucerf3 --fault-model FM3_1 --output-file fm3_1_sub_sects.geojson 
-Loading FM from cached file: FM3_1.xml
-Loaded 313 fault sections.
-Built 2606 subsections
-Writing sections to fm3_1_sub_sects.geojson
+opensha-fault-sys-tools$ fst_sub_sect_builder.sh --nshm23 --fault-model WUS_FM_v3 --output-file fm_v3_sub_sects.geojson
+Loaded 1016 fault sections.
+Built 5548 subsections
+Built 5548 subsections
+Writing sections to /data/kevin/git/opensha-fst-stable/fm_v3_sub_sects.geojson
 ```
 
 ### Build a Rupture Set
@@ -73,7 +73,7 @@ Writing sections to fm3_1_sub_sects.geojson
 Next, you can build a [Rupture Set](doc/glossary.md#rupture-set) using those subsections with the [Rupture Set Builder Tool](doc/rup_set_builder.md). This tool has a number of options and various [multifault rupture](doc/glossary.md#multifault-rupture) plausibility models, but the basic usage is as follows to build a [simple azimuthal](doc/rup_set_builder.md#simple-azimuthal) rupture set from the S.SAF demo subsections:
 
 ```
-opensha-fault-sys-tools$ fst_rup_set_builder.sh --sub-sections data/u3_ssaf_sub_sects.geojson --preset SIMPLE_AZIMUTHAL --scale MEAN_UCERF3 --output-file u3_ssaf_simple_rup_set.zip 
+opensha-fault-sys-tools$ fst_rup_set_builder.sh --sub-sections data/u3_ssaf_sub_sects.geojson --preset SIMPLE_AZIMUTHAL --scale MEAN_NSHM23 --output-file u3_ssaf_simple_rup_set.zip 
 Rupture plausibility preset: SIMPLE_AZIMUTHAL
 Loaded 88 sub-sections
 Scaling relationship: Mean UCERF3 Scaling Relationship
