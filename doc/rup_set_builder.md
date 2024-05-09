@@ -11,7 +11,7 @@ This command line tool allows a user to build a [rupture set](glossary.md#ruptur
 | `-of/--output-file` | **REQUIRED** | Path to write output Fault System Rupture Set file. If the supplied path is a directory, then a file name will be determined programatically and placed in that directory. | `--output-file rup_set.zip` |
 | `-sc/--scale` | **REQUIRED** | Scaling relationship to use (for rupture magnitudes & average slips). Options: SHAW_2009_MOD, HANKS_BAKUN_08, ELLSWORTH_B, ELLB_SQRT_LENGTH, SHAW_CONST_STRESS_DROP, AVE_UCERF2, MEAN_UCERF3, LOGA_C4p3, LOGA_C4p2, LOGA_C4p1, WIDTH_LIMITED, LOGA_C4p2_SQRT_LEN, WIDTH_LIMITED_CSD, MEAN_NSHM23 | `--scale MEAN_UCERF3` |
 | `-s/--sub-sections` | **REQUIRED** | Path to GeoJSON file containing subsections from which to build a rupture set. Must supply this or a UCERF3 fault model (via --fault-model). Can be generated with the [subsection builder tool](sub_sect_builder.md). | `--sub-sections faults.geojson` |
-| `-p/--preset` | **REQUIRED** | Rupture set plausibility configuration preset. Options: UCERF3, COULOMB, SEGMENTED, SIMPLE_AZIMUTHAL. | `--preset SIMPLE_AZIMUTHAL` |
+| `-p/--preset` | **REQUIRED** | Rupture set plausibility configuration preset. Presets may have their own command line options, which can be seen by selecting them and supplying the --help argument. Options: UCERF3, COULOMB, SEGMENTED, SIMPLE_AZIMUTHAL. | `--preset SIMPLE_AZIMUTHAL` |
 | `-c/--config` | _(none)_ | Rupture set plausibility configuration JSON file to override default parameters for the selected preset. | `--config config.json` |
 | `-cd/--cache-dir` | _(none)_ | Optional directory to store/load cache files (distances, coulomb, etc) to speed up rupture set building and processing. | `--cache-dir /path/to/cache` |
 | `-fm/--fault-model` | _(disabled)_ | UCERF3 Fault Model, used to fetch UCERF3 fault sections as an alternative to --sub-sections. | `--fault-model FM3_1` |
@@ -53,13 +53,18 @@ fst_rup_set_builder.sh --preset SIMPLE_AZIMUTHAL --write-config --output-file co
 
 ### Coulomb
 
-The `COULOMB` preset is the draft UCERF4 plausibility configuration that largely replaces azimuthal constraints with on-the-fly Coulomb compatibility calculations. This is a complicated model with many user editable filter thresholds. Coulomb calculations can be very computationally demanding. Parameters can be edited by first generating a default configuration file:
+The `COULOMB` preset is the NSHM23 plausibility configuration that largely replaces azimuthal constraints with on-the-fly Coulomb compatibility calculations, documented in [Milner et al. (2022)](https://doi.org/10.1785/0120210322). This is a complicated model with many user editable filter thresholds. Coulomb calculations can be very computationally demanding. Parameters can be edited by first generating a default configuration file:
 
 ```
 fst_rup_set_builder.sh --preset COULOMB --write-config --output-file config.json
 ```
 
-...and then editing the parameter values in that configuration file, and passing in the modified file with the `--config config.json` argument. Parameter values and recommended values will be documented in a future publication when the model is finalized.
+...and then editing the parameter values in that configuration file, and passing in the modified file with the `--config config.json` argument. Parameter values and recommended values will be documented in a future publication when the model is finalized. The following options are also available in the command line interface when using this preset:
+
+| Argument | Default Value | Description | Example |
+|---|---|---|---|
+| `--bilateral` | _(disabled)_ | Flag to enable bilateral rupture. Also see --bilateral-variation-mode. | `--bilateral` |
+| `--bilateral-variation-mode` | `EQUAL_LEN` | Bilateral variation mode, see figure 13 of Milner et al. (2022). Options: ALL, SINGLE_FULL, EQUAL_LEN. | `--bilateral-variation-mode EQUAL_LEN` |
 
 ### Example
 
