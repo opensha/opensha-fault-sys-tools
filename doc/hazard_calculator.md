@@ -39,6 +39,8 @@ You are required to supply at least one site for calculation. Example site list 
 
 You are required to specify calculation spectral periods (or PGA/PGV). This can be done via `--period` or `--all-periods`.
 
+| Argument | Default Value | Description | Example |
+|---|---|---|---|
 | `--gmpe` | `ASK_2014` | GMPE name. Default is `ASK_2014`, and the full list can be found at https://github.com/opensha/opensha/blob/master/src/main/java/org/opensha/sha/imr/AttenRelRef.java | `--gmpe ASK_2014` |
 | `-p/--periods` | _(N/A)_ | Calculation spectral period(s). Mutliple can be comma separated; supply 0 for PGA, or -1 for PGV. | `--periods 0,1` |
 | `--all-periods` | _(N/A)_ | Flag to calculate all available periods (alternative to --periods). | `--all-periods` |
