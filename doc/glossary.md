@@ -12,7 +12,7 @@ A small subset of a [fault section](#fault-section), usually with length approxi
 
 ### Fault Model
 
-A collection of [fault sections](#fault-section] for a region.
+A collection of [fault sections](#fault-section) for a region.
 
 ### Logic Tree Branch
 

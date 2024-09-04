@@ -33,7 +33,7 @@ You are required to supply at least one site for calculation. Example site list 
 | `--sites` | _(N/A)_ | Path to a site list CSV file. The first 3 columns must be: `Name`, `Latitude`, and `Longitude`. The first row is assumed to be a header, and site parameters can optionally be passed in via additional columns (supplied in any combination/order). Recognized site paramter column headers are: `Vs30` (unts are m/s), `Z1.0` (units are m, supply `NaN` for default treatment), and `Z2.5` (units are km, supply `NaN` for default treatment). | `--sites /path/to/sites.csv` |
 | `--vs30` | _(GMM default)_ | Site Vs30 in m/s. | `--vs30 760` |
 | `--z10` | _(GMM default)_ | Site Z1.0 (depth Vs=1.0 km/s), supplied in meters. If not supplied (and the chosen GMPE uses Z1.0), the default (usually Vs30-dependent) model will be used. | `--z10 100` |
-| `--z20` | _(N/A)_ | Site Z2.5 (depth Vs=2.5 km/s), supplied in kilometers. If not supplied (and the chosen GMPE uses Z2.5), the default (usually Vs30-dependent) model will be used. | `--z25 1.25` |
+| `--z20` | _(GMM default)_ | Site Z2.5 (depth Vs=2.5 km/s), supplied in kilometers. If not supplied (and the chosen GMPE uses Z2.5), the default (usually Vs30-dependent) model will be used. | `--z25 1.25` |
 
 ### Calculation Parameters
 
@@ -59,6 +59,8 @@ You are required to specify calculation spectral periods (or PGA/PGV). This can 
 
 ### Miscellaneous Arguments
 
+| Argument | Default Value | Description | Example |
+|---|---|---|---|
 | `--write-pdfs` | _(PNG plots only)_ | Flag to also write figures as PDFs. Plotting may take significantly longer if there are many sites, periods, and/or disaggregations. | `--write-pdfs` |
 
 ### Examples
