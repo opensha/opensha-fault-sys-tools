@@ -1,6 +1,6 @@
 # Inversion Runner Tool
 
-USAGE: `fst_inversion_factory_runner.sh --rupture-set </path/to/rupture_set.zip> --output-file </path/to/output_solution.zip> --slip-constraint --completion 30m`
+USAGE: `fst_inversion_factory_runner.sh [--rupture-set </path/to/rupture_set.zip>] --output-file </path/to/output_solution.zip> [--nshm23 OR --ucerf3] --branch-choice <Level>:<Choice>`
 
 This command line tool allows a user to run an inversion to solve for the rates of each [supra-seismogenic rupture](glossary.md#supra-seismogenic-rupture) from a [Rupture Set](glossary.md#rupture-set). The output is a [Solution](glossary.md#solution) zip file.
 
@@ -94,3 +94,36 @@ Branches listed with type 'Rupture Set' above will be omitted if a pre-built rup
 
 Although not required, you can override various simulated annealing parameters using command line arguments. See the regular [inversion runner tool](inversion_runner.md#simulated-annealing-parameters) documentation for a list of available options.
 
+## Examples
+
+List all logic tree branch options for NSHM23 (giving example command line options):
+
+```
+$ fst_inversion_factory_runner.sh --nshm23 --list-branch-choices
+Logic Tree Branch options. Each branching level will be listed separately with the level name, and then each choice following (indented). Each choice lists its full descriptive name and then an example showing how to set that branch choice from the command line. Options selected by default will be annotated with '(DEFAULT)'
+Fault Model
+	NSHM23 WUS Fault Model v1.4;	--branch-choice FM:WUS_FM_v1p4
+	NSHM23 WUS Fault Model v2;	--branch-choice FM:WUS_FM_v2
+	NSHM23 WUS Fault Model v3 (DEFAULT);	--branch-choice FM:WUS_FM_v3
+Deformation Model
+	NSHM23 Geologic Deformation Model;	--branch-choice DM:GEOLOGIC
+	NSHM23 Evans Deformation Model;	--branch-choice DM:EVANS
+	NSHM23 Pollitz Deformation Model;	--branch-choice DM:POLLITZ
+	NSHM23 Shen-Bird Deformation Model;	--branch-choice DM:SHEN_BIRD
+	NSHM23 Zeng Deformation Model;	--branch-choice DM:ZENG
+	NSHM23 Averaged Deformation Model (DEFAULT);	--branch-choice DM:AVERAGE
+	NSHM23 Median Deformation Model (Unweighted, Geol. Rakes);	--branch-choice DM:MEDIAN
+...
+```
+
+Reproduce an NSHM23 inversion, setting the deformation model to Geologic. The rupture set will be built on the fly:
+
+```
+$ fst_inversion_factory_runner.sh --nshm23 --branch-choice DM:GEOLOGIC --output-file solution.zip
+```
+
+The same, but using a passed in rupture set (possibly for another region, and likely built with the [Rupture Set Builder](rup_set_builder.md)). Here I also disable gridded seismicity as this may be for a different region:
+
+```
+$ fst_inversion_factory_runner.sh --nshm23 --branch-choice DM:GEOLOGIC --output-file solution.zip --no-gridded
+```
