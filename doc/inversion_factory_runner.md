@@ -33,7 +33,7 @@ By default, logic tree branch options will be set to average or preferred values
 | Scaling Relationship | Rupture Set | `NSHM23_Avg` | `LogA_C4p3, LogA_C4p2, LogA_C4p1, WdthLmtd, LogA_C4p2_SqrtLen, LogA_C4p1_SqrtLen, WdthLmtdCSD, NSHM23_Avg` |
 | Supra-Seismogenic b-value | Solution | `AvgSupraB` | `SupraB0.0, SupraB0.25, SupraB0.5, SupraB0.75, SupraB1.0, AvgSupraB` |
 | Paleoseismic Data Uncertainties | Solution | `AverageFitPaleo` | `EvenFitPaleo, OverFitPaleo, UnderFitPaleo, AverageFitPaleo` |
-| Segmentation Model | Solution | `AvgSeg` | `None, LowSeg, MidSeg, HighSeg, Classic, FullClassic, AvgSeg` |
+| Segmentation Model | Solution | `AvgSeg` | `None, Low, Middle, High, Classic, FullClassic, AvgSeg` |
 | Regional Seismicity Rate | Solution | `PrefSeis` | `PrefSeis, LowSeis, HighSeis` |
 | Seismicity Declustering Algorithm | Solution | `AVERAGE` | `GK, NN, REAS, AVERAGE` |
 | Seismicity Smoothing Kernel | Solution | `AVERAGE` | `ADAPTIVE, FIXED, AVERAGE` |
@@ -99,7 +99,7 @@ Although not required, you can override various simulated annealing parameters u
 List all logic tree branch options for NSHM23 (giving example command line options):
 
 ```
-$ fst_inversion_factory_runner.sh --nshm23 --list-branch-choices
+fst_inversion_factory_runner.sh --nshm23 --list-branch-choices
 Logic Tree Branch options. Each branching level will be listed separately with the level name, and then each choice following (indented). Each choice lists its full descriptive name and then an example showing how to set that branch choice from the command line. Options selected by default will be annotated with '(DEFAULT)'
 Fault Model
 	NSHM23 WUS Fault Model v1.4;	--branch-choice FM:WUS_FM_v1p4
@@ -119,11 +119,11 @@ Deformation Model
 Reproduce an NSHM23 inversion, setting the deformation model to Geologic. The rupture set will be built on the fly:
 
 ```
-$ fst_inversion_factory_runner.sh --nshm23 --branch-choice DM:GEOLOGIC --output-file solution.zip
+fst_inversion_factory_runner.sh --nshm23 --branch-choice DM:GEOLOGIC --output-file solution.zip
 ```
 
 The same, but using a passed in rupture set (possibly for another region, and likely built with the [Rupture Set Builder](rup_set_builder.md)). Here I also disable gridded seismicity as this may be for a different region:
 
 ```
-$ fst_inversion_factory_runner.sh --nshm23 --branch-choice DM:GEOLOGIC --output-file solution.zip --no-gridded
+fst_inversion_factory_runner.sh --nshm23 --branch-choice DM:GEOLOGIC --output-file solution.zip --no-gridded
 ```
