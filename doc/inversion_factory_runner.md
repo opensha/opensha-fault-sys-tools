@@ -10,6 +10,7 @@ The [Simulated Annealing](glossary.md#simulated-annealing) inversion approach is
 
 * Milner, K. R., & Field, E. H. (2023). A Comprehensive Fault‐System Inversion Approach: Methods and Application to NSHM23. _Bulletin of the Seismological Society of America_, 114(1), 486-522. doi: 
 https://doi.org/10.1785/0120230122
+* Field, E. H., Milner, K. R., & Page, M. T. (2021). Generalizing the inversion‐based PSHA source model for an interconnected fault system. _Bulletin of the Seismological Society of America_, 111(1), 371-390. doi: https://doi.org/10.1785/0120200219
 * Morgan T. Page, Edward H. Field, Kevin R. Milner, Peter M. Powers; The UCERF3 Grand Inversion: Solving for the Long‐Term Rate of Ruptures in a Fault System. _Bulletin of the Seismological Society of America_, 104 (3): 1181–1204. doi: https://doi.org/10.1785/0120130180
 
 ## Models and Parameters
