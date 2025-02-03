@@ -65,6 +65,7 @@ fst_rup_set_builder.sh --preset COULOMB --write-config --output-file config.json
 |---|---|---|---|
 | `--bilateral` | _(disabled)_ | Flag to enable bilateral rupture. Also see --bilateral-variation-mode. | `--bilateral` |
 | `--bilateral-variation-mode` | `EQUAL_LEN` | Bilateral variation mode, see figure 13 of Milner et al. (2022). Options: ALL, SINGLE_FULL, EQUAL_LEN. | `--bilateral-variation-mode EQUAL_LEN` |
+| `--max-length` | _(disabled)_ | Maximum rupture length (in km). | `--max-length 500` |
 
 ### Example
 
